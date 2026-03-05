@@ -5,7 +5,7 @@ FROM node:20-alpine AS runner
 WORKDIR /app
 
 # Copy the standalone output from the builder stage
-COPY /app/build ./
+ADD ./build ./
 
 
 # Set the environment variable for production
