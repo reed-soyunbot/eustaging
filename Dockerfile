@@ -13,7 +13,7 @@ FROM node:20-alpine AS runner
 WORKDIR /app
 
 # Copy the standalone output from the builder stage
-COPY --from=builder /app/.next/standalone ./
+COPY --from=builder /app/build ./
 COPY --from=builder /app/public ./public # Copy public files manually if needed
 
 # Set the environment variable for production
