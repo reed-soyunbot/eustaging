@@ -1,0 +1,41 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: tc-website-lb
+  annotations:
+    # Note that the backend talks over HTTP.
+    service.beta.kubernetes.io/aws-load-balancer-backend-protocol: http
+    # TODO:  this value should be by env property .
+    service.beta.kubernetes.io/aws-load-balancer-ssl-cert: {CERTIFICATE_ARN}
+    # Only run SSL on the port named "https" below.
+    service.beta.kubernetes.io/aws-load-balancer-ssl-ports: "https"
+spec:
+  selector:
+    app: tc-website
+  ports:
+    - name: https
+      port: 443
+      targetPort: 80
+  type: LoadBalancer
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: tc-website
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tc-website
+  template:
+    metadata:
+      labels:
+        app: tc-website
+    spec:
+      containers:
+        - name: tc-website
+          imagePullPolicy: Always
+          image: 754192140258.dkr.ecr.us-east-1.amazonaws.com/rox-client-portal-web-ui-repository-{IMAGE}:latest
+          ports:
+            - containerPort: 80

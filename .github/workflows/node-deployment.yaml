@@ -1,0 +1,83 @@
+name: NodeJS App Pipeline
+
+on:
+  push:
+    branches:
+      - develop
+  workflow_dispatch:
+
+jobs:
+  node-release-prepare-version:
+    uses: Rule-1-Repository/roxwrite-cicd/.github/workflows/node-prepare-version.yaml@main
+    with:
+      NODE_VERSION: 23.11.1    
+
+  determine_release:
+    needs: node-release-prepare-version
+    uses: Rule-1-Repository/roxwrite-cicd/.github/workflows/determine-release.yaml@main
+
+  select-env-vars:
+    needs: [determine_release]
+    runs-on: ubuntu-latest
+    steps:
+      - name: Map environment
+        id: map_variables
+        uses: kanga333/variable-mapper@master
+        with:
+          key: ${{ needs.determine_release.outputs.app_environment }}
+          map: |
+            {
+              "dev": {
+                "certificate_arn": "arn:aws:acm:us-east-1:754192140258:certificate/43da3f2b-710e-4d29-9d6c-d34c714b9509"
+               
+              }
+              
+            }
+          export_to: 'env,output'
+    outputs:
+      certificate_arn: ${{ steps.map_variables.outputs.certificate_arn }}
+      backend_url: ${{ steps.map_variables.outputs.backend_url }}
+
+  node-build:
+    uses: Rule-1-Repository/roxwrite-cicd/.github/workflows/node-build.yaml@main
+    needs: [select-env-vars]
+    with:
+      NODE_VERSION: 23.11.1
+      REGION: ${{ vars.ROXWRITE_AWS_REGION }}
+      ACCOUNT: ${{ vars.ROXWRITE_AWS_ACCOUNT_ID }}
+      RUN_TESTS: false
+      BUILD_VARIABLES: CI="" 
+      EXTRA_COMMAND: --mode dev 
+    secrets:
+      AWS_ACCESS_KEY_ID: ${{ secrets.ROXWRITE_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.ROXWRITE_ACCESS_KEY }}
+
+  docker-build:
+    uses: Rule-1-Repository/roxwrite-cicd/.github/workflows/docker-build.yaml@main
+    if: ${{ github.ref == 'refs/heads/develop' }}
+    needs: [node-build, determine_release]
+    with:
+      DOCKER_REGISTRY: tc-website-temp-repository-${{ needs.determine_release.outputs.release_type }}
+      REGION: ${{ vars.ROXWRITE_AWS_REGION }}
+      ACCOUNT: ${{ vars.ROXWRITE_AWS_ACCOUNT_ID }}
+      NODE_VERSION: 18.12.0
+      STACK: nodejs
+    secrets:
+      AWS_ACCESS_KEY_ID: ${{ secrets.ROXWRITE_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.ROXWRITE_ACCESS_KEY }}
+
+  eks-deploy:
+    uses: Rule-1-Repository/roxwrite-cicd/.github/workflows/eks-deploy.yaml@main
+    if: ${{  github.ref == 'refs/heads/develop' }}
+    needs: [docker-build, select-env-vars, determine_release]
+    with:
+      CLUSTER_NAME: roxwrite-eks-${{ needs.determine_release.outputs.cluster_name }}
+      SERVICE_NAME: tc-website-temp
+      REGION: ${{ vars.ROXWRITE_AWS_REGION }}
+      ACCOUNT: ${{ vars.ROXWRITE_AWS_ACCOUNT_ID }}
+      VARIABLES: IMAGE=${{ needs.determine_release.outputs.release_type }},CERTIFICATE_ARN=${{ needs.select-env-vars.outputs.certificate_arn }}
+    secrets:
+      AWS_ACCESS_KEY_ID: ${{ secrets.ROXWRITE_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.ROXWRITE_ACCESS_KEY }}
+
+ 

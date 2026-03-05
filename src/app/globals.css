@@ -1,0 +1,218 @@
+@import "tailwindcss";
+
+:root {
+  /* TruckerCloud Brand Colors */
+  --button: #44a3db;
+  --tc-darkblue: #0f1928;
+  --tc-dark-blue: #20414b;
+  --tc-blue: #44a3db;
+  --black: #1d1d1f;
+  --white: white;
+  --red: #ff385c;
+  --danger: #de071c;
+  --success: #0dbb0d;
+  --warning: #ec791b;
+  --pink: #fe869f;
+  --purple: #a083ed;
+  --blue: #007aff;
+  --light-blue: #2997ff;
+  --teal: #3abfde;
+  --green: #04d18e;
+  --light-green: #9ccc65;
+  --yellow: #ffd01e;
+  --orange: #ffa745;
+  --module-bg: #f1f4f6;
+  --callout: #8a8a8e;
+  --button-hover: #2b2a35;
+  --tc-button-hover: #35a4e8;
+  --white-smoke: #f6f6f9;
+  --roof: #eaeef1;
+
+  /* Gray Scale */
+  --tc-dark-gray_100: #1d1d1f;
+  --tc-dark-gray_95: #28282a;
+  --tc-dark-gray_80: #4a4a4c;
+  --tc-dark-gray_60: #777779;
+  --tc-dark-gray_40: #a5a5a5;
+  --tc-dark-gray_20: #d2d2d2;
+  --tc-dark-gray_10: #e8e8e9;
+  --tc-dark-gray_05: #f4f4f4;
+
+  /* Light Blue Scale */
+  --tc-light-blue_95: #35a4e8;
+  --tc-light-blue_80: #55b2ec;
+  --tc-light-blue_60: #7fc5f1;
+  --tc-light-blue_40: #aad9f5;
+  --tc-light-blue_20: #d4ecfa;
+  --tc-light-blue_10: #eaf5fd;
+  --tc-light-blue_05: #f4fafe;
+
+  --background: #0f1928;
+  --foreground: #ffffff;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: "Inter", sans-serif;
+
+  /* Brand Colors */
+  --color-tc-darkblue: #0f1928;
+  --color-tc-dark-blue: #20414b;
+  --color-tc-blue: #44a3db;
+  --color-tc-button: #44a3db;
+  --color-tc-button-hover: #35a4e8;
+  --color-tc-red: #ff385c;
+  --color-tc-danger: #de071c;
+  --color-tc-success: #0dbb0d;
+  --color-tc-warning: #ec791b;
+  --color-tc-pink: #fe869f;
+  --color-tc-purple: #a083ed;
+  --color-tc-blue-brand: #44a3db;
+  --color-tc-light-blue: #2997ff;
+  --color-tc-teal: #3abfde;
+  --color-tc-green: #04d18e;
+  --color-tc-light-green: #9ccc65;
+  --color-tc-yellow: #ffd01e;
+  --color-tc-orange: #ffa745;
+  --color-tc-module-bg: #f1f4f6;
+  --color-tc-callout: #8a8a8e;
+  --color-tc-button-dark-hover: #2b2a35;
+  --color-tc-white-smoke: #f6f6f9;
+  --color-tc-roof: #eaeef1;
+
+  /* Gray Scale */
+  --color-tc-gray-100: #1d1d1f;
+  --color-tc-gray-95: #28282a;
+  --color-tc-gray-80: #4a4a4c;
+  --color-tc-gray-60: #777779;
+  --color-tc-gray-40: #a5a5a5;
+  --color-tc-gray-20: #d2d2d2;
+  --color-tc-gray-10: #e8e8e9;
+  --color-tc-gray-05: #f4f4f4;
+
+  /* Light Blue Scale */
+  --color-tc-lblue-95: #35a4e8;
+  --color-tc-lblue-80: #55b2ec;
+  --color-tc-lblue-60: #7fc5f1;
+  --color-tc-lblue-40: #aad9f5;
+  --color-tc-lblue-20: #d4ecfa;
+  --color-tc-lblue-10: #eaf5fd;
+  --color-tc-lblue-05: #f4fafe;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: "Inter", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typography matching Webflow computed sizes */
+h1 {
+  font-size: 38px;
+  font-weight: 700;
+  letter-spacing: -0.03em;
+  line-height: 1.2;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 600;
+  letter-spacing: -0.025em;
+  line-height: 1.4;
+}
+
+h4 {
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.4;
+}
+
+h5 {
+  font-size: 17px;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+/* Rich content HTML from blog posts */
+.rich-content img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin: 1.5rem 0;
+}
+
+.rich-content p {
+  margin-bottom: 1rem;
+  line-height: 1.7;
+  color: #9ca3af;
+}
+
+.rich-content h2 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.rich-content h3 {
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #ffffff;
+}
+
+.rich-content ul,
+.rich-content ol {
+  margin-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.rich-content li {
+  margin-bottom: 0.5rem;
+  line-height: 1.7;
+  color: #9ca3af;
+}
+
+.rich-content a {
+  color: var(--tc-blue);
+  text-decoration: underline;
+}
+
+.rich-content blockquote {
+  border-left: 3px solid var(--tc-blue);
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  color: #6b7280;
+  font-style: italic;
+}
+
+/* Program pages: standalone dark layout - hide site chrome */
+body:has(.program-standalone) {
+  background: #0f1928;
+}
+
+body:has(.program-standalone) #site-navbar {
+  display: none;
+}
+
+body:has(.program-standalone) footer.site-footer {
+  display: none;
+}
+
+/* Reset global heading styles inside program pages */
+.program-standalone h1,
+.program-standalone h2,
+.program-standalone h3 {
+  font-size: revert;
+  letter-spacing: normal;
+  line-height: revert;
+}

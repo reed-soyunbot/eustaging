@@ -1,0 +1,31 @@
+{
+  "slug": "western-skies",
+  "partnerName": "Western Skies",
+  "partnerLogo": "/images/programs/66e1c4363d02928ddb0f80cd_Western-Skies-Logo_.png",
+  "widgetUrl": "https://westernskies.truckercloud.com/tcwidget?apiKey=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ3ZXN0ZXJuc2tpZXMiLCJpc3MiOiJodHRwOi8vd3d3LnRyYW56bG9naXguY29tLyIsImlhdCI6MTcyMzgyMjAwNiwiZXhwIjoxNzIzODIyMzA2fQ.nZ_dCcWNz2ljKJGgXT-H8eXlnoR9fa6GrkEnmN2t7lw",
+  "heroText": "",
+  "supportText": "For support onboarding your telematics account, please contact support@truckercloud.com or use the chat feature in the bottom right corner.",
+  "extraSupportEmail": "",
+  "howItWorks": [],
+  "cameras": [
+    "Lytx",
+    "Motive",
+    "Netradyne",
+    "Samsara",
+    "Surfsight",
+    "Driver Technologies",
+    "FleetHunt",
+    "SmartDrive",
+    "Verizon Connect",
+    "IntelliShift",
+    "Eye Ride",
+    "Lightmetrics",
+    "Raven",
+    "Azuga",
+    "Forward Thinking Systems",
+    "GPS Web Pro",
+    "TXT Camera"
+  ],
+  "elds": [],
+  "ctaCount": 1
+}

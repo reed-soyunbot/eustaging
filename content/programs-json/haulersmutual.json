@@ -1,0 +1,31 @@
+{
+  "slug": "haulersmutual",
+  "partnerName": "HaulersMutual",
+  "partnerLogo": "/images/programs/694b02f9b65059eefeb1076a_22339.png",
+  "widgetUrl": "https://haulersmutual.truckercloud.com/tcwidget?apiKey=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJoYXVsZXJzbXV0dWFsIiwiaXNzIjoiaHR0cDovL3d3dy50cmFuemxvZ2l4LmNvbS8iLCJpYXQiOjE3NjQ5Mzk4MDcsImV4cCI6MTc2NDk0MDEwN30.munUd8E5pXF1U5MfUsAy6FVccHB3gVUb3bxhCWRkLKU",
+  "heroText": "Connecting your ELD account streamlines the underwriting process. Connect your account to ensure you receive the best insurance rate available and spend less time worrying about the insurance process.",
+  "supportText": "For support onboarding your telematics account, please contact support@truckercloud.com or use the chat feature in the bottom right corner.",
+  "extraSupportEmail": "",
+  "howItWorks": [],
+  "cameras": [
+    "Lytx",
+    "Motive",
+    "Netradyne",
+    "Samsara",
+    "Surfsight",
+    "Driver Technologies",
+    "FleetHunt",
+    "SmartDrive",
+    "Verizon Connect",
+    "IntelliShift",
+    "Eye Ride",
+    "Lightmetrics",
+    "Raven",
+    "Azuga",
+    "Forward Thinking Systems",
+    "GPS Web Pro",
+    "TXT Camera"
+  ],
+  "elds": [],
+  "ctaCount": 1
+}

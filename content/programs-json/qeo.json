@@ -1,0 +1,32 @@
+{
+  "slug": "qeo",
+  "partnerName": "QEO",
+  "partnerLogo": "/images/programs/68af430f24b22a23a0928073_qeo_logo.png",
+  "widgetUrl": "https://qeo.truckercloud.com/tcwidget?apiKey=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJxZW9tYXN0ZXIiLCJpc3MiOiJodHRwOi8vd3d3LnRyYW56bG9naXguY29tLyIsImlhdCI6MTc1NjMyNTc0NCwiZXhwIjoxNzU2MzI2MDQ0fQ.oTNEBh7ya8HzHWlh58U_kL_EEWKDSugekp4XFlszaoU",
+  "heroText": "",
+  "supportText": "For support onboarding your telematics account, please contact support@truckercloud.com or use the chat feature in the bottom right corner.",
+  "extraSupportEmail": "",
+  "howItWorks": [],
+  "cameras": [
+    "Lytx",
+    "Motive",
+    "Netradyne",
+    "Samsara",
+    "Surfsight",
+    "Driver Technologies",
+    "FleetHunt",
+    "SmartDrive",
+    "Verizon Connect",
+    "IntelliShift",
+    "Eye Ride",
+    "Lightmetrics",
+    "Raven",
+    "Azuga",
+    "Forward Thinking Systems",
+    "GPS Web Pro",
+    "TXT Camera",
+    "RoadEazy"
+  ],
+  "elds": [],
+  "ctaCount": 2
+}

@@ -1,0 +1,12 @@
+---
+title: "TruckerCloud + Raven Connected: Another Step Forward in Commercial-Auto Telematics"
+slug: truckercloud-raven-connected-another-step-forward-in-commercial-auto-telematics
+summary: ""
+thumbnail: "https://cdn.prod.website-files.com/6298f7aa3e05d46567a014db/691f230a9c3cbab4c00b6cca_tc%20%2B%20raven.jpg"
+author: 
+category: partner-announcements
+featured: true
+publishedDate: "2025-11-20T00:00:00.000Z"
+draft: false
+---
+<p id="">We’re excited to announce our new integration with <strong id="">Raven Connected</strong>, bringing their advanced video-telematics platform into the TruckerCloud ecosystem. While our name reflects our origins in trucking, TruckerCloud has supported <strong id="">non-trucking commercial-auto fleets and insurers for years</strong>—including cabs, NEMTs, passenger-vehicle operators, and more. This partnership is simply the next step in our continued expansion across the full commercial-auto landscape.</p><figure id="" class="w-richtext-figure-type-image w-richtext-align-fullwidth" style="max-width:800px" data-rt-type="image" data-rt-align="fullwidth" data-rt-max-width="800px"><div id=""><img id="" alt="__wf_reserved_inherit" src="https://cdn.prod.website-files.com/6298f7aa3e05d46567a014db/691f2008a45714b7b2555039_raven.jpeg" width="auto" height="auto" loading="lazy"></div></figure><p id=""><strong id="">Why It Matters</strong></p><p id="">Raven delivers high-definition video and rich telematics insights that help fleets verify safety, understand events, and manage risk. By connecting that data through TruckerCloud, fleets across commercial auto now have access to dozens of telematics-based insurance programs powered by TruckerCloud, with no manual data pulls, no added hardware, and no operational lift. Whether the data share is a requirement of the policy or a cost-saving option, fleets are now eligible with just a few clicks.</p><p id=""><strong id="">Looking Ahead</strong></p><p id="">We’re proud of our trucking roots—and equally proud of the broader commercial-auto market we now power every day. Integrating Raven Connected strengthens that commitment and gives insurers and their customers yet another high-quality, plug-and-play path to telematics-enabled insurance programs. More partners, more data clarity, and more ways to support safer, more insurable fleets.</p><p id="">‍</p><p id="">‍</p>

@@ -1,0 +1,12 @@
+---
+title: "Factors: verify fleet size"
+slug: factors-verify-fleet-size
+summary: "It’s important for factoring companies to be able to verify their clients’ fleet sizes, both when they start a new partnership, and on an ongoing basis. Imagine these scenarios:"
+thumbnail: "https://uploads-ssl.webflow.com/6298f7aa3e05d46567a014db/62a0ea7095326647b5ee7c54_Green%20Trucks.jpeg"
+author: spencer-mitchell
+category: 
+featured: true
+publishedDate: "2021-04-20T00:00:00.000Z"
+draft: true
+---
+<h1><strong>Factors: verify fleet size</strong></h1><p><br></p><p>It’s important for factoring companies to be able to verify their clients’ fleet sizes, both when they start a new partnership, and on an ongoing basis. Imagine these scenarios:</p><ol><li>A new client reports that, while he only has two trucks today, he’s going to buy five more trucks next month and will be giving you a lot more business. You offer him a lower factoring rate because you’re anticipating a higher volume of transactions in the near future. He never buys the trucks and now you’ve undercharged.</li><li>Or the same client starts submitting invoices that are in line with a company that has a fleet of seven trucks. You expected this, so you purchase the invoices, but months later find out that most of them were fraudulent. The client still only has two trucks and only does the volume of legitimate transactions that you would have expected at that size.</li><li>On the flip side, let’s say you’ve had a client with 20 trucks for years. They experience some sort of financial distress and have a fire sale of their assets, leaving them with only five trucks. If you aren’t aware of this, you may be undercharging or purchasing fraudulent invoices in this scenario as well.</li></ol><p>You can avoid all these problems by verifying a carrier’s fleet size upfront – or on an ongoing basis – with TruckerCloud. Our ELD-based data will show the exact number of trucks, so you can provide the appropriate factoring rate and stay ahead of any potential risks or issues with your client.</p><p>You can either view each truck directly in our platform, or the data can be integrated into your factoring software or other technology. To find out more, just fill out the form below.</p>
