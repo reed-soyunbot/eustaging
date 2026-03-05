@@ -42,7 +42,7 @@ jobs:
     uses: Rule-1-Repository/roxwrite-cicd/.github/workflows/node-build.yaml@main
     needs: [select-env-vars]
     with:
-      NODE_VERSION: 23.11.1
+      NODE_VERSION: 22.22.0
       REGION: ${{ vars.ROXWRITE_AWS_REGION }}
       ACCOUNT: ${{ vars.ROXWRITE_AWS_ACCOUNT_ID }}
       RUN_TESTS: false
