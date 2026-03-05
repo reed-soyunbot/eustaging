@@ -1,0 +1,12 @@
+.git
+.github
+.next
+build
+node_modules
+npm-debug.log
+yarn-error.log
+Dockerfile
+README.md
+deployment.yaml
+nginx.conf
+Procfile

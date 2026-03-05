@@ -1,16 +1,24 @@
-# Dockerfile
+FROM node:22-alpine AS deps
+WORKDIR /app
+COPY package.json package-lock.json ./
+RUN npm ci
 
-# Stage 2: Create a production-ready image
-FROM node:20-alpine AS runner
+FROM node:22-alpine AS builder
+WORKDIR /app
+COPY --from=deps /app/node_modules ./node_modules
+COPY . .
+RUN npm run build
+
+FROM node:22-alpine AS runner
 WORKDIR /app
 
-# Copy the standalone output from the builder stage
-ADD ./build ./
+ENV NODE_ENV=production
+ENV PORT=3000
+ENV HOSTNAME=0.0.0.0
 
+COPY --from=builder /app/public ./public
+COPY --from=builder /app/build/standalone ./
+COPY --from=builder /app/build/static ./build/static
 
-# Set the environment variable for production
-ENV NODE_ENV production
-# Next.js app runs on port 3000 by default
 EXPOSE 3000
-# Start the production server
-CMD ["npm", "start"]
+CMD ["node", "server.js"]
