@@ -1,19 +1,11 @@
 # Dockerfile
 
-# Stage 1: Install dependencies and build the app
-FROM node:22-alpine AS builder
-WORKDIR /app
-COPY package.json package-lock.json ./
-RUN npm install --frozen-lockfile
-COPY . .
-RUN npm run build
-
 # Stage 2: Create a production-ready image
 FROM node:20-alpine AS runner
 WORKDIR /app
 
 # Copy the standalone output from the builder stage
-COPY --from=builder /app/build ./
+COPY /app/build ./
 
 
 # Set the environment variable for production
