@@ -15,7 +15,7 @@ spec:
   ports:
     - name: https
       port: 443
-      targetPort: 80
+      targetPort: 3000
   type: LoadBalancer
 ---
 apiVersion: apps/v1
@@ -38,4 +38,4 @@ spec:
           imagePullPolicy: Always
           image: 754192140258.dkr.ecr.us-east-1.amazonaws.com/rox-client-portal-web-ui-repository-{IMAGE}:latest
           ports:
-            - containerPort: 80
+            - containerPort: 3000
