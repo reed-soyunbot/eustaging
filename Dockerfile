@@ -1,7 +1,7 @@
 # Dockerfile
 
 # Stage 1: Install dependencies and build the app
-FROM node:20-alpine AS builder
+FROM node:23-alpine AS builder
 WORKDIR /app
 COPY package.json package-lock.json ./
 RUN npm install --frozen-lockfile
