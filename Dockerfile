@@ -14,7 +14,7 @@ WORKDIR /app
 
 # Copy the standalone output from the builder stage
 COPY --from=builder /app/build ./
-COPY --from=builder /app/public ./public # Copy public files manually if needed
+
 
 # Set the environment variable for production
 ENV NODE_ENV production
