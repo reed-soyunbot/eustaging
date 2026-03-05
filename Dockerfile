@@ -21,4 +21,4 @@ ENV NODE_ENV production
 # Next.js app runs on port 3000 by default
 EXPOSE 3000
 # Start the production server
-CMD ["node", "server.js"]
+CMD ["npm", "start"]
