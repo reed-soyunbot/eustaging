@@ -10,7 +10,7 @@ jobs:
   node-release-prepare-version:
     uses: Rule-1-Repository/roxwrite-cicd/.github/workflows/node-prepare-version.yaml@main
     with:
-      NODE_VERSION: 23.11.1    
+      NODE_VERSION: 22.22.0    
 
   determine_release:
     needs: node-release-prepare-version
