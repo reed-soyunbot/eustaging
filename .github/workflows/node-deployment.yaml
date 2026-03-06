@@ -8,13 +8,13 @@ on:
 
 jobs:
   node-release-prepare-version:
-    uses: Rule-1-Repository/truckercloud-cicd/.github/workflows/node-prepare-version.yaml@main
+    uses: Rule-1-Repository/trucker-cloud-cicd/.github/workflows/node-prepare-version.yaml@main
     with:
       NODE_VERSION: 22.22.0    
 
   determine_release:
     needs: node-release-prepare-version
-    uses: Rule-1-Repository/truckercloud-cicd/.github/workflows/determine-release.yaml@main
+    uses: Rule-1-Repository/trucker-cloud-cicd/.github/workflows/determine-release.yaml@main
 
   select-env-vars:
     needs: [determine_release]
@@ -39,7 +39,7 @@ jobs:
       backend_url: ${{ steps.map_variables.outputs.backend_url }}
 
   node-build:
-    uses: Rule-1-Repository/truckercloud-cicd/.github/workflows/node-build.yaml@main
+    uses: Rule-1-Repository/trucker-cloud-cicd/.github/workflows/node-build.yaml@main
     needs: [select-env-vars]
     with:
       NODE_VERSION: 22.22.0
@@ -53,7 +53,7 @@ jobs:
       AWS_SECRET_ACCESS_KEY: ${{ secrets.TRUCKERCLOUD_ACCESS_KEY }}
 
   docker-build:
-    uses: Rule-1-Repository/truckercloud-cicd/.github/workflows/docker-build.yaml@main
+    uses: Rule-1-Repository/trucker-cloud-cicd/.github/workflows/docker-build.yaml@main
     if: ${{ github.ref == 'refs/heads/develop' }}
     needs: [node-build, determine_release]
     with:
@@ -67,7 +67,7 @@ jobs:
       AWS_SECRET_ACCESS_KEY: ${{ secrets.TRUCKERCLOUD_ACCESS_KEY }}
 
   eks-deploy:
-    uses: Rule-1-Repository/truckercloud-cicd/.github/workflows/eks-deploy.yaml@main
+    uses: Rule-1-Repository/trucker-cloud-cicd/.github/workflows/eks-deploy.yaml@main
     if: ${{  github.ref == 'refs/heads/develop' }}
     needs: [docker-build, select-env-vars, determine_release]
     with:
