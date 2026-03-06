@@ -43,7 +43,7 @@ jobs:
     needs: [select-env-vars]
     with:
       NODE_VERSION: 22.22.0
-      REGION: us-east2
+      REGION: us-east-2
       ACCOUNT: ${{ vars.TRUCKERCLOUD_AWS_ACCOUNT_ID }}
       RUN_TESTS: false
       BUILD_VARIABLES: CI="" 
@@ -57,7 +57,7 @@ jobs:
     needs: [node-build, determine_release]
     with:
       DOCKER_REGISTRY: tc-website-temp-repository-${{ needs.determine_release.outputs.release_type }}
-      REGION: us-east2
+      REGION: us-east-2
       ACCOUNT: ${{ vars.TRUCKERCLOUD_AWS_ACCOUNT_ID }}
       NODE_VERSION: 18.12.0
       STACK: nodejs
@@ -72,7 +72,7 @@ jobs:
     with:
       CLUSTER_NAME: truckercloud-eks-uat
       SERVICE_NAME: tc-website-temp
-      REGION: us-east2
+      REGION: us-east-2
       ACCOUNT: ${{ vars.TRUCKERCLOUD_AWS_ACCOUNT_ID }}
       VARIABLES: IMAGE=${{ needs.determine_release.outputs.release_type }},CERTIFICATE_ARN=${{ needs.select-env-vars.outputs.certificate_arn }}
     secrets:
