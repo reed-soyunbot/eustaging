@@ -47,7 +47,6 @@ jobs:
       ACCOUNT: ${{ vars.TRUCKERCLOUD_AWS_ACCOUNT_ID }}
       RUN_TESTS: false
       BUILD_VARIABLES: CI="" 
-      EXTRA_COMMAND:
     secrets:
       AWS_ACCESS_KEY_ID: ${{ secrets.TRUCKERCLOUD_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.TRUCKERCLOUD_ACCESS_KEY }}
