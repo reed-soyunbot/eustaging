@@ -36,6 +36,6 @@ spec:
       containers:
         - name: tc-website
           imagePullPolicy: Always
-          image: 754192140258.dkr.ecr.us-east-1.amazonaws.com/tc-website-temp-repository-{IMAGE}:latest
+          image: 082655277789.dkr.ecr.us-east-2.amazonaws.com/tc-website-temp-repository-{IMAGE}:latest
           ports:
             - containerPort: 3000
