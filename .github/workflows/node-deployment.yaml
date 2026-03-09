@@ -72,7 +72,7 @@ jobs:
     needs: [docker-build, select-env-vars, determine_release]
     with:
       CLUSTER_NAME: truckercloud-eks-uat
-      SERVICE_NAME: tc-website-temp
+      SERVICE_NAME: tc-website
       REGION: us-east-2
       ACCOUNT: ${{ vars.TRUCKERCLOUD_AWS_ACCOUNT_ID }}
       VARIABLES: IMAGE=${{ needs.determine_release.outputs.release_type }},CERTIFICATE_ARN=${{ needs.select-env-vars.outputs.certificate_arn }}
