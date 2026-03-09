@@ -33,6 +33,8 @@ draft: false
 
 <p>The belief that "we still have time" is rooted in a misunderstanding of where the industry actually stands. The carriers and MGAs who are already leveraging telematics data are not waiting for the rest of the market to catch up. They are compounding their advantage every quarter: refining their models, deepening their data sets, and widening the gap between themselves and everyone else.</p>
 
+<p><img src="/images/blog/dangerous-gap.png" alt="The Dangerous Perception Gap — bell curve showing where late adopters think we are vs. where we actually are" /></p>
+
 <p>The chart above illustrates the core problem: late adopters believe the industry is still in the early-adopter phase, when in reality, adoption is approaching the peak. This gap between perception and reality is where competitive disadvantage takes root.</p>
 
 <h2>Past the Peak: Indecision Is Not Neutrality. It Is Regression.</h2>
@@ -42,6 +44,8 @@ draft: false
 <p>In a static market, standing still is standing still. But commercial auto insurance is not a static market. It is a market in motion, one where the competitive baseline is rising every month. When your competitors are using telematics data to price risk more accurately, identify unsafe fleets before losses occur, and retain the best-performing accounts, your lack of the same capability does not leave you where you were. It puts you behind where you were.</p>
 
 <p>Consider the math. If the average underwriting accuracy in your segment improves by even a few percentage points each year due to telematics adoption among your competitors, your book of business is not just failing to improve — it is deteriorating on a relative basis. You are being adversely selected against. The risks your competitors can now see and avoid are the risks that end up in your portfolio. You are not standing still. You are absorbing the risk that smarter underwriting is shedding.</p>
+
+<p><img src="/images/blog/past-the-peak.png" alt="Past the Peak: Indecision Becomes Regression — tipping point chart showing advancing vs. regression zones" /></p>
 
 <p>The graphic above draws the line clearly. Before the tipping point, organizations that adopt are advancing: building data assets, training teams, and improving results. After the tipping point, organizations that have not adopted are no longer "not yet started." They are actively falling behind a market that has moved on without them. We are just short of that tipping point right now, which means the time to act is not next quarter. It is today.</p>
 
