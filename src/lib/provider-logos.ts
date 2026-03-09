@@ -25,6 +25,7 @@ export const PROVIDER_LOGOS: Record<string, string> = {
   "Digital ELD": "/images/providers/6890ede02152fb9459b7dbf2_digeld.jpeg",
   "Driver Technologies": "/images/providers/6894b3c8c59da827703d2c3f_images.png",
   "DriverTech": "/images/providers/DriverTech.png",
+  "DronaAIm": "/images/providers/dronaaim-logo.png",
   "Dy+ ELD": "/images/providers/6995c8ccfa987d6efb29934f_Dy+-ELD.jpg",
   "EGreen ELD": "/images/providers/69937f604414f0445d5e8718_Egreen-ELD.svg",
   "ELDDesired": "/images/providers/6890ee64a30977b8b27ff955_eldd.png",

@@ -82,13 +82,19 @@ export default async function ProgramPage({
             {/* Left: Partner Info */}
             <div>
               {program.partnerLogo && (
-                <div className="relative mb-8 h-20 w-full max-w-[280px]">
+                <div className={`relative mb-8 w-full ${
+                  program.slug === 'futuristic'
+                    ? 'h-32 max-w-[400px]'
+                    : program.slug === 'nta'
+                    ? 'h-24 max-w-[320px]'
+                    : 'h-20 max-w-[280px]'
+                }`}>
                   <Image
                     src={program.partnerLogo}
                     alt={program.partnerName}
                     fill
                     className="object-contain object-left"
-                    sizes="280px"
+                    sizes={program.slug === 'futuristic' ? '400px' : program.slug === 'nta' ? '320px' : '280px'}
                   />
                 </div>
               )}
@@ -118,20 +124,18 @@ export default async function ProgramPage({
                     support@truckercloud.com
                   </a>{" "}
                   or use the chat feature in the bottom right corner.
+                  {program.extraSupportEmail && (
+                    <> For telematics inquiries, contact{" "}
+                      <a
+                        href={`mailto:${program.extraSupportEmail}`}
+                        className="text-[#3898ec] underline"
+                      >
+                        {program.extraSupportEmail}
+                      </a>
+                    </>
+                  )}
                 </p>
               </div>
-
-              {program.extraSupportEmail && (
-                <p className="mb-6 font-[Inter,sans-serif] text-sm text-[#333]">
-                  For telematics inquiries, contact{" "}
-                  <a
-                    href={`mailto:${program.extraSupportEmail}`}
-                    className="text-[#3898ec] underline"
-                  >
-                    {program.extraSupportEmail}
-                  </a>
-                </p>
-              )}
 
               {/* CTA Button */}
               {program.widgetUrl && (
