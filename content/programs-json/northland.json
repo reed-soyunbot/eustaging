@@ -1,13 +1,12 @@
 {
   "slug": "northland",
   "partnerName": "Northland",
-  "partnerLogo": "/images/programs/Just-Drive-Logo.png",
+  "partnerLogo": "/images/programs/northland-logo.png",
   "widgetUrl": "https://northland.truckercloud.com/tcwidget?apiKey=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJub3J0aGxhbmQiLCJpc3MiOiJodHRwOi8vd3d3LnRyYW56bG9naXguY29tLyIsImlhdCI6MTc0NDY1NTE4NCwiZXhwIjoxNzQ0NjU1NDg0fQ.xN_wOxrByy2xBqZ-kiI5xT-kCFlfxsmIBaXf-_Iga3I",
   "heroText": "Northland believes telematics is an indispensable tool that provides real-time drive performance data through wireless transmission to increase trucking safety while reducing costs. With leading telematics partners, we can deliver a full range of services to our trucking customers, focusing on accident prevention and driver performance.",
   "supportText": "For support onboarding your telematics account, please contact support@truckercloud.com or use the chat feature in the bottom right corner.",
-  "extraSupportEmail": "FleetTruckingServices@rpsins.com",
+  "extraSupportEmail": "",
   "howItWorks": [
-    "If you have any further questions, please contact us at justdrive@nationalindemnity.com",
     "This material does not amend, or otherwise affect, the provisions or coverages of any insurance policy or bond issued by Northland. It is not a representation that coverage does or does not exist for any particular claim or loss under any such policy or bond. Coverage depends on the facts and circumstances involved in the claim or loss, all applicable policy or bond provisions, and any applicable law. Availability of coverage referenced on this website can depend on underwriting qualifications and state regulations.\u200dDiscounts are not available in all jurisdictions and are subject to all applicable laws and regulations. Northland does not warrant that adherence to, or compliance with, any vendor recommendations, testimonials, best practices or guidelines, or use of the services or products referenced herein, will result in a particular outcome. In no event will Northland or any of its affiliates be liable in tort or in contract to anyone who has access to or uses this information, or the services or product referenced herein, for any purpose."
   ],
   "cameras": [],

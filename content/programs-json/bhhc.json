@@ -1,13 +1,12 @@
 {
   "slug": "bhhc",
   "partnerName": "BHHC",
-  "partnerLogo": "/images/programs/Just-Drive-Logo.png",
+  "partnerLogo": "/images/programs/bhhc-logo.png",
   "widgetUrl": "https://bhhc.truckercloud.com/tcwidget?apiKey=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJiaGhjIiwiaXNzIjoiaHR0cDovL3d3dy50cmFuemxvZ2l4LmNvbS8iLCJpYXQiOjE3Mjk1MjA0MDUsImV4cCI6MTcyOTUyMDcwNX0.sTTvS4jXCZmGRwVLL7-4u2-LVIua3k5g6JP_L0wj4NA",
   "heroText": "Sign Up and Save Today!\nBHHC now offers a great way for you to save on your commercial auto insurance premium. By enrolling to share the telematics data from the devices already installed in your vehicles, you can get a discount on your premium.\n\nTo join, just make sure you have telematics devices from one of the many providers listed at the bottom of this page. Participation is optional, and there are no costs involved. Plus, you can opt out anytime.\nReady to start saving? Click the onboarding link below to get started. It only takes a few minutes!",
   "supportText": "For support onboarding your telematics account, please contact support@truckercloud.com or use the chat feature in the bottom right corner.",
   "extraSupportEmail": "\u200dCVTechnology@bhhomestate.com",
   "howItWorks": [
-    "If you have any further questions, please contact us at justdrive@nationalindemnity.com",
     "If you have any further questions, please contact us at CVTechnology@bhhomestate.com"
   ],
   "cameras": [
