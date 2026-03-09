@@ -5,7 +5,7 @@
   "widgetUrl": "https://justdrive.truckercloud.com/tcwidget?apiKey=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqdXN0ZHJpdmUiLCJpc3MiOiJodHRwOi8vd3d3LnRyYW56bG9naXguY29tLyIsImlhdCI6MTcwNzg0ODkxNiwiZXhwIjoxNzA3ODQ5MjE2fQ.bBNIsOA0S6zXqrkHrYUmwXcZwCo2ijyU4yuxA6MagFY",
   "heroText": "Get preferred pricing for leading telematics through the tiles below.",
   "supportText": "For support onboarding your telematics account, please contact support@truckercloud.com or use the chat feature in the bottom right corner.",
-  "extraSupportEmail": "FleetTruckingServices@rpsins.com",
+  "extraSupportEmail": "",
   "howItWorks": [],
   "cameras": [],
   "elds": [],

@@ -5,7 +5,7 @@
   "widgetUrl": "https://justdrive.truckercloud.com/tcwidget?apiKey=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJqdXN0ZHJpdmUiLCJpc3MiOiJodHRwOi8vd3d3LnRyYW56bG9naXguY29tLyIsImlhdCI6MTcwNzg0ODkxNiwiZXhwIjoxNzA3ODQ5MjE2fQ.bBNIsOA0S6zXqrkHrYUmwXcZwCo2ijyU4yuxA6MagFY",
   "heroText": "We believe the decision regarding which telematics provider you use is a personal one for you and your fleet. Just as we are able to provide insurance to a wide variety of industries, we want to be able to support you in your business decisions.\u200dHow it works: We are able to offer premium discounts to insureds that want to share their data and can accommodate 40+ GPS tracking, telematics or ELD providers.If eligible, you can choose to participate in JustDrive with NICO at any point. Both new and existing NICO policyholders can participate. If you do, you will receive instant premium savings just for granting access to your driving data. Review eligible ELDs and cameras below",
   "supportText": "For support onboarding your telematics account, please contact support@truckercloud.com or use the chat feature in the bottom right corner.",
-  "extraSupportEmail": "FleetTruckingServices@rpsins.com",
+  "extraSupportEmail": "",
   "howItWorks": [],
   "cameras": [
     "Lytx",
