@@ -3,7 +3,7 @@ title: "The Bell Curve of Telematics Adoption: Why Standing Still Means Falling 
 slug: the-bell-curve-of-telematics-adoption-why-standing-still-means-falling-behind
 summary: The window for "early adoption" of telematics in commercial auto insurance has already closed. Here's where the industry stands today, and why indecision is no longer neutral — it's regression.
 thumbnail: "/images/blog/bell-curve-telematics-adoption.jpg"
-author: tiana-schowe
+author: Tiana Schowe
 category: articles
 featured: true
 publishedDate: "2026-03-09T00:00:00.000Z"
