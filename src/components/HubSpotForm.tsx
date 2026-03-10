@@ -27,6 +27,13 @@ export default function HubSpotForm({
           formId,
           region,
           target: `#${containerRef.current.id}`,
+          onFormReady: (form: HTMLFormElement) => {
+            const button = form.querySelector<HTMLElement>(".hs-button");
+            if (button) {
+              button.style.setProperty("background-color", "#44a3db", "important");
+              button.style.setProperty("border-color", "#44a3db", "important");
+            }
+          },
         });
       }
     };
@@ -49,6 +56,7 @@ declare global {
           formId: string;
           region: string;
           target?: string;
+          onFormReady?: (form: HTMLFormElement) => void;
         }) => void;
       };
     };

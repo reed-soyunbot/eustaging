@@ -208,6 +208,17 @@ body:has(.program-standalone) footer.site-footer {
   display: none;
 }
 
+/* HubSpot form submit button override */
+#hubspot-form-container .hs-button {
+  background-color: #44a3db !important;
+  border-color: #44a3db !important;
+}
+
+#hubspot-form-container .hs-button:hover {
+  background-color: #35a4e8 !important;
+  border-color: #35a4e8 !important;
+}
+
 /* Reset global heading styles inside program pages */
 .program-standalone h1,
 .program-standalone h2,

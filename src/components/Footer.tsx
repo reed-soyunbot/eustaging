@@ -40,15 +40,15 @@ export default function Footer() {
               Terms of Use
             </Link>
           </p>
-          <div className="flex items-center gap-4">
-            <a href="https://x.com/truckercloud" target="_blank" rel="noopener noreferrer" className="opacity-60 hover:opacity-100 transition-opacity">
-              <Image src="/images/1.png" alt="X (Twitter)" width={24} height={24} />
-            </a>
-            <a href="https://www.linkedin.com/company/truckercloud/" target="_blank" rel="noopener noreferrer" className="opacity-60 hover:opacity-100 transition-opacity">
-              <Image src="/images/3.png" alt="LinkedIn" width={24} height={24} />
-            </a>
-            <a href="https://www.facebook.com/TruckerCloud/" target="_blank" rel="noopener noreferrer" className="opacity-60 hover:opacity-100 transition-opacity">
-              <Image src="/images/2.png" alt="Facebook" width={24} height={24} />
+          <div className="flex items-center">
+            <a
+              href="https://www.linkedin.com/company/truckercloud/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-2 rounded-full border border-white/20 px-4 py-1.5 opacity-60 hover:opacity-100 transition-opacity"
+            >
+              <Image src="/images/3.png" alt="LinkedIn" width={18} height={18} />
+              <span className="text-sm text-gray-300">LinkedIn</span>
             </a>
           </div>
         </div>
