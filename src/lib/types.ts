@@ -68,10 +68,16 @@ export interface ProgramConfig {
   heroText: string;
   supportText: string;
   extraSupportEmail: string;
+  extraSupportPhone?: string;
   howItWorks: string[];
   cameras: string[];
   elds: string[];
   ctaCount: number;
+  subsidy?: {
+    eldAmount: number;
+    cameraAmount: number;
+    disclaimer: string;
+  };
 }
 
 export interface MicrositeConfig {

@@ -159,5 +159,10 @@
     "Zonar",
     "Zubie"
   ],
-  "ctaCount": 2
+  "ctaCount": 2,
+  "subsidy": {
+    "eldAmount": 10,
+    "cameraAmount": 20,
+    "disclaimer": "Please note that this offer is subject to specific terms and conditions and eligibility requirements. Eligibility criteria must be met in order to qualify for the subsidy. Details regarding the terms, conditions, and eligibility can be obtained from Crum & Forster upon request. This offer may be subject to change based on compliance with the stipulated guidelines and regulations."
+  }
 }

@@ -115,7 +115,7 @@ export default async function ProgramPage({
                   className="mt-1 shrink-0"
                 />
                 <p className="font-[Inter,sans-serif] text-sm leading-relaxed text-[#333]">
-                  For support regarding the telematics integration, please
+                  For support onboarding your telematics account, please
                   contact{" "}
                   <a
                     href="mailto:support@truckercloud.com"
@@ -124,18 +124,43 @@ export default async function ProgramPage({
                     support@truckercloud.com
                   </a>{" "}
                   or use the chat feature in the bottom right corner.
-                  {program.extraSupportEmail && (
-                    <> For telematics inquiries, contact{" "}
-                      <a
-                        href={`mailto:${program.extraSupportEmail}`}
-                        className="text-[#3898ec] underline"
-                      >
-                        {program.extraSupportEmail}
-                      </a>
-                    </>
-                  )}
                 </p>
               </div>
+
+              {program.extraSupportEmail && (
+                <div className="mb-6 flex items-start gap-3">
+                  <svg
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    className="mt-1 shrink-0"
+                  >
+                    <path
+                      d="M12 2L4 6v6c0 5.55 3.84 10.74 8 12 4.16-1.26 8-6.45 8-12V6l-8-4z"
+                      fill="#9CA3AF"
+                    />
+                    <path
+                      d="M10 14l-2.5-2.5 1.41-1.41L10 11.17l4.59-4.58L16 8l-6 6z"
+                      fill="white"
+                    />
+                  </svg>
+                  <p className="font-[Inter,sans-serif] text-sm leading-relaxed text-[#333]">
+                    For questions about the mutual benefits of sharing telematics
+                    data, please reach out to{" "}
+                    <a
+                      href={`mailto:${program.extraSupportEmail}`}
+                      className="text-[#3898ec] underline"
+                    >
+                      {program.extraSupportEmail}
+                    </a>
+                    {program.extraSupportPhone && (
+                      <> or call {program.extraSupportPhone}</>
+                    )}
+                  </p>
+                </div>
+              )}
 
               {/* CTA Button */}
               {program.widgetUrl && (
@@ -163,6 +188,70 @@ export default async function ProgramPage({
           </div>
         </div>
       </section>
+
+      {/* Subsidy Section */}
+      {program.subsidy && (
+        <section className="bg-white py-16">
+          <div className="mx-auto max-w-[700px] px-6 text-center">
+            <h2 className="mb-8 font-[Inter,sans-serif] text-2xl font-normal text-[#333]">
+              Crum &amp; Forster is offering a monthly{" "}
+              <strong>subsidy</strong> for sharing telematics data
+            </h2>
+            <div className="grid grid-cols-2 gap-6">
+              <div className="rounded-xl border border-gray-200 p-6 text-left">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="mb-4"
+                >
+                  <circle cx="12" cy="12" r="10" stroke="#9CA3AF" strokeWidth="1.5" />
+                  <circle cx="12" cy="12" r="3" fill="#9CA3AF" />
+                  <line x1="12" y1="2" x2="12" y2="6" stroke="#9CA3AF" strokeWidth="1.5" />
+                  <line x1="12" y1="18" x2="12" y2="22" stroke="#9CA3AF" strokeWidth="1.5" />
+                  <line x1="2" y1="12" x2="6" y2="12" stroke="#9CA3AF" strokeWidth="1.5" />
+                  <line x1="18" y1="12" x2="22" y2="12" stroke="#9CA3AF" strokeWidth="1.5" />
+                </svg>
+                <p className="font-[Inter,sans-serif] text-xl font-bold text-[#333]">
+                  ${program.subsidy.eldAmount} per vehicle
+                </p>
+                <p className="mt-1 font-[Inter,sans-serif] text-sm text-[#555]">
+                  per month for sharing <strong>ELD Data.</strong>
+                </p>
+              </div>
+              <div className="rounded-xl border border-gray-200 p-6 text-left">
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  className="mb-4"
+                >
+                  <path
+                    d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7z"
+                    stroke="#9CA3AF"
+                    strokeWidth="1.5"
+                    fill="none"
+                  />
+                  <circle cx="12" cy="9" r="2.5" stroke="#9CA3AF" strokeWidth="1.5" />
+                </svg>
+                <p className="font-[Inter,sans-serif] text-xl font-bold text-[#333]">
+                  ${program.subsidy.cameraAmount} per vehicle
+                </p>
+                <p className="mt-1 font-[Inter,sans-serif] text-sm text-[#555]">
+                  per month for sharing <strong>Camera Data.</strong>
+                </p>
+              </div>
+            </div>
+            <p className="mt-8 font-[Inter,sans-serif] text-xs leading-relaxed text-[#888] italic">
+              {program.subsidy.disclaimer}
+            </p>
+          </div>
+        </section>
+      )}
 
       {/* Eligible Cameras */}
       {program.cameras.length > 0 && (
