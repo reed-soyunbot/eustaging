@@ -80,6 +80,7 @@ const elds = [
   { name: "Linxup", logo: "/images/eld/linxup.png" },
   { name: "Lioneight", logo: "/images/eld/lioneight.png" },
   { name: "Live View GPS", logo: "/images/eld/live-view-gps.jpg" },
+  { name: "Loop ELD", logo: "/images/eld/loop-eld.svg" },
   { name: "Lucid ELD", logo: "/images/eld/lucid-eld.png" },
   { name: "Maestral ELD", logo: "/images/eld/maestral-eld.png" },
   { name: "Max ELD", logo: "/images/eld/max-eld.png" },
