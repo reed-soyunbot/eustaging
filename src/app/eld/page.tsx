@@ -54,6 +54,7 @@ const elds = [
   { name: "EliteGPS", logo: "/images/eld/elitegps.png" },
   { name: "EROAD", logo: "/images/eld/eroad.png" },
   { name: "Eva ELD", logo: "/images/eld/eva-eld.png" },
+  { name: "Eye Ride", logo: "/images/eld/eye-ride.png" },
   { name: "Factor ELD", logo: "/images/eld/factor-eld.png" },
   { name: "FleetComplete", logo: "/images/eld/fleetcomplete.png" },
   { name: "FordPro", logo: "/images/eld/fordpro.png" },
