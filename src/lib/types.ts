@@ -73,6 +73,7 @@ export interface ProgramConfig {
   cameras: string[];
   elds: string[];
   ctaCount: number;
+  showDataPrivacyButton?: boolean;
   subsidy?: {
     eldAmount: number;
     cameraAmount: number;

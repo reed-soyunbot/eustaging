@@ -55,5 +55,6 @@
     "X ELD",
     "Xplore ELD"
   ],
-  "ctaCount": 2
+  "ctaCount": 2,
+  "showDataPrivacyButton": true
 }

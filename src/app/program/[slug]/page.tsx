@@ -162,16 +162,26 @@ export default async function ProgramPage({
                 </div>
               )}
 
-              {/* CTA Button */}
+              {/* CTA Buttons */}
               {program.widgetUrl && (
-                <a
-                  href={program.widgetUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-block rounded-full bg-[#44a3db] px-8 py-3 font-[Inter,sans-serif] text-sm font-bold text-white transition-colors hover:bg-[#35a4e8]"
-                >
-                  Onboard Your Telematics
-                </a>
+                <div className="flex flex-wrap items-center gap-3">
+                  <a
+                    href={program.widgetUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block rounded-full bg-[#44a3db] px-8 py-3 font-[Inter,sans-serif] text-sm font-bold text-white transition-colors hover:bg-[#35a4e8]"
+                  >
+                    Onboard Your Telematics
+                  </a>
+                  {program.showDataPrivacyButton && (
+                    <a
+                      href="/driver-data-faq"
+                      className="inline-block rounded-full border border-[#44a3db] bg-white px-8 py-3 font-[Inter,sans-serif] text-sm font-bold text-[#44a3db] transition-colors hover:bg-[#f0f9ff]"
+                    >
+                      Curious about Data Privacy?
+                    </a>
+                  )}
+                </div>
               )}
             </div>
 
@@ -308,7 +318,7 @@ export default async function ProgramPage({
                 or use the chat feature in the bottom right corner.
               </p>
             </div>
-            <div className="mt-6 text-center">
+            <div className="mt-6 flex flex-wrap justify-center gap-3">
               <a
                 href={program.widgetUrl}
                 target="_blank"
@@ -317,6 +327,14 @@ export default async function ProgramPage({
               >
                 Onboard Your Telematics
               </a>
+              {program.showDataPrivacyButton && (
+                <a
+                  href="/driver-data-faq"
+                  className="inline-block rounded-full border border-[#44a3db] bg-white px-8 py-3 font-[Inter,sans-serif] text-sm font-semibold text-[#44a3db] transition-colors hover:bg-[#f0f9ff]"
+                >
+                  Curious about Data Privacy?
+                </a>
+              )}
             </div>
           </div>
         </section>
