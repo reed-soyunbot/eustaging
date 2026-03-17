@@ -29,15 +29,136 @@ const agenda = [
   },
 ];
 
+type SocialSession = {
+  type: "social";
+  time: string;
+  title: string;
+  note: string;
+};
+
+type RegularSession = {
+  type: "session";
+  time: string;
+  title: string;
+  subtitle: string;
+  description: string;
+  topics?: string[];
+};
+
+type AgendaItem = SocialSession | RegularSession;
+
+const tuesdayAgenda: AgendaItem[] = [
+  {
+    type: "social",
+    time: "8:00 AM",
+    title: "Hot Breakfast Provided",
+    note: "Pre-event space · Informal networking",
+  },
+  {
+    type: "session",
+    time: "9:00 AM",
+    title: "Welcome & State of Commercial Auto Telematics",
+    subtitle: "15 min with Spencer Mitchell (TruckerCloud)",
+    description: "",
+  },
+  {
+    type: "session",
+    time: "9:15 AM",
+    title: "Data Science & Actuarial: Building a Score the Industry Can Actually File",
+    subtitle:
+      "60 min · Presentation + Panel + Q&A with Simone Castelli (TruckerCloud) and Geoff Werner (Werner Advisory)",
+    description:
+      "A deep dive on turning telematics data into a risk score that actuaries trust and regulators approve — covering the v3 file-able score, cross-TSP normalization, and actuarial auditability.",
+    topics: [
+      "v3 File-able Score",
+      "Cross-TSP Normalization",
+      "Behavioral vs. Event Scoring",
+      "Data Confidence Methodology",
+      "Loss Experience Correlation",
+    ],
+  },
+  {
+    type: "session",
+    time: "10:15 AM",
+    title: "Product Roadmap",
+    subtitle:
+      "60 min · Presentation + Interactive Feedback with Spencer Mitchell (TruckerCloud)",
+    description:
+      "Where TruckerCloud has been and where it's going — followed by a structured audience feedback session. 20 minutes of presentation, 40 minutes of listening.",
+    topics: ["2025 Recap", "2026 Roadmap", "Alert Monitoring", "TSP Expansion", "Live Feature Prioritization"],
+  },
+  {
+    type: "session",
+    time: "11:15 AM",
+    title: "Underwriting with TruckerCloud Masterclass",
+    subtitle: "45 min · Training Session + Q&A with Tiana Schowe & Sam McNearney (TruckerCloud)",
+    description:
+      "A hands-on underwriting training session led by Tiana Schowe and Sam McNearney using mock underwriting guidelines — covering how to apply TruckerCloud data in real underwriting workflows.",
+  },
+  {
+    type: "social",
+    time: "12:00 PM",
+    title: "Lunch",
+    note: "Rooftop Restaurant, Canopy by Hilton · Catered, closed to the public",
+  },
+  {
+    type: "session",
+    time: "2:00 PM",
+    title: "Inside the Cab: What Telematics Vendors Are Actually Delivering to Your Insureds",
+    subtitle:
+      "60 min · Vendor Panel + Moderated Discussion + Insurer Feedback with Netradyne, Motive, and Samsara",
+    description:
+      "Three leading TSPs walk through the in-cab reality, the full data universe being captured, and what commercial auto insurers most commonly get wrong. Includes dedicated time for insurers to give direct feedback to vendors.",
+    topics: [
+      "Installation & Adoption",
+      "Driver Experience",
+      "Underutilized Data",
+      "Video & AI Event Detection",
+      "ELDs as Insurance-Grade Data",
+      "Insurer Feedback Forum",
+    ],
+  },
+  {
+    type: "session",
+    time: "3:00 PM",
+    title: "From the Scene to Settlement: How Telematics Is Reshaping Commercial Auto Claims",
+    subtitle: "60 min · Moderated Panel + Q&A with Triton / RC Services and Primacy Risk",
+    description:
+      "Practitioner-led session on how telematics is being used in claims workflows today — from FNOL through settlement — and what the ideal integration looks like.",
+    topics: [
+      "FNOL Acceleration",
+      "Dashcam & Video Evidence",
+      "Nuclear Verdicts",
+      "Fraud Detection",
+      "Alert Monitoring",
+      "Subrogation Support",
+    ],
+  },
+  {
+    type: "session",
+    time: "4:00 PM",
+    title: "Closing Remarks",
+    subtitle: "15 min with Spencer Mitchell (TruckerCloud)",
+    description: "",
+  },
+  {
+    type: "social",
+    time: "5:00 PM",
+    title: "Happy Hour — Hosted by TruckerCloud",
+    note: "Pin's Mechanical, The Gulch · Food, drinks, games, and continued conversation",
+  },
+];
+
 export default function EventsSummitPage() {
   return (
+    <>
     <div className="relative min-h-screen">
       {/* Background image with dark blue overlay */}
       <div
         className="absolute inset-0 bg-cover bg-center"
         style={{ backgroundImage: "url('/images/nashville-skyline.jpeg')" }}
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-[#0f1928] via-[#0f1928]/90 to-[#0f1928]/80" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#0f1928]/70 via-[#0f1928]/80 to-[#0a1320]" />
 
       <div className="relative mx-auto max-w-[1200px] px-6 py-16 md:py-24">
         <div className="grid gap-8 md:grid-cols-2">
@@ -132,6 +253,65 @@ export default function EventsSummitPage() {
         </div>
       </div>
     </div>
+
+    {/* Full Tuesday Agenda */}
+    <section className="bg-[#0a1320] px-6 pb-16 pt-2 md:pb-24 md:pt-4">
+      <div className="mx-auto max-w-[860px]">
+        <p className="text-center text-xs font-semibold uppercase tracking-widest text-tc-blue">
+          Tuesday, May 19, 2026
+        </p>
+        <h2 className="mt-2 text-center text-3xl font-bold text-white">Full Agenda</h2>
+
+        <div className="mt-10 overflow-hidden rounded-xl border border-white/10">
+          {tuesdayAgenda.map((item, i) => {
+            const isEven = i % 2 === 0;
+            const rowBg = isEven ? "bg-[#0c1b2a]" : "bg-[#0a1320]";
+
+            if (item.type === "social") {
+              return (
+                <div
+                  key={i}
+                  className={`${rowBg} grid grid-cols-[80px_1fr] gap-x-6 px-6 py-4 border-b border-white/10 last:border-b-0`}
+                >
+                  <span className="pt-0.5 text-sm font-bold text-tc-blue">{item.time}</span>
+                  <div>
+                    <p className="font-bold text-white leading-snug">{item.title}</p>
+                    <p className="mt-1 text-xs text-gray-400">{item.note}</p>
+                  </div>
+                </div>
+              );
+            }
+
+            return (
+              <div
+                key={i}
+                className={`${rowBg} grid grid-cols-[80px_1fr] gap-x-6 px-6 py-6 border-b border-white/10 last:border-b-0`}
+              >
+                <span className="pt-0.5 text-sm font-bold text-tc-blue">{item.time}</span>
+                <div>
+                  <p className="font-bold text-white leading-snug">{item.title}</p>
+                  <p className="mt-1 text-xs text-gray-400">{item.subtitle}</p>
+                  <p className="mt-2 text-sm text-gray-300 leading-relaxed">{item.description}</p>
+                  {item.topics && item.topics.length > 0 && (
+                    <div className="mt-3 flex flex-wrap gap-2">
+                      {item.topics.map((topic) => (
+                        <span
+                          key={topic}
+                          className="rounded-full bg-tc-blue/15 px-3 py-0.5 text-xs font-medium text-tc-blue"
+                        >
+                          {topic}
+                        </span>
+                      ))}
+                    </div>
+                  )}
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </div>
+    </section>
+    </>
   );
 }
 
