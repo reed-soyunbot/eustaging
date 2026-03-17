@@ -104,10 +104,52 @@ const nextConfig: NextConfig = {
         destination: "/program/justdrive-with-nico",
         permanent: true,
       },
-// Redirect /programs/ (plural) to /program/ (singular)
+      // Redirect /programs/ (plural) to /program/ (singular)
       {
         source: "/programs/:slug",
         destination: "/program/:slug",
+        permanent: true,
+      },
+      // Old Webflow blog post URLs → /blog
+      {
+        source: "/post/:slug*",
+        destination: "/blog",
+        permanent: true,
+      },
+      // /demo → /get-a-demo
+      {
+        source: "/demo",
+        destination: "/get-a-demo",
+        permanent: true,
+      },
+      // /product → /product-page
+      {
+        source: "/product",
+        destination: "/product-page",
+        permanent: true,
+      },
+      // /thank-you → home
+      {
+        source: "/thank-you",
+        destination: "/",
+        permanent: true,
+      },
+      // /blog/articles → /blog
+      {
+        source: "/blog/articles",
+        destination: "/blog",
+        permanent: true,
+      },
+      // Old Webflow podcast episode URLs → /podcast
+      {
+        source: "/podcast-2/:slug*",
+        destination: "/podcast",
+        permanent: true,
+      },
+      // Old Webflow integration detail pages → /integrations
+      {
+        source: "/integrations/:slug*",
+        destination: "/integrations",
         permanent: true,
       },
     ];
