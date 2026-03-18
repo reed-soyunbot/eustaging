@@ -66,6 +66,8 @@ export interface ProgramConfig {
   partnerLogo: string;
   widgetUrl: string;
   heroText: string;
+  heroBullets?: string[];
+  heroClosingText?: string;
   supportText: string;
   extraSupportEmail: string;
   extraSupportPhone?: string;

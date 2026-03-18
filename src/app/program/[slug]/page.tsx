@@ -100,9 +100,19 @@ export default async function ProgramPage({
               )}
 
               {program.heroText && (
-                <p className="mb-6 font-[Inter,sans-serif] text-base leading-relaxed text-[#333]">
-                  {program.heroText}
-                </p>
+                <div className="mb-6 font-[Inter,sans-serif] text-base leading-relaxed text-[#333]">
+                  <p>{program.heroText}</p>
+                  {program.heroBullets && program.heroBullets.length > 0 && (
+                    <ul className="my-3 ml-6 list-disc space-y-1">
+                      {program.heroBullets.map((bullet, i) => (
+                        <li key={i}>{bullet}</li>
+                      ))}
+                    </ul>
+                  )}
+                  {program.heroClosingText && (
+                    <p className="mt-3">{program.heroClosingText}</p>
+                  )}
+                </div>
               )}
 
               {/* Support Text */}
