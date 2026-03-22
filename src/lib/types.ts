@@ -74,6 +74,7 @@ export interface ProgramConfig {
   howItWorks: string[];
   cameras: string[];
   elds: string[];
+  providerNotes?: Record<string, string>;
   ctaCount: number;
   showDataPrivacyButton?: boolean;
   subsidy?: {

@@ -25,7 +25,7 @@ export async function generateMetadata({
   };
 }
 
-function ProviderCard({ name }: { name: string }) {
+function ProviderCard({ name, note }: { name: string; note?: string }) {
   const logo = PROVIDER_LOGOS[name];
   return (
     <div className="flex flex-col items-center justify-center rounded-lg bg-white px-[22px] py-[20px] text-center shadow-[0_2px_7px_0_rgba(20,20,43,0.06)]">
@@ -45,6 +45,11 @@ function ProviderCard({ name }: { name: string }) {
       <p className="mt-[10px] font-[Inter,sans-serif] text-sm leading-snug text-[#828282]">
         {name}
       </p>
+      {note && (
+        <p className="mt-[6px] font-[Inter,sans-serif] text-xs leading-snug text-[#aaa] italic">
+          *{note}
+        </p>
+      )}
     </div>
   );
 }
@@ -299,7 +304,7 @@ export default async function ProgramPage({
           </section>
           <div className="grid grid-cols-1 gap-5 px-0 pt-10 sm:grid-cols-2 md:grid-cols-3 md:px-[30px] lg:grid-cols-4 lg:px-[100px] xl:px-[100px]">
             {program.elds.map((name) => (
-              <ProviderCard key={name} name={name} />
+              <ProviderCard key={name} name={name} note={program.providerNotes?.[name]} />
             ))}
           </div>
         </>

@@ -160,5 +160,8 @@
     "Zonar",
     "Zubie"
   ],
+  "providerNotes": {
+    "EROAD": "Only the EROAD system is compatible, not the CORETEX system"
+  },
   "ctaCount": 2
 }
