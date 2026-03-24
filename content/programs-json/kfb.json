@@ -160,5 +160,6 @@
     "Zonar",
     "Zubie"
   ],
-  "ctaCount": 2
+  "ctaCount": 2,
+  "showDataPrivacyButton": true
 }
