@@ -1,0 +1,29 @@
+# TruckerCloud
+
+## Summary
+TruckerCloud is a telematics data platform specializing in commercial auto insurance. It aggregates real-time data from vehicles (via ELDs, cameras, GPS, etc.) to deliver risk insights, improve underwriting accuracy, and enable proactive safety and claims management for insurers, fleets, and transportation companies.
+
+## Product Info
+- Founded by leadership including Spencer Mitchell as CEO.
+- Industry: Insurtech / Telematics / Fleet Safety / Risk Management.
+- Headquarters: Atlanta, Georgia, USA.
+- Website: https://www.truckercloud.com
+- Partners/Integrations: Over 40+ ELD and camera system providers.
+- Core Customers: Commercial auto insurers, fleet operators, risk & safety managers.
+
+## Product Facts / Features
+- **Unified Telematics Data Platform**: consolidates data streams from ELDs, cameras, GPS, etc.
+- **Behavioral Analytics**: Identify risky driving behaviors (speeding, harsh braking, etc.), analyze frequency and severity.
+- **Heartbeat Monitor**: Real-time asset activity ("which units are active/inactive") to help with premium capture / policy exposure.
+- **Mileage Reporting**: Automated mileage tracking by geographic zone; supports compliance (e.g. IFTA).
+- **First Notice of Loss (FNOL)**: Rapid crash or loss alerts using telematics + camera data; helps reduce claim lag.
+- **Real-Time & Historical Data**: Access both live insights and enriched historical data (>= 90 days) for trend analysis and risk scoring.
+- **Instant Carrier Onboarding**: Patent-pending onboarding tools to quickly connect new fleets via their ELD / camera providers.
+
+## Our Story
+TruckerCloud was created to tackle fragmentation in commercial auto insurance data — insurers often lack easy access to data needed for precise underwriting, safety coaching, and claims handling. By partnering with many ELD and camera providers, TruckerCloud enables insurers to deploy usage-based insurance / risk-based pricing programs faster, with better visibility and transparency. Its mission is to lower loss ratios, improve driver safety, and simplify how fleets and insurers work together.
+
+## Contact / CTA
+- Website: https://www.truckercloud.com
+- Demo: "Get a Demo" option directly from site.
+- Use Cases: Commercial auto underwriters, fleet safety programs, risk mitigation, claims acceleration.
