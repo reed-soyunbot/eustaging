@@ -102,6 +102,7 @@ export const PROVIDER_LOGOS: Record<string, string> = {
   "Prologs": "/images/providers/66e327e25f21464649ad938f_prologs.png",
   "Quality Logs ELD": "/images/providers/6944547d7f57996b077f5c18_qualitylog-(1).png",
   "Rand McNally": "/images/providers/randmcnally.png",
+  "Rolling Trans": "/images/providers/rollingtrans.png",
   "Raven": "/images/providers/68d53e711b7cf369424c4ef9_cropped-raven-logo-black-on-transparent-1000.png",
   "Responsible Fleet GPS": "/images/providers/6762ce2c35490f33526bbe75_responsiblefleet.png",
   "RoadEazy": "/images/providers/698b8a494921ac9a0283cdf4_roadeazy_logo.jpeg",

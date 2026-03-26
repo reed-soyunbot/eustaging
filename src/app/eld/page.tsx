@@ -112,6 +112,7 @@ const elds = [
   { name: "Quality Logs ELD", logo: "/images/eld/quality-logs-eld.png" },
   { name: "Responsible Fleet GPS", logo: "/images/eld/responsible-fleet-gps.png" },
   { name: "Robinhood ELD", logo: "/images/eld/robinhood-eld.png" },
+  { name: "Rolling Trans", logo: "/images/eld/rollingtrans.png" },
   { name: "Rock ELD", logo: "/images/eld/rock-eld.png" },
   { name: "Routemate ELD", logo: "/images/eld/routemate-eld.png" },
   { name: "Spireon", logo: "/images/eld/spireon.png" },

@@ -39,7 +39,7 @@
     "AT&T Fleet Management",
     "Azuga",
     "BigRoad",
-    "Black Bear ELD",
+    "Black\u00a0Bear ELD",
     "Blue Sun ELD",
     "BlueInk",
     "Captain ELD",
@@ -47,7 +47,7 @@
     "Clearpath GPS",
     "Columbus ELD",
     "Daily ELD Plus",
-    "DLOG ELD",
+    "DLOG\u00a0ELD",
     "Digital ELD",
     "DriverTech",
     "DSGELOGS",
@@ -130,8 +130,8 @@
     "Smart ELDs",
     "STATE ELOGS",
     "Startrucks ELD",
-    "SUPPORT ELD",
-    "Swift ELD",
+    "SUPPORT\u00a0ELD",
+    "Swift\u00a0ELD",
     "Teletrac Navman",
     "3MD ELD",
     "Touch Tel GPS",
@@ -143,7 +143,7 @@
     "TruckX",
     "TRUST ELD",
     "TxELD",
-    "TXT ELD",
+    "TXT\u00a0ELD",
     "US Power ELD",
     "UZB Prime ELD",
     "Verizon Connect",
@@ -158,7 +158,8 @@
     "Xplore ELD",
     "Zero Max ELD",
     "Zonar",
-    "Zubie"
+    "Zubie",
+    "Rolling Trans"
   ],
   "ctaCount": 3
 }
