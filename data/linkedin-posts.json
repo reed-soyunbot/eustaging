@@ -1,138 +1,824 @@
 [
-  { "heading": "10,000,000,000 miles tracked.", "date": "March 4, 2026", "image": "/images/linkedin/10B-Miles-Tracked.png", "url": "https://www.linkedin.com/feed/update/urn:li:activity:7435041834210430976" },
-  { "heading": "Last Wednesday, Sam McNearney hosted our first-ever TruckerCloud Product Webi...", "date": "February 17, 2026", "image": "/images/linkedin/6994fd860bde31ea2874e9dc_1771348600422.jpeg", "url": "https://www.linkedin.com/feed/update/urn:li:share:7429574524989386752" },
-  { "heading": "Commercial auto insurance is being forced into evolution", "date": "February 10, 2026", "image": "/images/linkedin/68cdeb06a3f657209daa6d43_TruckercloudDefaultImagePost.jpeg", "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7427097681933537286" },
-  { "heading": "Great insights from an industry veteran", "date": "February 4, 2026", "image": "/images/linkedin/68cdeb06a3f657209daa6d43_TruckercloudDefaultImagePost.jpeg", "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7424853596766273536" },
-  { "heading": "We\u2019re facing a distracted-driving epidemic", "date": "January 27, 2026", "image": "", "url": "https://www.linkedin.com/feed/update/urn:li:share:7421993143849455616" },
-  { "heading": "Winter weather raises risk on the road", "date": "January 21, 2026", "image": "/images/linkedin/697165078289fb4ab69ea416_1769025180173.jpeg", "url": "https://www.linkedin.com/feed/update/urn:li:share:7419829394593976320" },
-  { "heading": "We talk to customers and prospects every day, and it\u2019s clear many still see t...", "date": "January 13, 2026", "image": "/images/linkedin/6966d905fd68c2b6d15c8d78_1768316108469.jpeg", "url": "https://www.linkedin.com/feed/update/urn:li:share:7416855331487592449" },
-  { "heading": "2026 is poised to see major technology growth in the commercial auto insuranc...", "date": "January 6, 2026", "image": "/images/linkedin/695d9e84fa78f1062aeee0d8_1767722989224.jpeg", "url": "https://www.linkedin.com/feed/update/urn:li:share:7414367606637539329" },
-  { "heading": "Commercial auto is a tough industry", "date": "January 1, 2026", "image": "", "url": "https://www.linkedin.com/feed/update/urn:li:share:7411855393821196291" },
-  { "heading": "Commercial auto is a tough industry", "date": "December 30, 2025", "image": "", "url": "https://www.linkedin.com/feed/update/urn:li:share:7411855393821196291" },
-  { "heading": "Merry Christmas and Happy Holidays from the TruckerCloud team!", "date": "December 22, 2025", "image": "/images/linkedin/6949d8032656d8f6aa6674f5_1766433830724.jpeg", "url": "https://www.linkedin.com/feed/update/urn:li:share:7408960484504358913" },
-  { "heading": "Our latest blog highlights the multi-faceted advantages of camera requirement...", "date": "December 18, 2025", "image": "/images/linkedin/6944920504f6c67a6101cb15_1766069347799.jpeg", "url": "https://www.linkedin.com/feed/update/urn:li:share:7407431735346634752" },
-  { "heading": "This time of year, millions of vehicles are on the road each day, working har...", "date": "December 10, 2025", "image": "/images/linkedin/693a06064b3fe1c8129ea4e6_1765386619203.jpeg", "url": "https://www.linkedin.com/feed/update/urn:li:share:7404568160441475072" },
-  { "heading": "The Next Profit Lever in Commercial Auto Insurance? Cameras", "date": "December 4, 2025", "image": "/images/linkedin/69321d04925624976907a172_1764861923400.jpeg", "url": "https://www.linkedin.com/feed/update/urn:li:share:7402367427378057216" },
-  { "heading": "Very positive news from the FMCSA.", "date": "December 2, 2025", "image": "/images/linkedin/68cdeb06a3f657209daa6d43_TruckercloudDefaultImagePost.jpeg", "url": "https://www.linkedin.com/feed/update/urn:li:share:7401693348924715009" },
-  { "heading": "We\u2019re excited to add Raven Connected to our compatible partners list as we co...", "date": "November 19, 2025", "image": "/images/linkedin/68cdeb06a3f657209daa6d43_TruckercloudDefaultImagePost.jpeg", "url": "https://www.linkedin.com/feed/update/urn:li:share:7396940355100778496" },
-  { "heading": "FreightWaves spotlighted the growing problem of ELD manipulation", "date": "November 18, 2025", "image": "/images/linkedin/691d0505799137ff1d62b4f1_1763494671880.jpeg", "url": "https://www.linkedin.com/feed/update/urn:li:share:7396632758955188224" },
-  { "heading": "We\u2019re building the future of telematics in commercial auto insurance\u2014and maki...", "date": "November 13, 2025", "image": "/images/linkedin/69166d91e08bdc67ad553987_1763062933968.jpeg", "url": "https://www.linkedin.com/feed/update/urn:li:share:7394821919294001152" },
-  { "heading": "The Profitability Crisis: Why Commercial Auto Insurance Needs TruckerCloud", "date": "November 5, 2025", "image": "/images/linkedin/690be18322e0d38b584798b5_1762354812930.jpeg", "url": "https://www.linkedin.com/feed/update/urn:li:share:7391851847226966016" },
-  { "heading": "It\u2019s been a busy month for TruckerCloud leadership!", "date": "October 28, 2025", "image": "/images/linkedin/6901558a0cff0654c089aa04_1761676896835.jpeg", "url": "https://www.linkedin.com/feed/update/urn:li:share:7389008458353901568" },
-  { "heading": "We\u2019re beyond excited to announce a new partnership with Sentry that gives tru...", "date": "October 22, 2025", "image": "", "url": "https://www.linkedin.com/feed/update/urn:li:share:7386779951561187328" },
-  { "heading": "Earlier this month, the US-based TruckerCloud team had the privilege of visit...", "date": "October 20, 2025", "image": "/images/linkedin/68cdeb06a3f657209daa6d43_TruckercloudDefaultImagePost.jpeg", "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7386165738937425920" },
-  { "heading": "When insurers underwrite commercial fleets, they often face the same challeng...", "date": "October 14, 2025", "image": "/images/linkedin/68eee0835007fc5ddfb4090a_1760474671848.jpeg", "url": "https://www.linkedin.com/feed/update/urn:li:share:7383965968018055170" },
-  { "heading": "2025 was a year of transformation for fleet management and commercial auto in...", "date": "October 7, 2025", "image": "/images/linkedin/68cdeb06a3f657209daa6d43_TruckercloudDefaultImagePost.jpeg", "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7381322718060687360" },
-  { "heading": "Did you know the \"signal-to-noise ratio\" isn\u2019t just an audio engineering conc...", "date": "September 30, 2025", "image": "/images/linkedin/68dc6b83ac44b929be063555_1759246884733.jpeg", "url": "https://www.linkedin.com/feed/update/urn:li:share:7378816266486284288" },
-  { "heading": "Logistics runs on alerts", "date": "September 26, 2025", "image": "/images/linkedin/68dae9e4ec7ef9f2e5283e9f_download.jpeg", "url": "https://www.linkedin.com/feed/update/urn:li:share:7377388577485393921" },
-  { "heading": "We\u2019re thrilled to welcome QEO Insurance Group as the newest partner leveragin...", "date": "September 25, 2025", "image": "/images/linkedin/68d5d4065a00ea3a710e5532_1758806916899.jpeg", "url": "https://www.linkedin.com/feed/update/urn:li:share:7376970891471261696" },
-  { "heading": "The biggest challenge with telematics isn\u2019t collecting data; it\u2019s knowing wha...", "date": "September 24, 2025", "image": "/images/linkedin/68d48283d342209ef83077d8_1758739725096.jpeg", "url": "https://www.linkedin.com/feed/update/urn:li:share:7376689066198843393" },
-  { "heading": "A couple weeks ago, we shared our perspective on the \"half-life\" of telematic...", "date": "September 19, 2025", "image": "/images/linkedin/68cdeb06a3f657209daa6d43_TruckercloudDefaultImagePost.jpeg", "url": "https://www.linkedin.com/feed/update/urn:li:share:7374876437402509312" },
-  { "heading": "Tracking mileage shouldn\u2019t mean messy spreadsheets or manual guesswork", "date": "September 16, 2025", "image": "/images/linkedin/68c991abe32b1aa1f0124d8e_1758025939908.jpeg", "url": "https://www.linkedin.com/feed/update/urn:li:share:7373695233563463681" },
-  { "heading": "We know the pain points plaguing commercial auto insurers: disconnected techn...", "date": "September 11, 2025", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7371980817335623681" },
-  { "heading": "Powerful words from a recent customer conversation", "date": "September 10, 2025", "image": "/images/linkedin/68c20d89d38ce42d62f79f16_1757515095804.jpeg", "url": "https://www.linkedin.com/feed/update/urn:li:share:7371552597469609986" },
-  { "heading": "Inaccurate mileage reporting represents one of the most significant challenge...", "date": "September 8, 2025", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn:li:share:7370835931639066626" },
-  { "heading": "Telematics delivers a constant stream of data to commercial auto insurers", "date": "September 3, 2025", "image": "/images/linkedin/68b8d3056f701e882ba6b864_1756905167655.jpeg", "url": "https://www.linkedin.com/feed/update/urn:li:share:7368994376045305856" },
-  { "heading": "We understand that while telematics data is transforming fleet operations and...", "date": "August 28, 2025", "image": "/images/linkedin/68b0f10dc538b62f304717dc_1756406283975.jpeg", "url": "https://www.linkedin.com/feed/update/urn:li:share:7366901905253363713" },
-  { "heading": "Ep. 5 of the Driving Decisions podcast with Spencer Mitchell and Tiana Schowe, CPCU is out now!", "date": "August 26, 2025", "image": "/images/linkedin/68af0227e9553e91eb4772a3_general (1).jpg", "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7366108715290206208" },
-  { "heading": "Driving Decisions Episode 5 is coming soon: \"Tiana Joins the Team!\"Newest tea...", "date": "August 21, 2025", "image": "/images/linkedin/68af0227e9553e91eb4772a3_general (1).jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7364323137364103168" },
-  { "heading": "The commercial auto insurance industry is transforming fast, and insurance te...", "date": "August 19, 2025", "image": "/images/linkedin/68a87186aaba11f834261c51_1755611092737.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7363566635309256705" },
-  { "heading": "Powerful perspective from Clearfork Chief Underwriting Officer David Newburg:...", "date": "August 14, 2025", "image": "/images/linkedin/68a86f4b8d9b31e556664068_1755107785355.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7361455607075205120" },
-  { "heading": "We\u2019re thrilled to launch a new strategic partnership with Brazos Specialty Ri...", "date": "August 11, 2025", "image": "/images/linkedin/68a86f4d5b03a03c88e47381_1754927740159.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7360700442923737088" },
-  { "heading": "We understand that many insurers rely heavily on FMCSA data for underwriting ...", "date": "August 8, 2025", "image": "/images/linkedin/68a86f4e5b03a03c88e47461_1754684382210.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7359679728494006272" },
-  { "heading": "We\u2019re excited to showcase how TruckerCloud\u2019s behavioral analytics are revolut...", "date": "August 5, 2025", "image": "/images/linkedin/68a86f4ece6c057eae31c25d_1754419482780.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7358568661810360320" },
-  { "heading": "The commercial auto insurance landscape is rapidly evolving, and we\u2019re seeing...", "date": "August 1, 2025", "image": "/images/linkedin/68a86f4f4eeb8df84d9aba69_1754077987839.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7357136325898063873" },
-  { "heading": "Unscheduled VINs: The Hidden Risk in Commercial Auto InsuranceDid you know th...", "date": "July 29, 2025", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7356025704385302528" },
-  { "heading": "Breakthrough in Commercial Auto Insurance: Precision VIN ValidationWe are tra...", "date": "July 24, 2025", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7354235059526115328" },
-  { "heading": "Revolutionizing Commercial Fleet Insurance with Usage-Based InsuranceWe\u2019re ex...", "date": "July 22, 2025", "image": "/images/linkedin/68a86f53a5d530942075bcd9_1753210959603.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7353499749070639109" },
-  { "heading": "We\u2019re elated to officially welcome veteran industry innovator Tiana Schowe, C...", "date": "July 22, 2025", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7353405352119345156" },
-  { "heading": "Want to launch or scale your usage-based insurance program-without building a...", "date": "July 18, 2025", "image": "/images/linkedin/68a86f5534f9472a5942f610_1752854633377.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7352005206546542595" },
-  { "heading": "Powerful anecdotes from Matthew Grimm illustrate how TruckerCloud moves the n...", "date": "July 17, 2025", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7351607050092572672" },
-  { "heading": "Insurers are moving away from static data and embracing continuous insights.W...", "date": "July 8, 2025", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7348436432476073984" },
-  { "heading": "Well said, Jennifer", "date": "July 8, 2025", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7348367700387098624" },
-  { "heading": "Underwriting Based on Incomplete Fleet Data?Underwriters relying solely on po...", "date": "July 2, 2025", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7346262422980071424" },
-  { "heading": "New on the Blog: Top 5 Fleet Risk Management Challenges Facing Commercial Aut...", "date": "June 27, 2025", "image": "/images/linkedin/68a86f5a188c43d0b4f2bf9f_1751057106697.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7344465831667359744" },
-  { "heading": "Insurers: What\u2019s your biggest headache in commercial auto right now?We work w...", "date": "June 18, 2025", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7341179147873865749" },
-  { "heading": "Premium leakage is one of commercial auto\u2019s biggest blind spots, and unreport...", "date": "June 16, 2025", "image": "/images/linkedin/68a86f5c0028c93f13863597_1750101849179.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7340459191620304897" },
-  { "heading": "We\u2019re thrilled to announce our partnership with Northland Insurance!Together,...", "date": "June 12, 2025", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7338975188698492928" },
-  { "heading": "Commercial auto insurers can\u2019t afford to wait.Every second counts when it com...", "date": "June 9, 2025", "image": "/images/linkedin/68a86f5ed8b18fd437a2969e_1749494068170.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7337909971130458114" },
-  { "heading": "We\u2019re proud to announce our recent partnership with ISC (Integrated Specialty...", "date": "June 4, 2025", "image": "/images/linkedin/68a86f5f310ee0074d5e7cd1_1749050804138.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7336050788743409664" },
-  { "heading": "Together with our friends at Amwins, we\u2019re committed to building a safe and s...", "date": "May 28, 2025", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7333476479042805779" },
-  { "heading": "Driving Decisions Episode 4/4 Out Now!Actuary Geoff Werner and TruckerCloud C...", "date": "May 20, 2025", "image": "/images/linkedin/68af0227e9553e91eb4772a3_general (1).jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7330650488360628224" },
-  { "heading": "We are excited to announce our partnership with Cable Insurance Company, a le...", "date": "May 15, 2025", "image": "/images/linkedin/68a86f62aaba11f83425472d_1747323041561.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7328804027566071810" },
-  { "heading": "We love our customers", "date": "May 7, 2025", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7325884824768962561" },
-  { "heading": "The future of commercial auto will revolve around telematics data", "date": "April 30, 2025", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7323387944810024960" },
-  { "heading": "Accurate, timely First Notice of Loss (FNOL) can make all the difference for ...", "date": "April 24, 2025", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7321266629340762115" },
-  { "heading": "Big News: TruckerCloud is making waves in commercial auto insurance!We\u2019re hon...", "date": "April 22, 2025", "image": "/images/linkedin/68a86f66cec1c45464920f68_1745353369797.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7320542623864172544" },
-  { "heading": "We had a fantastic time at Motor Carrier Insurance Education Foundation (MCIE...", "date": "April 18, 2025", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7319069775110823936" },
-  { "heading": "We\u2019re thrilled for next week\u2019s annual Motor Carrier Insurance Education Found...", "date": "April 10, 2025", "image": "/images/linkedin/68a86f68f4479e5835a0c3a1_1744290739577.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7316085630013239298" },
-  { "heading": "The milk snake & the dark frog", "date": "April 8, 2025", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7315071170674843648" },
-  { "heading": "TruckerCloud is thrilled to announce our partnership with one of the industry...", "date": "April 3, 2025", "image": "/images/linkedin/68a86f6ab9e3ce91205b8f45_1743692139247.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7313574919479455744" },
-  { "heading": "Is it possible to quantify the value of telematics data for an insurer? We th...", "date": "March 25, 2025", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7310308843022929920" },
-  { "heading": "Easy Math: Spencer Mitchell explains how to save $2.5 Million in your commerc...", "date": "March 19, 2025", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7308132097406169088" },
-  { "heading": "Telematics-More than a Buzzword. Hear what industry experts Geoff W...", "date": "March 11, 2025", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7305229833465188352" },
-  { "heading": "See you at WSIA?Spencer Mitchell will be in Phoenix next week and would love ...", "date": "March 7, 2025", "image": "/images/linkedin/68a86f6eb9e3ce91205b9126_1741363568498.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7303829161448525825" },
-  { "heading": "New Podcast: TruckerCloud CEO Spencer Mitchell sat down with indust...", "date": "March 4, 2025", "image": "/images/linkedin/68af0227e9553e91eb4772a3_general (1).jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7302712937717116932" },
-  { "heading": "The TruckerCloud team could not agree more", "date": "February 27, 2025", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7300951210415587328" },
-  { "heading": "Better Data, Fairer Premiums. The sharpest minds in commercial auto...", "date": "February 25, 2025", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7299827394410917888" },
-  { "heading": "White Paper: Launching and scaling a telematics-based insurance pr...", "date": "February 19, 2025", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7298064570705690625" },
-  { "heading": "Check out this exciting conversation between two bright minds on the cutting ...", "date": "February 19, 2025", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7297997817527107585" },
-  { "heading": "Data-Driven Innovations: Why do we settle for educated guesses in c...", "date": "February 13, 2025", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7295870609127800834" },
-  { "heading": "ICYMI: Why are we settling for such high rates of premium leakage?T...", "date": "February 6, 2025", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7293278099452948480" },
-  { "heading": "TruckerCloud Powers Intelligent Underwriting. Leading insurers use...", "date": "January 29, 2025", "image": "/images/linkedin/68a86f764e9bc985d24f5b5c_1738162575294.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7290382244861345792" },
-  { "heading": "You Ask, We Deliver. From day one, we\u2019ve been committed to listeni...", "date": "January 22, 2025", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7287848528050044928" },
-  { "heading": "Telematics Data Made Simple. With 50+ eligible providers, and with ...", "date": "January 15, 2025", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7285310726016008192" },
-  { "heading": "Telematics Insights Built for Insurers. Our customer base continues...", "date": "January 9, 2025", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7282474004005748736" },
-  { "heading": "Happy New Year! In 2024, TruckerCloud added dozens of insurance cus...", "date": "January 2, 2025", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7280613529961824256" },
-  { "heading": "Changing the Game with Better Data. We drive insurance profitabilit...", "date": "December 17, 2024", "image": "/images/linkedin/68a86f7b34f9472a594307af_1734446691491.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7274796697447272448" },
-  { "heading": "TruckerCloud by the Numbers. Simply put, our innovations drive val...", "date": "December 10, 2024", "image": "/images/linkedin/68a86f7ed8b18fd437a2a76f_1733759887654.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7271916033144246272" },
-  { "heading": "We\u2019re proud to be the connective tissue to savings and optimization for many ...", "date": "December 9, 2024", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7272021901793714176" },
-  { "heading": "Turnkey Telematics. TruckerCloud\u2019s device-agnostic technology driv...", "date": "December 3, 2024", "image": "", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7269713735911366657" },
-  { "heading": "Happy Thanksgiving from TruckerCloud! We\u2019re taking a moment to expr...", "date": "November 25, 2024", "image": "/images/linkedin/68a86f7f735a76a2def8f509_1732554369215.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7266859726070595585" },
-  { "heading": "Resounding Praise for TruckerCloud. Insurance carriers, insurance progra...", "date": "November 19, 2024", "image": "/images/linkedin/68a86f80735a76a2def8f578_1732042407541.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7264712402720493568" },
-  { "heading": "Great event, thanks for having us!", "date": "November 14, 2024", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7262842527412535297" },
-  { "heading": "Better Data, Better Results. TruckerCloud lowers loss ratios with ...", "date": "November 12, 2024", "image": "/images/linkedin/68a86f8219e7453aaf3af377_1731422443100.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7262112081208864768" },
-  { "heading": "TC on the Road Again. Sam McNearney and Reed Peets had a great time...", "date": "November 8, 2024", "image": "/images/linkedin/68a86f84188c43d0b4f2da8a_1731079965472.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7260679291569422336" },
-  { "heading": "TruckerCloud Accelerating Innovation. TruckerCloud CEO Spencer Mit...", "date": "November 5, 2024", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7259639664737763330" },
-  { "heading": "TruckerCloud: The Leading Telematics Data Platform for Comme...", "date": "October 29, 2024", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7257029050961948672" },
-  { "heading": "Great Week for TruckerCloud! In addition to launching our strategi...", "date": "October 18, 2024", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7253060462047612928" },
-  { "heading": "Huge Announcement for the Trucking Insurance Space. We are th...", "date": "October 15, 2024", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7251966757807042563" },
-  { "heading": "Exciting announcement: TruckerCloud is proud to be named to the InsurTech100 ...", "date": "October 9, 2024", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7249769741135806465" },
-  { "heading": "TC on the Road. TruckerCloud CEO Spencer Mitchell will be at...", "date": "October 2, 2024", "image": "/images/linkedin/68a86f89378265f1bf654386_1727877587907.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7247243881954603009" },
-  { "heading": "More Praise for TC. We\u2019re happy to serve as the technological...", "date": "September 25, 2024", "image": "/images/linkedin/68a86f8a9d5712c48117ef5d_1727288654644.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7244773715563933697" },
-  { "heading": "TC on the Road. We\u2019re excited to attend the Motor Carrier Insurance...", "date": "September 18, 2024", "image": "/images/linkedin/68a86f8b92c591a8a4c65a83_1726673443114.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7242193333513506817" },
-  { "heading": "40+ Integrations and Counting. On this Friday, we\u2019re highlighting our...", "date": "September 13, 2024", "image": "/images/linkedin/68a86f8db0f96b36a405614e_1726244236909.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7240393111921709057" },
-  { "heading": "Feature Focus. Whether focused on understanding high level t...", "date": "September 5, 2024", "image": "/images/linkedin/68a86f9134f9472a59431306_1725549834744.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7237480576646086656" },
-  { "heading": "Feature Focus. Three reasons why TruckerCloud has become the...", "date": "August 29, 2024", "image": "/images/linkedin/68a86f8ef9ded41c0d14f045_1724940420048.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7234924508049027072" },
-  { "heading": "High Praise for TC. TruckerCloud\u2019s turnkey telematics platfo...", "date": "August 20, 2024", "image": "/images/linkedin/68a86f8fa537302b17bf1a53_1724167107043.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7231680999128985600" },
-  { "heading": "Feature Focus. TruckerCloud\u2019s Historical Location Heatmap allows i...", "date": "August 13, 2024", "image": "/images/linkedin/68a86f90b9e3ce91205b9edc_1723565565438.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7229157948713828355" },
-  { "heading": "Did you know? From delivery trucks to passenger buses to con...", "date": "August 6, 2024", "image": "/images/linkedin/68a86f92d8b18fd437a2b0e5_1722952204126.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7226585330475282433" },
-  { "heading": "Feature Focus. TruckerCloud streamlines incident reporting for com...", "date": "July 30, 2024", "image": "", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7223759180703170560" },
-  { "heading": "Feature Focus. TruckerCloud\u2019s turnkey telematics platform empowers co...", "date": "July 23, 2024", "image": "/images/linkedin/68a86f94f9ded41c0d14f230_1721737192199.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7221489194785718272" },
-  { "heading": "Telematics data unlocks unprecedented visibility for insurance. Le...", "date": "July 16, 2024", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7219006008524709888" },
-  { "heading": "Exciting News! We are thrilled to announce that TruckerCloud was recentl...", "date": "July 8, 2024", "image": "/images/linkedin/68a86f965222919104e33bef_1720451185086.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7216095292469751809" },
-  { "heading": "Tune in for a great conversation!", "date": "June 27, 2024", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7212126875593142272" },
-  { "heading": "We\u2019re using telematics data to drive the future of commercial auto insurance....", "date": "June 26, 2024", "image": "/images/linkedin/68a86f989d5712c48117f86a_1719236138215.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7210999014584975362" },
-  { "heading": "TruckerCloud is proud to be making waves in commercial auto insurance.With re...", "date": "June 20, 2024", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7209548517676085248" },
-  { "heading": "We\u2019re proud to support Canal\u2019s commitment to innovation in commercial truck i...", "date": "June 18, 2024", "image": "", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7208877068602781698" },
-  { "heading": "Fun conversation with a great customer", "date": "May 9, 2024", "image": "", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7194349218189189120" },
-  { "heading": "We had a fantastic time last week at MCIEF catching up with industry peers an...", "date": "May 8, 2024", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7193988575749648384" },
-  { "heading": "We had a great time with customers and partners at MCIEF", "date": "May 2, 2024", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7191916453397168129" },
-  { "heading": "ELDs are revolutionizing transportation insurance", "date": "April 19, 2024", "image": "/images/linkedin/68a86f9ece6c057eae31dfe2_1713532076426.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7187074446644387840" },
-  { "heading": "Unlocking the Power of Telematics Data in Insurance. In a world where data d...", "date": "November 15, 2023", "image": "", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7130202252874498049" },
-  { "heading": "As technology evolves, businesses can and should enhance their operations", "date": "November 9, 2023", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7128366280939556864" },
-  { "heading": "Discover how telematics technology is revolutionizing commercial fleet insura...", "date": "November 2, 2023", "image": "", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7125853526336913408" },
-  { "heading": "Discover the evolution of auto insurance with telematics! Personalized polici...", "date": "October 31, 2023", "image": "/images/linkedin/68a86fa2310ee0074d5e9ba9_1698767973012.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7125149309569748992" },
-  { "heading": "Estes Express\u2019 recent cyberattack is a stark reminder of the vulnerabilities ...", "date": "October 27, 2023", "image": "/images/linkedin/68a86fa319e7453aaf3b0c3d_1698423497185.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7123704469862703104" },
-  { "heading": "Telematics is reshaping the insurance landscape, turning vehicle and driver d...", "date": "October 12, 2023", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7117875964340019202" },
-  { "heading": "In the world of logistics, Transportation Management Software (TMS) is the...", "date": "October 11, 2023", "image": "", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7117814706358091778" },
-  { "heading": "Exploring Telematics in Transportation: Telematics and electronic logging ...", "date": "September 21, 2023", "image": "", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7110635170143043585" },
-  { "heading": "Data-driven insights provided by telematics are reshaping risk management, le...", "date": "September 13, 2023", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7107701611887534081" },
-  { "heading": "The fifth episode of the #FreightTechFanatics podcast is now live! \"When yo...", "date": "September 6, 2023", "image": "/images/linkedin/68a86fac310ee0074d5ea40d_1694010674710.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7105195752049565696" },
-  { "heading": "Discover how telematics data revolutionizes risk management practices for ins...", "date": "August 29, 2023", "image": "", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7102285972519710720" },
-  { "heading": "The fifth episode of #FreightTechFanatics podcast drops next Thursday, Aug...", "date": "August 25, 2023", "image": "", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7100869417038753793" },
-  { "heading": "Discover how Electronic Logging Devices (ELDs) are paving the way for a more ...", "date": "August 23, 2023", "image": "", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7100113920136261632" },
-  { "heading": "ELD providers and their customers can leverage TruckerCloud\u2019s integration eng...", "date": "August 8, 2023", "image": "/images/linkedin/68a86fac92c591a8a4c678f0_1691506130626.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7094690934839287808" },
-  { "heading": "Unlock the Power of Telematics Data and TMS Integration. By integrating ...", "date": "August 3, 2023", "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7092122241387118593" },
-  { "heading": "\"The freight market mirrors the macro market in many ways", "date": "July 31, 2023", "image": "/images/linkedin/68a86fae19e7453aaf3b1259_1690819232164.jpeg", "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7091809873385971712" }
+  {
+    "heading": "ICYMI—check out the most recent blog from Tiana Schowe, CPCU and see what all...",
+    "date": "March 30, 2026",
+    "image": "https://media.licdn.com/dms/image/v2/D4E22AQGeQT-3lwwKKQ/feedshare-shrink_800/B4EZ1AVH9ZIQAc-/0/1774900773239?e=1776297600&v=beta&t=URUsTiXDfkIEN0EgvpVcTD_zmbtV_8sKpO1_b5I0CZc",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7444473417610776576"
+  },
+  {
+    "heading": "10,000,000,000 miles tracked.",
+    "date": "March 4, 2026",
+    "image": "/images/linkedin/10B-Miles-Tracked.png",
+    "url": "https://www.linkedin.com/feed/update/urn:li:activity:7435041834210430976"
+  },
+  {
+    "heading": "Last Wednesday, Sam McNearney hosted our first-ever TruckerCloud Product Webi...",
+    "date": "February 17, 2026",
+    "image": "/images/linkedin/6994fd860bde31ea2874e9dc_1771348600422.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7429574524989386752"
+  },
+  {
+    "heading": "Commercial auto insurance is being forced into evolution",
+    "date": "February 10, 2026",
+    "image": "/images/linkedin/68cdeb06a3f657209daa6d43_TruckercloudDefaultImagePost.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7427097681933537286"
+  },
+  {
+    "heading": "Great insights from an industry veteran",
+    "date": "February 4, 2026",
+    "image": "/images/linkedin/68cdeb06a3f657209daa6d43_TruckercloudDefaultImagePost.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7424853596766273536"
+  },
+  {
+    "heading": "We’re facing a distracted-driving epidemic",
+    "date": "January 27, 2026",
+    "image": "",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7421993143849455616"
+  },
+  {
+    "heading": "Winter weather raises risk on the road",
+    "date": "January 21, 2026",
+    "image": "/images/linkedin/697165078289fb4ab69ea416_1769025180173.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7419829394593976320"
+  },
+  {
+    "heading": "We talk to customers and prospects every day, and it’s clear many still see t...",
+    "date": "January 13, 2026",
+    "image": "/images/linkedin/6966d905fd68c2b6d15c8d78_1768316108469.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7416855331487592449"
+  },
+  {
+    "heading": "2026 is poised to see major technology growth in the commercial auto insuranc...",
+    "date": "January 6, 2026",
+    "image": "/images/linkedin/695d9e84fa78f1062aeee0d8_1767722989224.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7414367606637539329"
+  },
+  {
+    "heading": "Commercial auto is a tough industry",
+    "date": "January 1, 2026",
+    "image": "",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7411855393821196291"
+  },
+  {
+    "heading": "Commercial auto is a tough industry",
+    "date": "December 30, 2025",
+    "image": "",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7411855393821196291"
+  },
+  {
+    "heading": "Merry Christmas and Happy Holidays from the TruckerCloud team!",
+    "date": "December 22, 2025",
+    "image": "/images/linkedin/6949d8032656d8f6aa6674f5_1766433830724.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7408960484504358913"
+  },
+  {
+    "heading": "Our latest blog highlights the multi-faceted advantages of camera requirement...",
+    "date": "December 18, 2025",
+    "image": "/images/linkedin/6944920504f6c67a6101cb15_1766069347799.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7407431735346634752"
+  },
+  {
+    "heading": "This time of year, millions of vehicles are on the road each day, working har...",
+    "date": "December 10, 2025",
+    "image": "/images/linkedin/693a06064b3fe1c8129ea4e6_1765386619203.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7404568160441475072"
+  },
+  {
+    "heading": "The Next Profit Lever in Commercial Auto Insurance? Cameras",
+    "date": "December 4, 2025",
+    "image": "/images/linkedin/69321d04925624976907a172_1764861923400.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7402367427378057216"
+  },
+  {
+    "heading": "Very positive news from the FMCSA.",
+    "date": "December 2, 2025",
+    "image": "/images/linkedin/68cdeb06a3f657209daa6d43_TruckercloudDefaultImagePost.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7401693348924715009"
+  },
+  {
+    "heading": "We’re excited to add Raven Connected to our compatible partners list as we co...",
+    "date": "November 19, 2025",
+    "image": "/images/linkedin/68cdeb06a3f657209daa6d43_TruckercloudDefaultImagePost.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7396940355100778496"
+  },
+  {
+    "heading": "FreightWaves spotlighted the growing problem of ELD manipulation",
+    "date": "November 18, 2025",
+    "image": "/images/linkedin/691d0505799137ff1d62b4f1_1763494671880.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7396632758955188224"
+  },
+  {
+    "heading": "We’re building the future of telematics in commercial auto insurance—and maki...",
+    "date": "November 13, 2025",
+    "image": "/images/linkedin/69166d91e08bdc67ad553987_1763062933968.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7394821919294001152"
+  },
+  {
+    "heading": "The Profitability Crisis: Why Commercial Auto Insurance Needs TruckerCloud",
+    "date": "November 5, 2025",
+    "image": "/images/linkedin/690be18322e0d38b584798b5_1762354812930.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7391851847226966016"
+  },
+  {
+    "heading": "It’s been a busy month for TruckerCloud leadership!",
+    "date": "October 28, 2025",
+    "image": "/images/linkedin/6901558a0cff0654c089aa04_1761676896835.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7389008458353901568"
+  },
+  {
+    "heading": "We’re beyond excited to announce a new partnership with Sentry that gives tru...",
+    "date": "October 22, 2025",
+    "image": "",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7386779951561187328"
+  },
+  {
+    "heading": "Earlier this month, the US-based TruckerCloud team had the privilege of visit...",
+    "date": "October 20, 2025",
+    "image": "/images/linkedin/68cdeb06a3f657209daa6d43_TruckercloudDefaultImagePost.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7386165738937425920"
+  },
+  {
+    "heading": "When insurers underwrite commercial fleets, they often face the same challeng...",
+    "date": "October 14, 2025",
+    "image": "/images/linkedin/68eee0835007fc5ddfb4090a_1760474671848.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7383965968018055170"
+  },
+  {
+    "heading": "2025 was a year of transformation for fleet management and commercial auto in...",
+    "date": "October 7, 2025",
+    "image": "/images/linkedin/68cdeb06a3f657209daa6d43_TruckercloudDefaultImagePost.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7381322718060687360"
+  },
+  {
+    "heading": "Did you know the \"signal-to-noise ratio\" isn’t just an audio engineering conc...",
+    "date": "September 30, 2025",
+    "image": "/images/linkedin/68dc6b83ac44b929be063555_1759246884733.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7378816266486284288"
+  },
+  {
+    "heading": "Logistics runs on alerts",
+    "date": "September 26, 2025",
+    "image": "/images/linkedin/68dae9e4ec7ef9f2e5283e9f_download.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7377388577485393921"
+  },
+  {
+    "heading": "We’re thrilled to welcome QEO Insurance Group as the newest partner leveragin...",
+    "date": "September 25, 2025",
+    "image": "/images/linkedin/68d5d4065a00ea3a710e5532_1758806916899.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7376970891471261696"
+  },
+  {
+    "heading": "The biggest challenge with telematics isn’t collecting data; it’s knowing wha...",
+    "date": "September 24, 2025",
+    "image": "/images/linkedin/68d48283d342209ef83077d8_1758739725096.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7376689066198843393"
+  },
+  {
+    "heading": "A couple weeks ago, we shared our perspective on the \"half-life\" of telematic...",
+    "date": "September 19, 2025",
+    "image": "/images/linkedin/68cdeb06a3f657209daa6d43_TruckercloudDefaultImagePost.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7374876437402509312"
+  },
+  {
+    "heading": "Tracking mileage shouldn’t mean messy spreadsheets or manual guesswork",
+    "date": "September 16, 2025",
+    "image": "/images/linkedin/68c991abe32b1aa1f0124d8e_1758025939908.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7373695233563463681"
+  },
+  {
+    "heading": "We know the pain points plaguing commercial auto insurers: disconnected techn...",
+    "date": "September 11, 2025",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7371980817335623681"
+  },
+  {
+    "heading": "Powerful words from a recent customer conversation",
+    "date": "September 10, 2025",
+    "image": "/images/linkedin/68c20d89d38ce42d62f79f16_1757515095804.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7371552597469609986"
+  },
+  {
+    "heading": "Inaccurate mileage reporting represents one of the most significant challenge...",
+    "date": "September 8, 2025",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7370835931639066626"
+  },
+  {
+    "heading": "Telematics delivers a constant stream of data to commercial auto insurers",
+    "date": "September 3, 2025",
+    "image": "/images/linkedin/68b8d3056f701e882ba6b864_1756905167655.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7368994376045305856"
+  },
+  {
+    "heading": "We understand that while telematics data is transforming fleet operations and...",
+    "date": "August 28, 2025",
+    "image": "/images/linkedin/68b0f10dc538b62f304717dc_1756406283975.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:share:7366901905253363713"
+  },
+  {
+    "heading": "Ep. 5 of the Driving Decisions podcast with Spencer Mitchell and Tiana Schowe, CPCU is out now!",
+    "date": "August 26, 2025",
+    "image": "/images/linkedin/68af0227e9553e91eb4772a3_general (1).jpg",
+    "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7366108715290206208"
+  },
+  {
+    "heading": "Driving Decisions Episode 5 is coming soon: \"Tiana Joins the Team!\"Newest tea...",
+    "date": "August 21, 2025",
+    "image": "/images/linkedin/68af0227e9553e91eb4772a3_general (1).jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7364323137364103168"
+  },
+  {
+    "heading": "The commercial auto insurance industry is transforming fast, and insurance te...",
+    "date": "August 19, 2025",
+    "image": "/images/linkedin/68a87186aaba11f834261c51_1755611092737.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7363566635309256705"
+  },
+  {
+    "heading": "Powerful perspective from Clearfork Chief Underwriting Officer David Newburg:...",
+    "date": "August 14, 2025",
+    "image": "/images/linkedin/68a86f4b8d9b31e556664068_1755107785355.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7361455607075205120"
+  },
+  {
+    "heading": "We’re thrilled to launch a new strategic partnership with Brazos Specialty Ri...",
+    "date": "August 11, 2025",
+    "image": "/images/linkedin/68a86f4d5b03a03c88e47381_1754927740159.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7360700442923737088"
+  },
+  {
+    "heading": "We understand that many insurers rely heavily on FMCSA data for underwriting ...",
+    "date": "August 8, 2025",
+    "image": "/images/linkedin/68a86f4e5b03a03c88e47461_1754684382210.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7359679728494006272"
+  },
+  {
+    "heading": "We’re excited to showcase how TruckerCloud’s behavioral analytics are revolut...",
+    "date": "August 5, 2025",
+    "image": "/images/linkedin/68a86f4ece6c057eae31c25d_1754419482780.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7358568661810360320"
+  },
+  {
+    "heading": "The commercial auto insurance landscape is rapidly evolving, and we’re seeing...",
+    "date": "August 1, 2025",
+    "image": "/images/linkedin/68a86f4f4eeb8df84d9aba69_1754077987839.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7357136325898063873"
+  },
+  {
+    "heading": "Unscheduled VINs: The Hidden Risk in Commercial Auto InsuranceDid you know th...",
+    "date": "July 29, 2025",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7356025704385302528"
+  },
+  {
+    "heading": "Breakthrough in Commercial Auto Insurance: Precision VIN ValidationWe are tra...",
+    "date": "July 24, 2025",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7354235059526115328"
+  },
+  {
+    "heading": "Revolutionizing Commercial Fleet Insurance with Usage-Based InsuranceWe’re ex...",
+    "date": "July 22, 2025",
+    "image": "/images/linkedin/68a86f53a5d530942075bcd9_1753210959603.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7353499749070639109"
+  },
+  {
+    "heading": "We’re elated to officially welcome veteran industry innovator Tiana Schowe, C...",
+    "date": "July 22, 2025",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7353405352119345156"
+  },
+  {
+    "heading": "Want to launch or scale your usage-based insurance program-without building a...",
+    "date": "July 18, 2025",
+    "image": "/images/linkedin/68a86f5534f9472a5942f610_1752854633377.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7352005206546542595"
+  },
+  {
+    "heading": "Powerful anecdotes from Matthew Grimm illustrate how TruckerCloud moves the n...",
+    "date": "July 17, 2025",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7351607050092572672"
+  },
+  {
+    "heading": "Insurers are moving away from static data and embracing continuous insights.W...",
+    "date": "July 8, 2025",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7348436432476073984"
+  },
+  {
+    "heading": "Well said, Jennifer",
+    "date": "July 8, 2025",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7348367700387098624"
+  },
+  {
+    "heading": "Underwriting Based on Incomplete Fleet Data?Underwriters relying solely on po...",
+    "date": "July 2, 2025",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7346262422980071424"
+  },
+  {
+    "heading": "New on the Blog: Top 5 Fleet Risk Management Challenges Facing Commercial Aut...",
+    "date": "June 27, 2025",
+    "image": "/images/linkedin/68a86f5a188c43d0b4f2bf9f_1751057106697.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7344465831667359744"
+  },
+  {
+    "heading": "Insurers: What’s your biggest headache in commercial auto right now?We work w...",
+    "date": "June 18, 2025",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7341179147873865749"
+  },
+  {
+    "heading": "Premium leakage is one of commercial auto’s biggest blind spots, and unreport...",
+    "date": "June 16, 2025",
+    "image": "/images/linkedin/68a86f5c0028c93f13863597_1750101849179.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7340459191620304897"
+  },
+  {
+    "heading": "We’re thrilled to announce our partnership with Northland Insurance!Together,...",
+    "date": "June 12, 2025",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7338975188698492928"
+  },
+  {
+    "heading": "Commercial auto insurers can’t afford to wait.Every second counts when it com...",
+    "date": "June 9, 2025",
+    "image": "/images/linkedin/68a86f5ed8b18fd437a2969e_1749494068170.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7337909971130458114"
+  },
+  {
+    "heading": "We’re proud to announce our recent partnership with ISC (Integrated Specialty...",
+    "date": "June 4, 2025",
+    "image": "/images/linkedin/68a86f5f310ee0074d5e7cd1_1749050804138.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7336050788743409664"
+  },
+  {
+    "heading": "Together with our friends at Amwins, we’re committed to building a safe and s...",
+    "date": "May 28, 2025",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7333476479042805779"
+  },
+  {
+    "heading": "Driving Decisions Episode 4/4 Out Now!Actuary Geoff Werner and TruckerCloud C...",
+    "date": "May 20, 2025",
+    "image": "/images/linkedin/68af0227e9553e91eb4772a3_general (1).jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7330650488360628224"
+  },
+  {
+    "heading": "We are excited to announce our partnership with Cable Insurance Company, a le...",
+    "date": "May 15, 2025",
+    "image": "/images/linkedin/68a86f62aaba11f83425472d_1747323041561.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7328804027566071810"
+  },
+  {
+    "heading": "We love our customers",
+    "date": "May 7, 2025",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7325884824768962561"
+  },
+  {
+    "heading": "The future of commercial auto will revolve around telematics data",
+    "date": "April 30, 2025",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7323387944810024960"
+  },
+  {
+    "heading": "Accurate, timely First Notice of Loss (FNOL) can make all the difference for ...",
+    "date": "April 24, 2025",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7321266629340762115"
+  },
+  {
+    "heading": "Big News: TruckerCloud is making waves in commercial auto insurance!We’re hon...",
+    "date": "April 22, 2025",
+    "image": "/images/linkedin/68a86f66cec1c45464920f68_1745353369797.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7320542623864172544"
+  },
+  {
+    "heading": "We had a fantastic time at Motor Carrier Insurance Education Foundation (MCIE...",
+    "date": "April 18, 2025",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7319069775110823936"
+  },
+  {
+    "heading": "We’re thrilled for next week’s annual Motor Carrier Insurance Education Found...",
+    "date": "April 10, 2025",
+    "image": "/images/linkedin/68a86f68f4479e5835a0c3a1_1744290739577.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7316085630013239298"
+  },
+  {
+    "heading": "The milk snake & the dark frog",
+    "date": "April 8, 2025",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7315071170674843648"
+  },
+  {
+    "heading": "TruckerCloud is thrilled to announce our partnership with one of the industry...",
+    "date": "April 3, 2025",
+    "image": "/images/linkedin/68a86f6ab9e3ce91205b8f45_1743692139247.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7313574919479455744"
+  },
+  {
+    "heading": "Is it possible to quantify the value of telematics data for an insurer? We th...",
+    "date": "March 25, 2025",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7310308843022929920"
+  },
+  {
+    "heading": "Easy Math: Spencer Mitchell explains how to save $2.5 Million in your commerc...",
+    "date": "March 19, 2025",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7308132097406169088"
+  },
+  {
+    "heading": "Telematics-More than a Buzzword. Hear what industry experts Geoff W...",
+    "date": "March 11, 2025",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7305229833465188352"
+  },
+  {
+    "heading": "See you at WSIA?Spencer Mitchell will be in Phoenix next week and would love ...",
+    "date": "March 7, 2025",
+    "image": "/images/linkedin/68a86f6eb9e3ce91205b9126_1741363568498.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7303829161448525825"
+  },
+  {
+    "heading": "New Podcast: TruckerCloud CEO Spencer Mitchell sat down with indust...",
+    "date": "March 4, 2025",
+    "image": "/images/linkedin/68af0227e9553e91eb4772a3_general (1).jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7302712937717116932"
+  },
+  {
+    "heading": "The TruckerCloud team could not agree more",
+    "date": "February 27, 2025",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7300951210415587328"
+  },
+  {
+    "heading": "Better Data, Fairer Premiums. The sharpest minds in commercial auto...",
+    "date": "February 25, 2025",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7299827394410917888"
+  },
+  {
+    "heading": "White Paper: Launching and scaling a telematics-based insurance pr...",
+    "date": "February 19, 2025",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7298064570705690625"
+  },
+  {
+    "heading": "Check out this exciting conversation between two bright minds on the cutting ...",
+    "date": "February 19, 2025",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7297997817527107585"
+  },
+  {
+    "heading": "Data-Driven Innovations: Why do we settle for educated guesses in c...",
+    "date": "February 13, 2025",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7295870609127800834"
+  },
+  {
+    "heading": "ICYMI: Why are we settling for such high rates of premium leakage?T...",
+    "date": "February 6, 2025",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7293278099452948480"
+  },
+  {
+    "heading": "TruckerCloud Powers Intelligent Underwriting. Leading insurers use...",
+    "date": "January 29, 2025",
+    "image": "/images/linkedin/68a86f764e9bc985d24f5b5c_1738162575294.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7290382244861345792"
+  },
+  {
+    "heading": "You Ask, We Deliver. From day one, we’ve been committed to listeni...",
+    "date": "January 22, 2025",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7287848528050044928"
+  },
+  {
+    "heading": "Telematics Data Made Simple. With 50+ eligible providers, and with ...",
+    "date": "January 15, 2025",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7285310726016008192"
+  },
+  {
+    "heading": "Telematics Insights Built for Insurers. Our customer base continues...",
+    "date": "January 9, 2025",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7282474004005748736"
+  },
+  {
+    "heading": "Happy New Year! In 2024, TruckerCloud added dozens of insurance cus...",
+    "date": "January 2, 2025",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7280613529961824256"
+  },
+  {
+    "heading": "Changing the Game with Better Data. We drive insurance profitabilit...",
+    "date": "December 17, 2024",
+    "image": "/images/linkedin/68a86f7b34f9472a594307af_1734446691491.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7274796697447272448"
+  },
+  {
+    "heading": "TruckerCloud by the Numbers. Simply put, our innovations drive val...",
+    "date": "December 10, 2024",
+    "image": "/images/linkedin/68a86f7ed8b18fd437a2a76f_1733759887654.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7271916033144246272"
+  },
+  {
+    "heading": "We’re proud to be the connective tissue to savings and optimization for many ...",
+    "date": "December 9, 2024",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7272021901793714176"
+  },
+  {
+    "heading": "Turnkey Telematics. TruckerCloud’s device-agnostic technology driv...",
+    "date": "December 3, 2024",
+    "image": "",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7269713735911366657"
+  },
+  {
+    "heading": "Happy Thanksgiving from TruckerCloud! We’re taking a moment to expr...",
+    "date": "November 25, 2024",
+    "image": "/images/linkedin/68a86f7f735a76a2def8f509_1732554369215.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7266859726070595585"
+  },
+  {
+    "heading": "Resounding Praise for TruckerCloud. Insurance carriers, insurance progra...",
+    "date": "November 19, 2024",
+    "image": "/images/linkedin/68a86f80735a76a2def8f578_1732042407541.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7264712402720493568"
+  },
+  {
+    "heading": "Great event, thanks for having us!",
+    "date": "November 14, 2024",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7262842527412535297"
+  },
+  {
+    "heading": "Better Data, Better Results. TruckerCloud lowers loss ratios with ...",
+    "date": "November 12, 2024",
+    "image": "/images/linkedin/68a86f8219e7453aaf3af377_1731422443100.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7262112081208864768"
+  },
+  {
+    "heading": "TC on the Road Again. Sam McNearney and Reed Peets had a great time...",
+    "date": "November 8, 2024",
+    "image": "/images/linkedin/68a86f84188c43d0b4f2da8a_1731079965472.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7260679291569422336"
+  },
+  {
+    "heading": "TruckerCloud Accelerating Innovation. TruckerCloud CEO Spencer Mit...",
+    "date": "November 5, 2024",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7259639664737763330"
+  },
+  {
+    "heading": "TruckerCloud: The Leading Telematics Data Platform for Comme...",
+    "date": "October 29, 2024",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7257029050961948672"
+  },
+  {
+    "heading": "Great Week for TruckerCloud! In addition to launching our strategi...",
+    "date": "October 18, 2024",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7253060462047612928"
+  },
+  {
+    "heading": "Huge Announcement for the Trucking Insurance Space. We are th...",
+    "date": "October 15, 2024",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7251966757807042563"
+  },
+  {
+    "heading": "Exciting announcement: TruckerCloud is proud to be named to the InsurTech100 ...",
+    "date": "October 9, 2024",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7249769741135806465"
+  },
+  {
+    "heading": "TC on the Road. TruckerCloud CEO Spencer Mitchell will be at...",
+    "date": "October 2, 2024",
+    "image": "/images/linkedin/68a86f89378265f1bf654386_1727877587907.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7247243881954603009"
+  },
+  {
+    "heading": "More Praise for TC. We’re happy to serve as the technological...",
+    "date": "September 25, 2024",
+    "image": "/images/linkedin/68a86f8a9d5712c48117ef5d_1727288654644.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7244773715563933697"
+  },
+  {
+    "heading": "TC on the Road. We’re excited to attend the Motor Carrier Insurance...",
+    "date": "September 18, 2024",
+    "image": "/images/linkedin/68a86f8b92c591a8a4c65a83_1726673443114.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7242193333513506817"
+  },
+  {
+    "heading": "40+ Integrations and Counting. On this Friday, we’re highlighting our...",
+    "date": "September 13, 2024",
+    "image": "/images/linkedin/68a86f8db0f96b36a405614e_1726244236909.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7240393111921709057"
+  },
+  {
+    "heading": "Feature Focus. Whether focused on understanding high level t...",
+    "date": "September 5, 2024",
+    "image": "/images/linkedin/68a86f9134f9472a59431306_1725549834744.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7237480576646086656"
+  },
+  {
+    "heading": "Feature Focus. Three reasons why TruckerCloud has become the...",
+    "date": "August 29, 2024",
+    "image": "/images/linkedin/68a86f8ef9ded41c0d14f045_1724940420048.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7234924508049027072"
+  },
+  {
+    "heading": "High Praise for TC. TruckerCloud’s turnkey telematics platfo...",
+    "date": "August 20, 2024",
+    "image": "/images/linkedin/68a86f8fa537302b17bf1a53_1724167107043.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7231680999128985600"
+  },
+  {
+    "heading": "Feature Focus. TruckerCloud’s Historical Location Heatmap allows i...",
+    "date": "August 13, 2024",
+    "image": "/images/linkedin/68a86f90b9e3ce91205b9edc_1723565565438.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7229157948713828355"
+  },
+  {
+    "heading": "Did you know? From delivery trucks to passenger buses to con...",
+    "date": "August 6, 2024",
+    "image": "/images/linkedin/68a86f92d8b18fd437a2b0e5_1722952204126.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7226585330475282433"
+  },
+  {
+    "heading": "Feature Focus. TruckerCloud streamlines incident reporting for com...",
+    "date": "July 30, 2024",
+    "image": "",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7223759180703170560"
+  },
+  {
+    "heading": "Feature Focus. TruckerCloud’s turnkey telematics platform empowers co...",
+    "date": "July 23, 2024",
+    "image": "/images/linkedin/68a86f94f9ded41c0d14f230_1721737192199.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7221489194785718272"
+  },
+  {
+    "heading": "Telematics data unlocks unprecedented visibility for insurance. Le...",
+    "date": "July 16, 2024",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7219006008524709888"
+  },
+  {
+    "heading": "Exciting News! We are thrilled to announce that TruckerCloud was recentl...",
+    "date": "July 8, 2024",
+    "image": "/images/linkedin/68a86f965222919104e33bef_1720451185086.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7216095292469751809"
+  },
+  {
+    "heading": "Tune in for a great conversation!",
+    "date": "June 27, 2024",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7212126875593142272"
+  },
+  {
+    "heading": "We’re using telematics data to drive the future of commercial auto insurance....",
+    "date": "June 26, 2024",
+    "image": "/images/linkedin/68a86f989d5712c48117f86a_1719236138215.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7210999014584975362"
+  },
+  {
+    "heading": "TruckerCloud is proud to be making waves in commercial auto insurance.With re...",
+    "date": "June 20, 2024",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7209548517676085248"
+  },
+  {
+    "heading": "We’re proud to support Canal’s commitment to innovation in commercial truck i...",
+    "date": "June 18, 2024",
+    "image": "",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7208877068602781698"
+  },
+  {
+    "heading": "Fun conversation with a great customer",
+    "date": "May 9, 2024",
+    "image": "",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7194349218189189120"
+  },
+  {
+    "heading": "We had a fantastic time last week at MCIEF catching up with industry peers an...",
+    "date": "May 8, 2024",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7193988575749648384"
+  },
+  {
+    "heading": "We had a great time with customers and partners at MCIEF",
+    "date": "May 2, 2024",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7191916453397168129"
+  },
+  {
+    "heading": "ELDs are revolutionizing transportation insurance",
+    "date": "April 19, 2024",
+    "image": "/images/linkedin/68a86f9ece6c057eae31dfe2_1713532076426.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7187074446644387840"
+  },
+  {
+    "heading": "Unlocking the Power of Telematics Data in Insurance. In a world where data d...",
+    "date": "November 15, 2023",
+    "image": "",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7130202252874498049"
+  },
+  {
+    "heading": "As technology evolves, businesses can and should enhance their operations",
+    "date": "November 9, 2023",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7128366280939556864"
+  },
+  {
+    "heading": "Discover how telematics technology is revolutionizing commercial fleet insura...",
+    "date": "November 2, 2023",
+    "image": "",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7125853526336913408"
+  },
+  {
+    "heading": "Discover the evolution of auto insurance with telematics! Personalized polici...",
+    "date": "October 31, 2023",
+    "image": "/images/linkedin/68a86fa2310ee0074d5e9ba9_1698767973012.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7125149309569748992"
+  },
+  {
+    "heading": "Estes Express’ recent cyberattack is a stark reminder of the vulnerabilities ...",
+    "date": "October 27, 2023",
+    "image": "/images/linkedin/68a86fa319e7453aaf3b0c3d_1698423497185.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7123704469862703104"
+  },
+  {
+    "heading": "Telematics is reshaping the insurance landscape, turning vehicle and driver d...",
+    "date": "October 12, 2023",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7117875964340019202"
+  },
+  {
+    "heading": "In the world of logistics, Transportation Management Software (TMS) is the...",
+    "date": "October 11, 2023",
+    "image": "",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7117814706358091778"
+  },
+  {
+    "heading": "Exploring Telematics in Transportation: Telematics and electronic logging ...",
+    "date": "September 21, 2023",
+    "image": "",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7110635170143043585"
+  },
+  {
+    "heading": "Data-driven insights provided by telematics are reshaping risk management, le...",
+    "date": "September 13, 2023",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7107701611887534081"
+  },
+  {
+    "heading": "The fifth episode of the #FreightTechFanatics podcast is now live! \"When yo...",
+    "date": "September 6, 2023",
+    "image": "/images/linkedin/68a86fac310ee0074d5ea40d_1694010674710.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7105195752049565696"
+  },
+  {
+    "heading": "Discover how telematics data revolutionizes risk management practices for ins...",
+    "date": "August 29, 2023",
+    "image": "",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7102285972519710720"
+  },
+  {
+    "heading": "The fifth episode of #FreightTechFanatics podcast drops next Thursday, Aug...",
+    "date": "August 25, 2023",
+    "image": "",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7100869417038753793"
+  },
+  {
+    "heading": "Discover how Electronic Logging Devices (ELDs) are paving the way for a more ...",
+    "date": "August 23, 2023",
+    "image": "",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7100113920136261632"
+  },
+  {
+    "heading": "ELD providers and their customers can leverage TruckerCloud’s integration eng...",
+    "date": "August 8, 2023",
+    "image": "/images/linkedin/68a86fac92c591a8a4c678f0_1691506130626.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7094690934839287808"
+  },
+  {
+    "heading": "Unlock the Power of Telematics Data and TMS Integration. By integrating ...",
+    "date": "August 3, 2023",
+    "image": "/images/linkedin/68af02b930bfa2f4abddc2b8_general.jpg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3AugcPost%3A7092122241387118593"
+  },
+  {
+    "heading": "\"The freight market mirrors the macro market in many ways",
+    "date": "July 31, 2023",
+    "image": "/images/linkedin/68a86fae19e7453aaf3b1259_1690819232164.jpeg",
+    "url": "https://www.linkedin.com/feed/update/urn%3Ali%3Ashare%3A7091809873385971712"
+  }
 ]
