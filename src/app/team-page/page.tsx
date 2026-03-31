@@ -45,7 +45,7 @@ const team = [
     linkedin: null,
   },
   {
-    name: "Geoff Werner, FCAS MAAA",
+    name: "Geoff Werner",
     role: "Strategic Advisor",
     photo: "/images/team/geoff-werner.png",
     linkedin: "https://www.linkedin.com/in/geoff-werner-3b280482/",
@@ -80,7 +80,7 @@ export default function TeamPage() {
             key={member.name}
             className="flex flex-col items-center text-center"
           >
-            <div className="relative h-64 w-64 overflow-hidden rounded-2xl">
+            <div className="relative h-64 w-64 overflow-hidden rounded-full">
               <Image
                 src={member.photo}
                 alt={member.name}
