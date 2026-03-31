@@ -26,6 +26,177 @@ const partners = [
   { name: "RPS", logo: "/images/partners/RPS-Logo-Monogram.jpg" },
 ];
 
+const linesOfBusiness = [
+  {
+    heading: "Trucking & Freight",
+    items: [
+      "Long-Haul Trucking",
+      "Short-Haul / Local Trucking",
+      "Regional Trucking",
+      "Owner-Operator",
+      "For-Hire Motor Carrier",
+      "Private Carrier",
+      "Intermodal / Drayage",
+      "Container Hauling",
+      "Refrigerated (Reefer)",
+      "Flatbed",
+      "Dry Van",
+      "Expedited Freight",
+      "Last Mile / First Mile Delivery",
+      "Courier / Parcel Delivery",
+      "Mail & Postal Contractors",
+    ],
+  },
+  {
+    heading: "Construction, Trades & Contractors",
+    items: [
+      "General Contractors",
+      "Artisan Contractors",
+      "Plumbers",
+      "Electricians",
+      "HVAC Contractors",
+      "Carpenters",
+      "Painters",
+      "Roofers",
+      "Masonry / Concrete Contractors",
+      "Excavation & Grading",
+      "Paving / Asphalt Contractors",
+      "Utility Contractors",
+      "Sign Installation",
+      "Street & Road Contractors",
+    ],
+  },
+  {
+    heading: "Natural Resources & Heavy Materials",
+    items: [
+      "Pulpwood / Logging",
+      "Sand & Gravel Hauling",
+      "Aggregate Haulers",
+      "Dirt, Soil & Fill Hauling",
+      "Rock / Stone Haulers",
+      "Coal Haulers",
+      "Ore & Mining Transport",
+      "Timber Haulers",
+    ],
+  },
+  {
+    heading: "Specialty & High-Hazard Hauling",
+    items: [
+      "Auto Haulers",
+      "Livestock Haulers",
+      "Mobile Equipment Transport",
+      "Heavy Equipment Hauling",
+      "Machinery Movers",
+      "Tankers (Non-Hazmat)",
+      "Hazmat Haulers",
+      "Fuel / Petroleum Transport",
+      "Chemical Transport",
+    ],
+  },
+  {
+    heading: "Waste, Recycling & Environmental",
+    items: [
+      "Garbage Haulers",
+      "Refuse Collection",
+      "Recycling Collection",
+      "Roll-Off Container Services",
+      "Dumpster Services",
+      "Medical Waste Hauling",
+      "Environmental Cleanup",
+    ],
+  },
+  {
+    heading: "Medical & Human Services Transport",
+    items: [
+      "Non-Emergency Medical Transportation (NEMT)",
+      "Emergency Medical Transportation (EMT / Ambulance)",
+      "Paratransit",
+      "Dial-A-Ride",
+      "Patient Transport Services",
+    ],
+  },
+  {
+    heading: "Passenger Transportation",
+    items: [
+      "Taxi",
+      "Rideshare / TNC Fleets",
+      "Limousine",
+      "Charter Bus",
+      "School Bus",
+      "Shuttle Services",
+      "Church Bus",
+      "Senior Transportation",
+      "Airport Shuttle",
+      "Party Bus",
+    ],
+  },
+  {
+    heading: "Service, Repair & Business Use",
+    items: [
+      "Pest Control",
+      "Lawn Care & Landscaping",
+      "Tire Training & Artisans",
+      "Janitorial / Cleaning Services",
+      "Pool Service",
+      "Appliance Repair",
+      "Mobile Repair Services",
+      "IT / Cable / Telecom Contractors",
+    ],
+  },
+  {
+    heading: "Moving, Storage & Delivery",
+    items: [
+      "Household Movers",
+      "Commercial Movers",
+      "Moving & Storage",
+      "Furniture Delivery",
+      "Appliance Delivery",
+      "White-Glove Delivery",
+    ],
+  },
+  {
+    heading: "Towing & Roadside",
+    items: [
+      "Towing (Light, Medium, Heavy Duty)",
+      "Roadside Assistance",
+      "Wrecker Services",
+      "Impound / Storage Yards",
+    ],
+  },
+  {
+    heading: "Retail, Wholesale & Distribution",
+    items: [
+      "Wholesale Distributors",
+      "Beverage Distributors",
+      "Food Distribution",
+      "Vending Services",
+      "Convenience Store Delivery",
+      "Fuel Oil Dealers",
+    ],
+  },
+  {
+    heading: "Business Auto - Non-Trucking Specific",
+    items: [
+      "Sales Fleets",
+      "Service Fleets",
+      "Company Cars",
+      "Employee-Driven Vehicles",
+      "Hired & Non-Owned Auto Fleets",
+    ],
+  },
+  {
+    heading: "Other Common Specialty Classes",
+    items: [
+      "Mobile Food Trucks",
+      "Ice Cream Trucks",
+      "Armored Car Services",
+      "Specialty Paint Vehicles",
+      "Funeral Transport / Hearses",
+      "Snow Plowing",
+    ],
+  },
+];
+
 export default function PartnersPage() {
   return (
     <div className="mx-auto max-w-[1200px] px-6 py-16 md:py-24">
@@ -63,6 +234,30 @@ export default function PartnersPage() {
         ))}
         <div className="flex items-center justify-center rounded-xl border-2 border-tc-blue/30 bg-tc-blue/5 p-6" style={{ minHeight: "120px" }}>
           <p className="text-lg font-semibold text-white">And more!</p>
+        </div>
+      </div>
+
+      {/* Lines of Business */}
+      <div className="mt-20 border-t border-white/10 pt-16">
+        <h2 className="text-xl font-bold text-white md:text-2xl">
+          We work with the following commercial auto lines of business:
+        </h2>
+
+        <div className="mt-10 grid gap-10 sm:grid-cols-2">
+          {linesOfBusiness.map((category) => (
+            <div key={category.heading}>
+              <h3 className="mb-3 text-sm font-bold uppercase tracking-wider text-tc-blue">
+                {category.heading}
+              </h3>
+              <ul className="space-y-1">
+                {category.items.map((item) => (
+                  <li key={item} className="text-sm text-gray-400">
+                    {item}
+                  </li>
+                ))}
+              </ul>
+            </div>
+          ))}
         </div>
       </div>
     </div>
