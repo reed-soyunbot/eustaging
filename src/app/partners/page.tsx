@@ -135,7 +135,7 @@ const linesOfBusiness = [
     items: [
       "Pest Control",
       "Lawn Care & Landscaping",
-      "Tire Training & Artisans",
+      "Tree Trimming & Arborists",
       "Janitorial / Cleaning Services",
       "Pool Service",
       "Appliance Repair",
