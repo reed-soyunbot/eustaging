@@ -39,6 +39,12 @@ const team = [
     linkedin: "https://www.linkedin.com/in/sarancibiao/",
   },
   {
+    name: "Simone Castelli",
+    role: "Data Science",
+    photo: "/images/team/simone-castelli.png",
+    linkedin: "",
+  },
+  {
     name: "Geoff Werner",
     role: "Strategic Advisor",
     photo: "/images/team/geoff-werner.png",
