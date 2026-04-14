@@ -87,15 +87,12 @@ export default async function ProgramPage({
             <div className="grid grid-cols-1 gap-10 md:grid-cols-2">
               {/* Left: English */}
               <div className="flex flex-col md:border-r md:border-gray-200 md:pr-12">
-                <div className="relative mb-8 h-16 w-full max-w-[280px]">
-                  <Image
-                    src={program.bilingualHero.left.logo}
-                    alt={program.bilingualHero.left.title}
-                    fill
-                    className="object-contain object-left"
-                    sizes="280px"
-                  />
-                </div>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={program.bilingualHero.left.logo}
+                  alt={program.bilingualHero.left.title}
+                  className="mb-8 h-14 w-auto max-w-[280px] object-contain object-left"
+                />
                 <h2 className="mb-4 font-[Inter,sans-serif] text-xl font-bold text-[#333]">
                   {program.bilingualHero.left.title}
                 </h2>
@@ -129,15 +126,12 @@ export default async function ProgramPage({
               </div>
               {/* Right: French */}
               <div className="flex flex-col md:pl-12">
-                <div className="relative mb-8 h-16 w-full max-w-[280px]">
-                  <Image
-                    src={program.bilingualHero.right.logo}
-                    alt={program.bilingualHero.right.title}
-                    fill
-                    className="object-contain object-left"
-                    sizes="280px"
-                  />
-                </div>
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={program.bilingualHero.right.logo}
+                  alt={program.bilingualHero.right.title}
+                  className="mb-8 h-14 w-auto max-w-[280px] object-contain object-left"
+                />
                 <h2 className="mb-4 font-[Inter,sans-serif] text-xl font-bold text-[#333]">
                   {program.bilingualHero.right.title}
                 </h2>
