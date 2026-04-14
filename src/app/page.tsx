@@ -209,13 +209,21 @@ export default function HomePage() {
                 className="mx-auto w-full max-w-[500px] md:hidden"
               />
             </div>
-            <div className="mt-8">
-              <Link
-                href="/partners"
-                className="text-tc-blue text-sm font-medium hover:underline transition-colors"
-              >
-                See More
-              </Link>
+            <div className="mt-6">
+              <p className="text-sm text-gray-400">
+                Programs covering{" "}
+                <Link href="/partners" className="text-tc-blue hover:underline transition-colors">Trucking &amp; Freight</Link>
+                {" · "}
+                <Link href="/partners" className="text-tc-blue hover:underline transition-colors">Construction &amp; Trades</Link>
+                {" · "}
+                <Link href="/partners" className="text-tc-blue hover:underline transition-colors">Natural Resources</Link>
+                {" · "}
+                <Link href="/partners" className="text-tc-blue hover:underline transition-colors">Specialty Hauling</Link>
+                {" · "}
+                <Link href="/partners" className="text-tc-blue hover:underline transition-colors">Passenger Transportation</Link>
+                {" · "}
+                <Link href="/partners" className="text-tc-blue font-medium hover:underline transition-colors">and more →</Link>
+              </p>
             </div>
           </div>
         </div>
