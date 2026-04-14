@@ -65,22 +65,54 @@ export interface ProgramConfig {
   partnerName: string;
   partnerLogo: string;
   widgetUrl: string;
+  heroHeadline?: string;
+  heroHeadlineHighlight?: { text: string; color: string };
   heroText: string;
   heroBullets?: string[];
   heroClosingText?: string;
+  heroCTANote?: string;
+  heroCTANoteLink?: { text: string; href: string };
   supportText: string;
   extraSupportEmail: string;
+  extraSupportLabel?: string;
   extraSupportPhone?: string;
   howItWorks: string[];
   cameras: string[];
+  cameraSectionTitle?: string;
   elds: string[];
+  eldSectionTitle?: string;
   providerNotes?: Record<string, string>;
+  providerSectionNote?: string;
+  faqItems?: {
+    question: string;
+    parts: (string | string[])[];
+  }[];
+  bottomCTAHeading?: string;
+  bottomSupportHeading?: string;
   ctaCount: number;
   showDataPrivacyButton?: boolean;
   subsidy?: {
     eldAmount: number;
     cameraAmount: number;
     disclaimer: string;
+  };
+  bilingualHero?: {
+    left: {
+      logo: string;
+      title: string;
+      body: string;
+      supportText: string;
+      ctaText: string;
+      ctaUrl: string;
+    };
+    right: {
+      logo: string;
+      title: string;
+      body: string;
+      supportText: string;
+      ctaText: string;
+      ctaUrl: string;
+    };
   };
 }
 

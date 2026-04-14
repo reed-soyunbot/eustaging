@@ -81,138 +81,267 @@ export default async function ProgramPage({
       </section>
 
       {/* Hero Section - white background */}
-      <section className="relative overflow-hidden bg-white pb-16 pt-10">
-        <div className="mx-auto max-w-[1200px] px-10">
-          <div className="grid grid-cols-1 items-center gap-16 md:grid-cols-2">
-            {/* Left: Partner Info */}
-            <div>
-              {program.partnerLogo && (
-                <div className={`relative mb-8 w-full ${
-                  program.slug === 'futuristic'
-                    ? 'h-32 max-w-[400px]'
-                    : program.slug === 'nta'
-                    ? 'h-24 max-w-[320px]'
-                    : 'h-20 max-w-[280px]'
-                }`}>
+      {program.bilingualHero ? (
+        <section className="relative overflow-hidden bg-white pb-16 pt-10">
+          <div className="mx-auto max-w-[1200px] px-10">
+            <div className="grid grid-cols-1 gap-10 md:grid-cols-2">
+              {/* Left: English */}
+              <div className="flex flex-col md:border-r md:border-gray-200 md:pr-12">
+                <div className="relative mb-8 h-16 w-full max-w-[280px]">
                   <Image
-                    src={program.partnerLogo}
-                    alt={program.partnerName}
+                    src={program.bilingualHero.left.logo}
+                    alt={program.bilingualHero.left.title}
                     fill
                     className="object-contain object-left"
-                    sizes={program.slug === 'futuristic' ? '400px' : program.slug === 'nta' ? '320px' : '280px'}
+                    sizes="280px"
                   />
                 </div>
-              )}
-
-              {program.heroText && (
-                <div className="mb-6 font-[Inter,sans-serif] text-base leading-relaxed text-[#333]">
-                  <p>{program.heroText}</p>
-                  {program.heroBullets && program.heroBullets.length > 0 && (
-                    <ul className="my-3 ml-6 list-disc space-y-1">
-                      {program.heroBullets.map((bullet, i) => (
-                        <li key={i}>{bullet}</li>
-                      ))}
-                    </ul>
-                  )}
-                  {program.heroClosingText && (
-                    <p className="mt-3">{program.heroClosingText}</p>
-                  )}
-                </div>
-              )}
-
-              {/* Support Text */}
-              <div className="mb-6 flex items-start gap-3">
-                <Image
-                  src="/images/programs/support-icon.svg"
-                  alt=""
-                  width={24}
-                  height={24}
-                  className="mt-1 shrink-0"
-                />
-                <p className="font-[Inter,sans-serif] text-sm leading-relaxed text-[#333]">
-                  For support onboarding your telematics account, please
-                  contact{" "}
-                  <a
-                    href="mailto:support@truckercloud.com"
-                    className="text-[#3898ec] underline"
-                  >
-                    support@truckercloud.com
-                  </a>{" "}
-                  or use the chat feature in the bottom right corner.
+                <h2 className="mb-4 font-[Inter,sans-serif] text-xl font-bold text-[#333]">
+                  {program.bilingualHero.left.title}
+                </h2>
+                <p className="mb-6 font-[Inter,sans-serif] text-base leading-relaxed text-[#333]">
+                  {program.bilingualHero.left.body}
                 </p>
-              </div>
-
-              {program.extraSupportEmail && (
                 <div className="mb-6 flex items-start gap-3">
-                  <svg
-                    width="24"
-                    height="24"
-                    viewBox="0 0 24 24"
-                    fill="none"
-                    xmlns="http://www.w3.org/2000/svg"
+                  <Image
+                    src="/images/programs/support-icon.svg"
+                    alt=""
+                    width={24}
+                    height={24}
                     className="mt-1 shrink-0"
-                  >
-                    <path
-                      d="M12 2L4 6v6c0 5.55 3.84 10.74 8 12 4.16-1.26 8-6.45 8-12V6l-8-4z"
-                      fill="#44a3db"
-                    />
-                    <path
-                      d="M10 14l-2.5-2.5 1.41-1.41L10 11.17l4.59-4.58L16 8l-6 6z"
-                      fill="white"
-                    />
-                  </svg>
+                  />
                   <p className="font-[Inter,sans-serif] text-sm leading-relaxed text-[#333]">
-                    For questions about the mutual benefits of sharing telematics
-                    data, please reach out to{" "}
-                    <a
-                      href={`mailto:${program.extraSupportEmail}`}
-                      className="text-[#3898ec] underline"
-                    >
-                      {program.extraSupportEmail}
+                    {program.bilingualHero.left.supportText.split("support@truckercloud.com")[0]}
+                    <a href="mailto:support@truckercloud.com" className="text-[#3898ec] underline">
+                      support@truckercloud.com
                     </a>
-                    {program.extraSupportPhone && (
-                      <> or call {program.extraSupportPhone}</>
-                    )}
+                    {program.bilingualHero.left.supportText.split("support@truckercloud.com")[1] ?? ""}
                   </p>
                 </div>
-              )}
-
-              {/* CTA Buttons */}
-              {program.widgetUrl && (
-                <div className="flex flex-wrap items-center gap-3">
-                  <a
-                    href={program.widgetUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="inline-block rounded-full bg-[#44a3db] px-8 py-3 font-[Inter,sans-serif] text-sm font-bold text-white transition-colors hover:bg-[#35a4e8]"
-                  >
-                    Onboard Your Telematics
-                  </a>
-                  {program.showDataPrivacyButton && (
-                    <a
-                      href="/driver-data-faq"
-                      className="inline-block rounded-full border border-[#44a3db] bg-white px-8 py-3 font-[Inter,sans-serif] text-sm font-bold text-[#44a3db] transition-colors hover:bg-[#f0f9ff]"
-                    >
-                      Curious about Data Privacy?
-                    </a>
-                  )}
+                <a
+                  href={program.bilingualHero.left.ctaUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block w-fit rounded-full bg-[#44a3db] px-8 py-3 font-[Inter,sans-serif] text-sm font-bold text-white transition-colors hover:bg-[#35a4e8]"
+                >
+                  {program.bilingualHero.left.ctaText}
+                </a>
+              </div>
+              {/* Right: French */}
+              <div className="flex flex-col md:pl-12">
+                <div className="relative mb-8 h-16 w-full max-w-[280px]">
+                  <Image
+                    src={program.bilingualHero.right.logo}
+                    alt={program.bilingualHero.right.title}
+                    fill
+                    className="object-contain object-left"
+                    sizes="280px"
+                  />
                 </div>
-              )}
-            </div>
-
-            {/* Right: Hero Image */}
-            <div className="hidden md:block">
-              <Image
-                src="/images/programs/frame-516.png"
-                alt="TruckerCloud Platform"
-                width={614}
-                height={500}
-                className="h-auto w-full"
-              />
+                <h2 className="mb-4 font-[Inter,sans-serif] text-xl font-bold text-[#333]">
+                  {program.bilingualHero.right.title}
+                </h2>
+                <p className="mb-6 font-[Inter,sans-serif] text-base leading-relaxed text-[#333]">
+                  {program.bilingualHero.right.body}
+                </p>
+                <div className="mb-6 flex items-start gap-3">
+                  <Image
+                    src="/images/programs/support-icon.svg"
+                    alt=""
+                    width={24}
+                    height={24}
+                    className="mt-1 shrink-0"
+                  />
+                  <p className="font-[Inter,sans-serif] text-sm leading-relaxed text-[#333]">
+                    {program.bilingualHero.right.supportText.split("support@truckercloud.com")[0]}
+                    <a href="mailto:support@truckercloud.com" className="text-[#3898ec] underline">
+                      support@truckercloud.com
+                    </a>
+                    {program.bilingualHero.right.supportText.split("support@truckercloud.com")[1] ?? ""}
+                  </p>
+                </div>
+                <a
+                  href={program.bilingualHero.right.ctaUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block w-fit rounded-full bg-[#44a3db] px-8 py-3 font-[Inter,sans-serif] text-sm font-bold text-white transition-colors hover:bg-[#35a4e8]"
+                >
+                  {program.bilingualHero.right.ctaText}
+                </a>
+              </div>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
+      ) : (
+        <section className="relative overflow-hidden bg-white pb-16 pt-10">
+          <div className="mx-auto max-w-[1200px] px-10">
+            <div className="grid grid-cols-1 items-center gap-16 md:grid-cols-2">
+              {/* Left: Partner Info */}
+              <div>
+                {program.partnerLogo && (
+                  <div className={`relative mb-8 w-full ${
+                    program.slug === 'futuristic'
+                      ? 'h-32 max-w-[400px]'
+                      : program.slug === 'nta'
+                      ? 'h-24 max-w-[320px]'
+                      : 'h-20 max-w-[280px]'
+                  }`}>
+                    <Image
+                      src={program.partnerLogo}
+                      alt={program.partnerName}
+                      fill
+                      className="object-contain object-left"
+                      sizes={program.slug === 'futuristic' ? '400px' : program.slug === 'nta' ? '320px' : '280px'}
+                    />
+                  </div>
+                )}
+
+                {program.heroHeadline && (
+                  <h1 className="mb-4 font-[Inter,sans-serif] text-2xl font-bold text-[#333]">
+                    {program.heroHeadlineHighlight
+                      ? (() => {
+                          const { text, color } = program.heroHeadlineHighlight!;
+                          const idx = program.heroHeadline!.indexOf(text);
+                          if (idx === -1) return program.heroHeadline;
+                          return (
+                            <>
+                              <span style={{ color }}>{program.heroHeadline!.slice(0, idx + text.length)}</span>
+                              {program.heroHeadline!.slice(idx + text.length)}
+                            </>
+                          );
+                        })()
+                      : program.heroHeadline}
+                  </h1>
+                )}
+
+                {program.heroText && (
+                  <div className="mb-6 font-[Inter,sans-serif] text-base leading-relaxed text-[#333]">
+                    <p>{program.heroText}</p>
+                    {program.heroBullets && program.heroBullets.length > 0 && (
+                      <ul className="my-3 ml-6 list-disc space-y-1">
+                        {program.heroBullets.map((bullet, i) => (
+                          <li key={i}>{bullet}</li>
+                        ))}
+                      </ul>
+                    )}
+                    {program.heroClosingText && (
+                      <p className="mt-3">{program.heroClosingText}</p>
+                    )}
+                  </div>
+                )}
+
+                {/* Support Text */}
+                <div className="mb-6 flex items-start gap-3">
+                  <Image
+                    src="/images/programs/support-icon.svg"
+                    alt=""
+                    width={24}
+                    height={24}
+                    className="mt-1 shrink-0"
+                  />
+                  <p className="font-[Inter,sans-serif] text-sm leading-relaxed text-[#333]">
+                    For support onboarding your telematics account, please
+                    contact{" "}
+                    <a
+                      href="mailto:support@truckercloud.com"
+                      className="text-[#3898ec] underline"
+                    >
+                      support@truckercloud.com
+                    </a>{" "}
+                    or use the chat feature in the bottom right corner.
+                  </p>
+                </div>
+
+                {program.extraSupportEmail && (
+                  <div className="mb-6 flex items-start gap-3">
+                    <svg
+                      width="24"
+                      height="24"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      className="mt-1 shrink-0"
+                    >
+                      <path
+                        d="M12 2L4 6v6c0 5.55 3.84 10.74 8 12 4.16-1.26 8-6.45 8-12V6l-8-4z"
+                        fill="#44a3db"
+                      />
+                      <path
+                        d="M10 14l-2.5-2.5 1.41-1.41L10 11.17l4.59-4.58L16 8l-6 6z"
+                        fill="white"
+                      />
+                    </svg>
+                    <p className="font-[Inter,sans-serif] text-sm leading-relaxed text-[#333]">
+                      {program.extraSupportLabel || "For questions about the mutual benefits of sharing telematics data, please reach out to"}{" "}
+                      <a
+                        href={`mailto:${program.extraSupportEmail}`}
+                        className="text-[#3898ec] underline"
+                      >
+                        {program.extraSupportEmail}
+                      </a>
+                      {program.extraSupportPhone && (
+                        <> or call {program.extraSupportPhone}</>
+                      )}
+                    </p>
+                  </div>
+                )}
+
+                {/* CTA Buttons */}
+                {program.widgetUrl && (
+                  <div className="flex flex-wrap items-center gap-3">
+                    <a
+                      href={program.widgetUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block rounded-full bg-[#44a3db] px-8 py-3 font-[Inter,sans-serif] text-sm font-bold text-white transition-colors hover:bg-[#35a4e8]"
+                    >
+                      Onboard Your Telematics
+                    </a>
+                    {program.showDataPrivacyButton && (
+                      <a
+                        href="/driver-data-faq"
+                        className="inline-block rounded-full border border-[#44a3db] bg-white px-8 py-3 font-[Inter,sans-serif] text-sm font-bold text-[#44a3db] transition-colors hover:bg-[#f0f9ff]"
+                      >
+                        Curious about Data Privacy?
+                      </a>
+                    )}
+                  </div>
+                )}
+
+                {program.heroCTANote && (
+                  <p className="mt-4 font-[Inter,sans-serif] text-sm leading-relaxed text-[#555]">
+                    {program.heroCTANoteLink
+                      ? (() => {
+                          const { text, href } = program.heroCTANoteLink!;
+                          const idx = program.heroCTANote!.indexOf(text);
+                          if (idx === -1) return program.heroCTANote;
+                          return (
+                            <>
+                              {program.heroCTANote!.slice(0, idx)}
+                              <a href={href} className="text-[#3898ec] underline">{text}</a>
+                              {program.heroCTANote!.slice(idx + text.length)}
+                            </>
+                          );
+                        })()
+                      : program.heroCTANote}
+                  </p>
+                )}
+              </div>
+
+              {/* Right: Hero Image */}
+              <div className="hidden md:block">
+                <Image
+                  src="/images/programs/frame-516.png"
+                  alt="TruckerCloud Platform"
+                  width={614}
+                  height={500}
+                  className="h-auto w-full"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Subsidy Section */}
       {program.subsidy && (
@@ -283,7 +412,7 @@ export default async function ProgramPage({
         <>
           <section className="px-10 pb-0 pt-[100px] md:px-20 lg:px-[150px]">
             <h1 className="mb-0 text-center font-[Inter,sans-serif] text-[25px] font-bold leading-[30px] text-white md:text-[30px]">
-              <span className="text-[#44a3db]">Eligible Cameras</span>
+              <span className="text-[#44a3db]">{program.cameraSectionTitle || "Eligible Cameras"}</span>
             </h1>
           </section>
           <div className="grid grid-cols-1 gap-5 px-0 pt-10 sm:grid-cols-2 md:grid-cols-3 md:px-[30px] lg:grid-cols-4 lg:px-[100px] xl:px-[100px]">
@@ -299,7 +428,7 @@ export default async function ProgramPage({
         <>
           <section className="px-10 pb-0 pt-[100px] md:px-20 lg:px-[150px]">
             <h1 className="mb-0 text-center font-[Inter,sans-serif] text-[25px] font-bold leading-[30px] text-white md:text-[30px]">
-              <span className="text-[#44a3db]">Eligible ELDs</span>
+              <span className="text-[#44a3db]">{program.eldSectionTitle || "Eligible ELDs"}</span>
             </h1>
           </section>
           <div className="grid grid-cols-1 gap-5 px-0 pt-10 sm:grid-cols-2 md:grid-cols-3 md:px-[30px] lg:grid-cols-4 lg:px-[100px] xl:px-[100px]">
@@ -310,47 +439,144 @@ export default async function ProgramPage({
         </>
       )}
 
+      {/* Provider Section Note */}
+      {program.providerSectionNote && (
+        <section className="px-10 pb-0 pt-10 md:px-20 lg:px-[150px]">
+          <p className="text-center font-[Inter,sans-serif] text-sm text-gray-400">
+            {program.providerSectionNote}
+          </p>
+        </section>
+      )}
+
+      {/* FAQ Section */}
+      {program.faqItems && program.faqItems.length > 0 && (
+        <section className="mx-auto max-w-[900px] px-6 py-16">
+          <h2 id="faq" className="mb-10 text-center font-[Inter,sans-serif] text-2xl font-bold text-white">
+            Frequently Asked Questions
+          </h2>
+          <div className="space-y-6">
+            {program.faqItems.map((item, i) => (
+              <div key={i} className="rounded-xl bg-white/5 p-6">
+                <h3 className="mb-3 font-[Inter,sans-serif] text-base font-bold text-[#44a3db]">
+                  {item.question}
+                </h3>
+                <div className="space-y-2 font-[Inter,sans-serif] text-sm leading-relaxed text-gray-300">
+                  {item.parts.map((part, j) =>
+                    Array.isArray(part) ? (
+                      <ul key={j} className="ml-5 list-disc space-y-1">
+                        {part.map((bullet, k) => (
+                          <li key={k}>{bullet}</li>
+                        ))}
+                      </ul>
+                    ) : (
+                      <p key={j}>{part}</p>
+                    )
+                  )}
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+      )}
+
       {/* Bottom CTA */}
-      {program.widgetUrl && program.ctaCount > 1 && (
+      {program.widgetUrl && program.ctaCount > 1 && !program.bilingualHero && (
         <section className="py-16">
           <div className="mx-auto max-w-[940px] px-6">
-            <div className="flex items-start gap-3">
-              <Image
-                src="/images/programs/support-icon.svg"
-                alt=""
-                width={24}
-                height={24}
-                className="mt-1 shrink-0"
-              />
-              <p className="font-[Inter,sans-serif] text-sm leading-relaxed text-[#555]">
-                For support onboarding your telematics account, please contact{" "}
-                <a
-                  href="mailto:support@truckercloud.com"
-                  className="text-[#3898ec] underline"
-                >
-                  support@truckercloud.com
-                </a>{" "}
-                or use the chat feature in the bottom right corner.
-              </p>
-            </div>
-            <div className="mt-6 flex flex-wrap justify-center gap-3">
-              <a
-                href={program.widgetUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block rounded-full bg-[#44a3db] px-8 py-3 font-[Inter,sans-serif] text-sm font-semibold text-white transition-colors hover:bg-[#35a4e8]"
-              >
-                Onboard Your Telematics
-              </a>
-              {program.showDataPrivacyButton && (
-                <a
-                  href="/driver-data-faq"
-                  className="inline-block rounded-full border border-[#44a3db] bg-white px-8 py-3 font-[Inter,sans-serif] text-sm font-semibold text-[#44a3db] transition-colors hover:bg-[#f0f9ff]"
-                >
-                  Curious about Data Privacy?
-                </a>
-              )}
-            </div>
+            {program.bottomCTAHeading ? (
+              <>
+                <h2 className="mb-6 text-center font-[Inter,sans-serif] text-xl font-bold text-white">
+                  {program.bottomCTAHeading}
+                </h2>
+                <div className="flex flex-wrap justify-center gap-3">
+                  <a
+                    href={program.widgetUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block rounded-full bg-[#44a3db] px-8 py-3 font-[Inter,sans-serif] text-sm font-semibold text-white transition-colors hover:bg-[#35a4e8]"
+                  >
+                    Onboard Your Telematics
+                  </a>
+                  {program.showDataPrivacyButton && (
+                    <a
+                      href="/driver-data-faq"
+                      className="inline-block rounded-full border border-[#44a3db] bg-white px-8 py-3 font-[Inter,sans-serif] text-sm font-semibold text-[#44a3db] transition-colors hover:bg-[#f0f9ff]"
+                    >
+                      Curious about Data Privacy?
+                    </a>
+                  )}
+                </div>
+                {program.bottomSupportHeading && (
+                  <p className="mt-8 text-center font-[Inter,sans-serif] text-sm font-semibold text-white">
+                    {program.bottomSupportHeading}
+                  </p>
+                )}
+                {program.extraSupportEmail && (
+                  <div className="mt-4 flex items-start gap-3">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="mt-1 shrink-0">
+                      <path d="M12 2L4 6v6c0 5.55 3.84 10.74 8 12 4.16-1.26 8-6.45 8-12V6l-8-4z" fill="#44a3db"/>
+                      <path d="M10 14l-2.5-2.5 1.41-1.41L10 11.17l4.59-4.58L16 8l-6 6z" fill="white"/>
+                    </svg>
+                    <p className="font-[Inter,sans-serif] text-sm leading-relaxed text-[#555]">
+                      {program.extraSupportLabel || "For questions about the mutual benefits of sharing telematics data, please reach out to"}{" "}
+                      <a href={`mailto:${program.extraSupportEmail}`} className="text-[#3898ec] underline">
+                        {program.extraSupportEmail}
+                      </a>.
+                    </p>
+                  </div>
+                )}
+                <div className="mt-4 flex items-start gap-3">
+                  <Image src="/images/programs/support-icon.svg" alt="" width={24} height={24} className="mt-1 shrink-0" />
+                  <p className="font-[Inter,sans-serif] text-sm leading-relaxed text-[#555]">
+                    For technical support during onboarding, please reach out to{" "}
+                    <a href="mailto:support@truckercloud.com" className="text-[#3898ec] underline">
+                      support@truckercloud.com
+                    </a>{" "}
+                    - or use the chat feature in the bottom right corner.
+                  </p>
+                </div>
+              </>
+            ) : (
+              <>
+                <div className="flex items-start gap-3">
+                  <Image
+                    src="/images/programs/support-icon.svg"
+                    alt=""
+                    width={24}
+                    height={24}
+                    className="mt-1 shrink-0"
+                  />
+                  <p className="font-[Inter,sans-serif] text-sm leading-relaxed text-[#555]">
+                    For support onboarding your telematics account, please contact{" "}
+                    <a
+                      href="mailto:support@truckercloud.com"
+                      className="text-[#3898ec] underline"
+                    >
+                      support@truckercloud.com
+                    </a>{" "}
+                    or use the chat feature in the bottom right corner.
+                  </p>
+                </div>
+                <div className="mt-6 flex flex-wrap justify-center gap-3">
+                  <a
+                    href={program.widgetUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block rounded-full bg-[#44a3db] px-8 py-3 font-[Inter,sans-serif] text-sm font-semibold text-white transition-colors hover:bg-[#35a4e8]"
+                  >
+                    Onboard Your Telematics
+                  </a>
+                  {program.showDataPrivacyButton && (
+                    <a
+                      href="/driver-data-faq"
+                      className="inline-block rounded-full border border-[#44a3db] bg-white px-8 py-3 font-[Inter,sans-serif] text-sm font-semibold text-[#44a3db] transition-colors hover:bg-[#f0f9ff]"
+                    >
+                      Curious about Data Privacy?
+                    </a>
+                  )}
+                </div>
+              </>
+            )}
           </div>
         </section>
       )}
