@@ -210,7 +210,7 @@ export default function HomePage() {
               />
             </div>
             <div className="mt-6">
-              <p className="text-sm text-gray-400">
+              <p className="text-base text-gray-300">
                 Programs covering{" "}
                 <Link href="/partners" className="text-tc-blue hover:underline transition-colors">Trucking &amp; Freight</Link>
                 {" · "}
