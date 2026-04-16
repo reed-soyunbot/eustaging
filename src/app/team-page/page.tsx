@@ -45,16 +45,22 @@ const team = [
     linkedin: "",
   },
   {
-    name: "Geoff Werner",
-    role: "Strategic Advisor",
-    photo: "/images/team/geoff-werner.png",
-    linkedin: "https://www.linkedin.com/in/geoff-werner-3b280482/",
+    name: "Paul Evangelista",
+    role: "Data Science",
+    photo: "/images/team/paul-evangelista.png",
+    linkedin: "",
   },
   {
     name: "Jennifer Cancino",
     role: "Senior Product Manager",
     photo: "/images/team/jennifer-cancino.png",
     linkedin: "https://www.linkedin.com/in/jennifercancino/",
+  },
+  {
+    name: "Geoff Werner",
+    role: "Strategic Advisor",
+    photo: "/images/team/geoff-werner.png",
+    linkedin: "https://www.linkedin.com/in/geoff-werner-3b280482/",
   },
 ];
 
