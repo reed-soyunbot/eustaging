@@ -19,6 +19,7 @@ const cameras = [
   { name: "GPS Web Pro", logo: "/images/eld/gps-web-pro.png" },
   { name: "TXT Camera", logo: "/images/eld/txt-camera.jpg" },
   { name: "RoadEazy", logo: "/images/eld/roadeazy.jpeg" },
+  { name: "TruckX", logo: "/images/eld/truckx.png" },
 ];
 
 const elds = [

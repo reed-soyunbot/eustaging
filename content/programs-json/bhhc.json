@@ -3,12 +3,19 @@
   "partnerName": "BHHC",
   "partnerLogo": "/images/programs/bhhc-logo.png",
   "widgetUrl": "https://bhhc.truckercloud.com/tcwidget?apiKey=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJiaGhjIiwiaXNzIjoiaHR0cDovL3d3dy50cmFuemxvZ2l4LmNvbS8iLCJpYXQiOjE3Mjk1MjA0MDUsImV4cCI6MTcyOTUyMDcwNX0.sTTvS4jXCZmGRwVLL7-4u2-LVIua3k5g6JP_L0wj4NA",
-  "heroText": "Sign Up and Save Today!\nBHHC now offers a great way for you to save on your commercial auto insurance premium. By enrolling to share the telematics data from the devices already installed in your vehicles, you can get a discount on your premium.\n\nTo join, just make sure you have telematics devices from one of the many providers listed at the bottom of this page. Participation is optional, and there are no costs involved. Plus, you can opt out anytime.\nReady to start saving? Click the onboarding link below to get started. It only takes a few minutes!",
+  "heroHeadline": "Easy Sign-Up. Real Savings.",
+  "heroText": "BHHC offers a quick and easy way to save 5% - 9% on select major coverages on your commercial auto policy. By onboarding to share data from the ELDs, telematics devices, or dashcams already installed in your vehicles, you can receive a discount on auto liability and physical damage. Simply confirm that your devices are from one of our 150+ eligible providers. Complete lists are available below and include common providers like Motive, Samsara, and Verizon Connect.",
+  "heroClosingText": "Ready to start saving? Click the onboarding link below to get started. There's no cost to participate and you can opt out at any time. For most of our insureds, it's a quick task with real savings.",
+  "heroCTANote": "This program is available in most states. Jump to the FAQ below for eligibility and program details.",
   "supportText": "For support onboarding your telematics account, please contact support@truckercloud.com or use the chat feature in the bottom right corner.",
-  "extraSupportEmail": "\u200dCVTechnology@bhhomestate.com",
-  "howItWorks": [
-    "If you have any further questions, please contact us at CVTechnology@bhhomestate.com"
-  ],
+  "extraSupportEmail": "CVTechnology@bhhomestate.com",
+  "extraSupportLabel": "For questions about BHHC's data sharing program, please reach out to",
+  "howItWorks": [],
+  "cameraSectionTitle": "Eligible Camera Providers",
+  "eldSectionTitle": "Eligible ELD and Telematics Device Providers",
+  "providerSectionNote": "Additional program details and eligibility information are provided below.",
+  "bottomCTAHeading": "Ready to start saving?",
+  "bottomSupportHeading": "Have questions? We're here to help!",
   "cameras": [
     "Lytx",
     "Motive",
@@ -27,7 +34,8 @@
     "Forward Thinking Systems",
     "GPS Web Pro",
     "TXT Camera",
-    "RoadEazy"
+    "RoadEazy",
+    "TruckX"
   ],
   "elds": [
     "888 ELD",
@@ -40,7 +48,7 @@
     "AT&T Fleet Management",
     "Azuga",
     "BigRoad",
-    "Black\u00a0Bear ELD",
+    "Black Bear ELD",
     "Blue Sun ELD",
     "BlueInk",
     "Captain ELD",
@@ -48,7 +56,7 @@
     "Clearpath GPS",
     "Columbus ELD",
     "Daily ELD Plus",
-    "DLOG\u00a0ELD",
+    "DLOG ELD",
     "Digital ELD",
     "DriverTech",
     "DSGELOGS",
@@ -131,8 +139,8 @@
     "Smart ELDs",
     "STATE ELOGS",
     "Startrucks ELD",
-    "SUPPORT\u00a0ELD",
-    "Swift\u00a0ELD",
+    "SUPPORT ELD",
+    "Swift ELD",
     "Teletrac Navman",
     "3MD ELD",
     "Touch Tel GPS",
@@ -144,7 +152,7 @@
     "TruckX",
     "TRUST ELD",
     "TxELD",
-    "TXT\u00a0ELD",
+    "TXT ELD",
     "US Power ELD",
     "UZB Prime ELD",
     "Verizon Connect",
@@ -162,5 +170,113 @@
     "Zubie",
     "Rolling Trans"
   ],
-  "ctaCount": 3
+  "faqItems": [
+    {
+      "question": "What is the BHHC telematics data sharing program?",
+      "parts": [
+        "This program provides eligible BHHC Commercial Auto insureds a participation discount when they onboard to share data from their existing ELDs, telematics devices, or dashcams. There are no restrictions on class of business or fleet size."
+      ]
+    },
+    {
+      "question": "Who is eligible – and who is not?",
+      "parts": [
+        "Eligible insureds must have both:",
+        [
+          "An eligible BHHC policy with auto liability coverage (see exclusions below)",
+          "Device(s) from an eligible telematics provider listed above installed"
+        ],
+        "BHHC policies that are not eligible for this program include any of the following:",
+        [
+          "Policies written in Washington",
+          "Non-admitted policies - for example, policies with auto liability limits of $2 million or more, or policies written in Alabama or Louisiana"
+        ],
+        "Insureds who are uncertain about their policy's eligibility should contact BHHC at CVTechnology@bhhomestate.com or reach out to their agent for confirmation. Program availability may vary and can change at any time."
+      ]
+    },
+    {
+      "question": "What will I need to complete onboarding?",
+      "parts": [
+        "To successfully onboard to share your telematics data, you will need your BHHC Commercial Auto policy number along with access to the admin/owner account with your telematics provider."
+      ]
+    },
+    {
+      "question": "How long does onboarding take?",
+      "parts": [
+        "Accounts from most eligible providers can be enrolled in under five minutes."
+      ]
+    },
+    {
+      "question": "Is there a deadline to complete onboarding by?",
+      "parts": [
+        "To be eligible for the discount, onboarding must be completed within nine months of the policy effective date.",
+        "Eligible insureds who are past the nine-month mark and have been offered renewal may onboard before their renewal effective date. This ensures the discount is applied to their upcoming renewal."
+      ]
+    },
+    {
+      "question": "How does the discount work?",
+      "parts": [
+        "After you complete onboarding, the discount you qualify for will be applied to either your current policy or your renewal, depending on when onboarding occurs.",
+        [
+          "If you onboard within the first 30 days of your policy, we'll apply your discount back to your policy start date for extra savings!",
+          "If you onboard within the first nine months of your policy, your discount will begin on your onboarding date. If you onboard closer to renewal, your discount will start on your renewal effective date."
+        ]
+      ]
+    },
+    {
+      "question": "What determines the discount percentage that I will receive?",
+      "parts": [
+        "We offer savings on key coverages, including Liability and Physical Damage. If you are eligible for the discount and have successfully onboarded, your discount percentage depends on the eligible provider and equipment installed.",
+        [
+          "If you have devices from any eligible ELD or telematics provider, you will receive a 5% prorated discount.",
+          "If you have cameras from an eligible camera provider, you will receive an overall 9% prorated discount."
+        ]
+      ]
+    },
+    {
+      "question": "What if I change telematics providers after onboarding?",
+      "parts": [
+        "If you change to another eligible provider, please email support@truckercloud.com to establish a connection with your new provider."
+      ]
+    },
+    {
+      "question": "Is it possible to lose the discount after receiving it?",
+      "parts": [
+        "If your data stops flowing from your provider or you choose to opt out, the discount may be removed."
+      ]
+    },
+    {
+      "question": "How will participation in the program affect current premium and future policies?",
+      "parts": [
+        "Currently, eligible insureds who participate will receive a 5% – 9% participation discount on key coverages, including Liability and Physical Damage.",
+        "For insureds who have onboarded on or before December 31, 2026, any driving-behavior data collected, such as speeding or harsh braking, will not impact the rates for their current policy term or when reviewing their policy for its 2027 renewal term. During this promotional period, driving-behavior data will be used exclusively for research and product improvement."
+      ]
+    },
+    {
+      "question": "How is the data being used?",
+      "parts": [
+        "BHHC is using the data collected for research and development purposes to enhance and refine our commercial auto product. Non-driving-behavior data collected may be used to help ensure that policy information remains accurate."
+      ]
+    },
+    {
+      "question": "What video data is collected by BHHC?",
+      "parts": [
+        "We can access short recordings that are triggered by safety events such as hard brakes. We are not able to access a live view of any dashcam."
+      ]
+    },
+    {
+      "question": "Will my data be shared?",
+      "parts": [
+        "BHHC will not share your data, except as required or allowed by law. For more information, please see the relevant Privacy Policy."
+      ]
+    }
+  ],
+  "ctaCount": 3,
+  "heroCTANoteLink": {
+    "text": "Jump to the FAQ below",
+    "href": "#faq"
+  },
+  "heroHeadlineHighlight": {
+    "text": "Easy Sign-Up.",
+    "color": "#1b588a"
+  }
 }
