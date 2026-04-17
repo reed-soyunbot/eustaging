@@ -37,7 +37,7 @@ export default function ProductPage() {
           Underwrite Smarter. Price Risk Right. No Guesswork.
         </p>
         <p className="mx-auto mt-6 max-w-3xl text-gray-400">
-          TruckerCloud connects to 120+ ELD and camera systems to unify
+          TruckerCloud connects to 170+ ELD and camera systems to unify
           commercial fleet data, delivering the insights your underwriting and
           claims teams need to price risk, reduce losses, and act faster.
         </p>

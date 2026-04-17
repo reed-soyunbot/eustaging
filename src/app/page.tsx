@@ -50,8 +50,8 @@ const stats = [
       "On average, fleets successfully onboard themselves into the TruckerCloud platform within 5 minutes.",
   },
   {
-    stat: "120+",
-    description: "Integrations with 120+ ELDs and Cameras.",
+    stat: "170+",
+    description: "Integrations with 170+ ELDs and Cameras.",
   },
 ];
 
