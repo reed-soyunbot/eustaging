@@ -48,7 +48,7 @@ const team = [
     name: "Paul Evangelista",
     role: "Data Science",
     photo: "/images/team/paul-evangelista.png",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/paul-evangelista/",
   },
   {
     name: "Jennifer Cancino",
