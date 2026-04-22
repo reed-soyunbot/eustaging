@@ -75,7 +75,7 @@ jobs:
       SERVICE_NAME: tc-website
       REGION: us-east-2
       ACCOUNT: ${{ vars.TRUCKERCLOUD_AWS_ACCOUNT_ID }}
-      VARIABLES: IMAGE=${{ needs.determine_release.outputs.release_type }},CERTIFICATE_ARN=${{ needs.select-env-vars.outputs.certificate_arn }},HELP_CENTER_PASSWORD=${{ secrets.HELP_CENTER_PASSWORD }},HELP_CENTER_SECRET=${{ secrets.HELP_CENTER_SECRET }}
+      VARIABLES: IMAGE=${{ needs.determine_release.outputs.release_type }},CERTIFICATE_ARN=${{ needs.select-env-vars.outputs.certificate_arn }},HELP_CENTER_PASSWORD=${{ secrets.TRUCKERCLOUD_HELP_CENTER_PASSWORD }},HELP_CENTER_SECRET=${{ secrets.TRUCKERCLOUD_HELP_CENTER_SECRET }}
     secrets:
       AWS_ACCESS_KEY_ID: ${{ secrets.TRUCKERCLOUD_ACCESS_KEY_ID }}
       AWS_SECRET_ACCESS_KEY: ${{ secrets.TRUCKERCLOUD_ACCESS_KEY }}

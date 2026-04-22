@@ -39,3 +39,8 @@ spec:
           image: 082655277789.dkr.ecr.us-east-2.amazonaws.com/tc-website-temp-repository-{IMAGE}:latest
           ports:
             - containerPort: 3000
+          env:
+            - name: HELP_CENTER_PASSWORD
+              value: "{HELP_CENTER_PASSWORD}"
+            - name: HELP_CENTER_SECRET
+              value: "{HELP_CENTER_SECRET}"
