@@ -9,7 +9,7 @@
     "Conduct faster claim reporting and potential claim resolutions",
     "Receive enhanced insights from our certified safety consultants"
   ],
-  "heroClosingText": "By clicking on the link below and enrolling in our platform, you’ll be sharing your data with Sentry and agreeing to the terms of our Privacy Policy",
+  "heroClosingText": "By clicking on the link below and enrolling in our platform, you\u2019ll be sharing your data with Sentry and agreeing to the terms of our Privacy Policy",
   "supportText": "For support onboarding your telematics account, please contact support@truckercloud.com or use the chat feature in the bottom right corner.",
   "extraSupportEmail": "",
   "howItWorks": [],
@@ -24,7 +24,9 @@
     "Netradyne",
     "Samsara",
     "Surfsight",
-    "Verizon Connect"
+    "Verizon Connect",
+    "Linxup",
+    "TruckX"
   ],
   "elds": [
     "Azuga",

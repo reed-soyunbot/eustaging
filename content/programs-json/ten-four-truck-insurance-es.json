@@ -7,7 +7,10 @@
   "supportText": "Para obtener soporte al incorporar tu cuenta de telem\u00e1tica, por favor contacta asupport@truckercloud.com o utiliza la funci\u00f3n de chat en la esquina inferior derecha.",
   "extraSupportEmail": "",
   "howItWorks": [],
-  "cameras": [],
+  "cameras": [
+    "Linxup",
+    "TruckX"
+  ],
   "elds": [],
   "ctaCount": 1
 }

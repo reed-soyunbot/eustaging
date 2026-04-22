@@ -44,7 +44,8 @@
     "GPS Web Pro",
     "TXT Camera",
     "RoadEazy",
-    "TruckX"
+    "TruckX",
+    "Linxup"
   ],
   "elds": [
     "Lytx",
@@ -196,7 +197,7 @@
     "Zubie",
     "Rolling Trans"
   ],
-  "cameraSectionTitle": "Eligible Cameras / Caméras admissibles",
-  "eldSectionTitle": "Eligible ELDs / Dispositifs de consignation électroniques admissibles",
+  "cameraSectionTitle": "Eligible Cameras / Cam\u00e9ras admissibles",
+  "eldSectionTitle": "Eligible ELDs / Dispositifs de consignation \u00e9lectroniques admissibles",
   "ctaCount": 2
 }

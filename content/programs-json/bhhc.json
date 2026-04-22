@@ -35,7 +35,8 @@
     "GPS Web Pro",
     "TXT Camera",
     "RoadEazy",
-    "TruckX"
+    "TruckX",
+    "Linxup"
   ],
   "elds": [
     "888 ELD",
@@ -48,7 +49,7 @@
     "AT&T Fleet Management",
     "Azuga",
     "BigRoad",
-    "Black Bear ELD",
+    "Black\u00a0Bear ELD",
     "Blue Sun ELD",
     "BlueInk",
     "Captain ELD",
@@ -56,7 +57,7 @@
     "Clearpath GPS",
     "Columbus ELD",
     "Daily ELD Plus",
-    "DLOG ELD",
+    "DLOG\u00a0ELD",
     "Digital ELD",
     "DriverTech",
     "DSGELOGS",
@@ -139,8 +140,8 @@
     "Smart ELDs",
     "STATE ELOGS",
     "Startrucks ELD",
-    "SUPPORT ELD",
-    "Swift ELD",
+    "SUPPORT\u00a0ELD",
+    "Swift\u00a0ELD",
     "Teletrac Navman",
     "3MD ELD",
     "Touch Tel GPS",
@@ -152,7 +153,7 @@
     "TruckX",
     "TRUST ELD",
     "TxELD",
-    "TXT ELD",
+    "TXT\u00a0ELD",
     "US Power ELD",
     "UZB Prime ELD",
     "Verizon Connect",
@@ -178,7 +179,7 @@
       ]
     },
     {
-      "question": "Who is eligible – and who is not?",
+      "question": "Who is eligible \u2013 and who is not?",
       "parts": [
         "Eligible insureds must have both:",
         [
@@ -247,7 +248,7 @@
     {
       "question": "How will participation in the program affect current premium and future policies?",
       "parts": [
-        "Currently, eligible insureds who participate will receive a 5% – 9% participation discount on key coverages, including Liability and Physical Damage.",
+        "Currently, eligible insureds who participate will receive a 5% \u2013 9% participation discount on key coverages, including Liability and Physical Damage.",
         "For insureds who have onboarded on or before December 31, 2026, any driving-behavior data collected, such as speeding or harsh braking, will not impact the rates for their current policy term or when reviewing their policy for its 2027 renewal term. During this promotional period, driving-behavior data will be used exclusively for research and product improvement."
       ]
     },

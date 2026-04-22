@@ -20,6 +20,7 @@ const cameras = [
   { name: "TXT Camera", logo: "/images/eld/txt-camera.jpg" },
   { name: "RoadEazy", logo: "/images/eld/roadeazy.jpeg" },
   { name: "TruckX", logo: "/images/eld/truckx.png" },
+  { name: "Linxup", logo: "/images/eld/linxup.png" },
 ];
 
 const elds = [
