@@ -227,3 +227,62 @@ body:has(.program-standalone) footer.site-footer {
   letter-spacing: normal;
   line-height: revert;
 }
+
+/* Help center: hide site chrome */
+body:has(.help-center-layout) #site-navbar {
+  display: none;
+}
+
+body:has(.help-center-layout) footer.site-footer {
+  display: none;
+}
+
+/* Help article body styles */
+.help-article .rich-content h2 {
+  font-size: 22px;
+  margin-top: 2.5rem;
+  margin-bottom: 0.75rem;
+  color: #ffffff;
+}
+
+.help-article .rich-content h3 {
+  font-size: 18px;
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  color: #e5e7eb;
+}
+
+.help-article .rich-content table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.9rem;
+}
+
+.help-article .rich-content th,
+.help-article .rich-content td {
+  border: 1px solid rgba(255,255,255,0.1);
+  padding: 0.6rem 1rem;
+  text-align: left;
+  color: #d1d5db;
+}
+
+.help-article .rich-content th {
+  background: rgba(255,255,255,0.05);
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.help-article .rich-content code {
+  background: rgba(68,163,219,0.15);
+  color: #44a3db;
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+  font-size: 0.875em;
+  font-family: monospace;
+}
+
+.help-article .rich-content strong {
+  color: #ffffff;
+  font-weight: 600;
+}
