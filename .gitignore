@@ -18,6 +18,8 @@ pnpm-debug.log*
 .env.development.local
 .env.test.local
 .env.production.local
+.secrets.local
+help-center-secret.yaml
 
 # macOS
 .DS_Store

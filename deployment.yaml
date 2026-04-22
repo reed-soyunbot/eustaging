@@ -41,6 +41,12 @@ spec:
             - containerPort: 3000
           env:
             - name: HELP_CENTER_PASSWORD
-              value: "{HELP_CENTER_PASSWORD}"
+              valueFrom:
+                secretKeyRef:
+                  name: tc-website-help-center
+                  key: password
             - name: HELP_CENTER_SECRET
-              value: "{HELP_CENTER_SECRET}"
+              valueFrom:
+                secretKeyRef:
+                  name: tc-website-help-center
+                  key: hmac-secret
