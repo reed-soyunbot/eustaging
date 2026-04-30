@@ -34,6 +34,7 @@ const elds = [
   { name: "AT&T Fleet Management", logo: "/images/eld/at-amp-t-fleet-management.png" },
   { name: "Azuga", logo: "/images/eld/azuga.png" },
   { name: "BigRoad", logo: "/images/eld/bigroad.png" },
+  { name: "Blue Horse ELD", logo: "/images/eld/blue-horse-eld.png" },
   { name: "Black Bear ELD", logo: "/images/eld/black-bear-eld.jpeg" },
   { name: "Blue Sun ELD", logo: "/images/eld/blue-sun-eld.png" },
   { name: "BlueInk", logo: "/images/eld/blueink.png" },
