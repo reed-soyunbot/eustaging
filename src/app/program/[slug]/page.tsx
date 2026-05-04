@@ -178,6 +178,8 @@ export default async function ProgramPage({
                       ? 'h-32 max-w-[400px]'
                       : program.slug === 'nta'
                       ? 'h-24 max-w-[320px]'
+                      : program.slug === 'gwcc'
+                      ? 'h-80 max-w-[1000px]'
                       : 'h-20 max-w-[280px]'
                   }`}>
                     <Image
@@ -185,7 +187,7 @@ export default async function ProgramPage({
                       alt={program.partnerName}
                       fill
                       className="object-contain object-left"
-                      sizes={program.slug === 'futuristic' ? '400px' : program.slug === 'nta' ? '320px' : '280px'}
+                      sizes={program.slug === 'futuristic' ? '400px' : program.slug === 'nta' ? '320px' : program.slug === 'gwcc' ? '1000px' : '280px'}
                     />
                   </div>
                 )}
