@@ -6,11 +6,17 @@ export async function POST(request: NextRequest) {
   const password = formData.get("password")?.toString() ?? "";
 
   if (password !== process.env.HELP_CENTER_PASSWORD) {
-    return NextResponse.redirect(new URL("/help-center/login?error=1", request.url));
+    return new NextResponse(null, {
+      status: 303,
+      headers: { Location: "/help-center/login?error=1" },
+    });
   }
 
   const token = await getExpectedToken();
-  const response = NextResponse.redirect(new URL("/help-center", request.url));
+  const response = new NextResponse(null, {
+    status: 303,
+    headers: { Location: "/help-center" },
+  });
   response.cookies.set(COOKIE_NAME, token, {
     httpOnly: true,
     secure: process.env.NODE_ENV === "production",
