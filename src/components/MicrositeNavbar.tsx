@@ -32,14 +32,12 @@ export default function MicrositeNavbar({ partnerName, logo }: MicrositeNavbarPr
             <span className="text-sm font-semibold text-white">{partnerName}</span>
           )}
         </div>
-        <a
-          href="https://docs.truckercloud.com/password?redirect=/"
-          target="_blank"
-          rel="noopener noreferrer"
+        <Link
+          href="/help-center"
           className="rounded-full border border-white/30 px-4 py-2 text-sm font-medium text-white hover:bg-white/10 transition-colors"
         >
-          Login
-        </a>
+          Help Center
+        </Link>
       </nav>
     </div>
   );

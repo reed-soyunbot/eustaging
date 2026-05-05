@@ -127,14 +127,12 @@ export default function Navbar() {
               >
                 Get a Demo
               </Link>
-              <a
-                href="https://docs.truckercloud.com/password?redirect=/"
-                target="_blank"
-                rel="noopener noreferrer"
+              <Link
+                href="/help-center"
                 className="rounded-full border border-white/30 px-5 py-2.5 text-sm font-medium text-white hover:bg-white/10 transition-colors"
               >
-                Login
-              </a>
+                Help Center
+              </Link>
             </div>
           </div>
 
@@ -189,9 +187,9 @@ export default function Navbar() {
                 <Link href="/get-a-demo" className="rounded-full bg-tc-button px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-tc-button-hover" onClick={() => setMobileOpen(false)}>
                   Get a Demo
                 </Link>
-                <a href="https://docs.truckercloud.com/password?redirect=/" target="_blank" rel="noopener noreferrer" className="rounded-full border border-white/30 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-white/10">
-                  Login
-                </a>
+                <Link href="/help-center" className="rounded-full border border-white/30 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-white/10" onClick={() => setMobileOpen(false)}>
+                  Help Center
+                </Link>
               </div>
             </div>
           </div>
