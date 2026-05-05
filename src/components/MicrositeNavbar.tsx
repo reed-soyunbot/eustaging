@@ -32,12 +32,23 @@ export default function MicrositeNavbar({ partnerName, logo }: MicrositeNavbarPr
             <span className="text-sm font-semibold text-white">{partnerName}</span>
           )}
         </div>
-        <Link
-          href="/help-center"
-          className="rounded-full border border-white/30 px-4 py-2 text-sm font-medium text-white hover:bg-white/10 transition-colors"
+        <a
+          href="https://docs.truckercloud.com"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="inline-flex items-center gap-1.5 rounded-full border border-white/30 px-4 py-2 text-sm font-medium text-white hover:bg-white/10 transition-colors"
         >
-          Help Center
-        </Link>
+          API Docs
+          <svg
+            className="h-3.5 w-3.5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            aria-hidden="true"
+          >
+            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5h5v5M19 5L10 14M5 7v12h12" />
+          </svg>
+        </a>
       </nav>
     </div>
   );

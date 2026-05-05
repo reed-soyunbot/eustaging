@@ -51,6 +51,12 @@ export default function Navbar() {
             >
               Product
             </Link>
+            <Link
+              href="/help-center"
+              className="rounded-lg px-4 py-2 text-sm font-medium text-white hover:text-tc-blue transition-colors"
+            >
+              Help Center
+            </Link>
 
             {/* Resources Dropdown */}
             <div
@@ -127,12 +133,23 @@ export default function Navbar() {
               >
                 Get a Demo
               </Link>
-              <Link
-                href="/help-center"
-                className="rounded-full border border-white/30 px-5 py-2.5 text-sm font-medium text-white hover:bg-white/10 transition-colors"
+              <a
+                href="https://docs.truckercloud.com"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1.5 rounded-full border border-white/30 px-5 py-2.5 text-sm font-medium text-white hover:bg-white/10 transition-colors"
               >
-                Help Center
-              </Link>
+                API Docs
+                <svg
+                  className="h-3.5 w-3.5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                  aria-hidden="true"
+                >
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5h5v5M19 5L10 14M5 7v12h12" />
+                </svg>
+              </a>
             </div>
           </div>
 
@@ -164,6 +181,9 @@ export default function Navbar() {
               <Link href="/product-page" className="rounded-lg px-4 py-2 text-sm font-medium text-white hover:bg-white/10" onClick={() => setMobileOpen(false)}>
                 Product
               </Link>
+              <Link href="/help-center" className="rounded-lg px-4 py-2 text-sm font-medium text-white hover:bg-white/10" onClick={() => setMobileOpen(false)}>
+                Help Center
+              </Link>
 
               <div className="py-1">
                 <p className="px-4 py-1 text-xs font-semibold uppercase tracking-wider text-gray-400">Resources</p>
@@ -187,9 +207,24 @@ export default function Navbar() {
                 <Link href="/get-a-demo" className="rounded-full bg-tc-button px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-tc-button-hover" onClick={() => setMobileOpen(false)}>
                   Get a Demo
                 </Link>
-                <Link href="/help-center" className="rounded-full border border-white/30 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-white/10" onClick={() => setMobileOpen(false)}>
-                  Help Center
-                </Link>
+                <a
+                  href="https://docs.truckercloud.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-1.5 rounded-full border border-white/30 px-5 py-2.5 text-center text-sm font-medium text-white hover:bg-white/10"
+                  onClick={() => setMobileOpen(false)}
+                >
+                  API Docs
+                  <svg
+                    className="h-3.5 w-3.5"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke="currentColor"
+                    aria-hidden="true"
+                  >
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14 5h5v5M19 5L10 14M5 7v12h12" />
+                  </svg>
+                </a>
               </div>
             </div>
           </div>
