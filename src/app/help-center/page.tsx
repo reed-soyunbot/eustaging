@@ -7,6 +7,7 @@ const CATEGORY_ORDER = [
   "ELDs & Cameras",
   "Billing",
   "API & Integrations",
+  "Troubleshooting",
   "General",
 ];
 
