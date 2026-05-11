@@ -1,7 +1,7 @@
 {
   "slug": "kinsale",
   "partnerName": "Kinsale",
-  "partnerLogo": "/images/partners/Kinsale.png",
+  "partnerLogo": "/images/programs/kinsale.png",
   "widgetUrl": "https://kinsale.truckercloud.com/tcwidget?apiKey=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJraW5zYWxlIiwiaXNzIjoiaHR0cDovL3d3dy50cmFuemxvZ2l4LmNvbS8iLCJpYXQiOjE2OTc3NDE5NDcsImV4cCI6MTY5Nzc0MjI0N30.dGad0S9I-SlHtUSmFoyetqRDk82JtXlQwUTWbxqeCAo",
   "heroText": "Kinsale is committed to helping commercial trucking fleets improve safety and manage risk through telematics. By connecting your ELD or camera system through TruckerCloud, you can qualify for program benefits and provide Kinsale with the data needed to support your policy.",
   "supportText": "For support onboarding your telematics account, please contact support@truckercloud.com or use the chat feature in the bottom right corner.",
