@@ -9,7 +9,7 @@ const agenda = [
     items: [
       { time: null, detail: "Optional Golf at local course" },
       { time: "4 PM", detail: "Hotel check-in" },
-      { time: "5 PM", detail: "Open-bar Happy Hour" },
+      { time: "5 PM", detail: "Open-bar Happy Hour on the Rooftop" },
       { time: "7:30 PM", detail: "Dinner at Iberian Pig" },
     ],
   },
@@ -18,7 +18,8 @@ const agenda = [
     items: [
       { time: "8 AM", detail: "Breakfast in pre-event space adjacent to event hall" },
       { time: "9 AM", detail: "Roundtable Summit in event hall" },
-      { time: "12 PM", detail: "Lunch provided on site at rooftop restaurant" },
+      { time: "12 PM", detail: "Lunch provided on the Lawn (adjacent to meeting room)" },
+      { time: "1 PM", detail: "A Regulator's Perspective on Commercial Auto — Zach Crandall, TN Dept. of Insurance" },
       { time: "2 PM", detail: "Roundtable Summit in event hall" },
       { time: "5 PM", detail: "Happy Hour at Pin's Mechanical in the Gulch" },
     ],
@@ -99,7 +100,22 @@ const tuesdayAgenda: AgendaItem[] = [
     type: "social",
     time: "12:00 PM",
     title: "Lunch",
-    note: "Rooftop Restaurant, Canopy by Hilton · Catered, closed to the public",
+    note: "The Lawn · Adjacent to the meeting room · Catered, closed to the public",
+  },
+  {
+    type: "session",
+    time: "1:00 PM",
+    title: "A Regulator's Perspective on Commercial Auto Insurance",
+    subtitle: "60 min · Conversation with Zach Crandall, Tennessee Department of Insurance",
+    description:
+      "An open conversation with Zach Crandall, Deputy Commissioner at the Tennessee Department of Insurance, on the state of the commercial auto insurance market — covering rate trends, regulatory priorities, and how data and technology fit into the future of the space.",
+    topics: [
+      "Market Conditions",
+      "Rate & Filing Environment",
+      "Telematics & Regulatory Outlook",
+      "Loss Cost Trends",
+      "Regulatory Priorities",
+    ],
   },
   {
     type: "session",
@@ -145,7 +161,7 @@ const tuesdayAgenda: AgendaItem[] = [
     type: "social",
     time: "5:00 PM",
     title: "Happy Hour — Hosted by TruckerCloud",
-    note: "Pin's Mechanical, The Gulch · Food, drinks, games, and continued conversation",
+    note: "Rooftop · Canopy by Hilton · Food, drinks, and continued conversation",
   },
 ];
 
