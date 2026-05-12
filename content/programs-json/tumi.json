@@ -3,7 +3,7 @@
   "partnerName": "TUMI",
   "partnerLogo": "/images/programs/tumi.png",
   "widgetUrl": "https://tumi.truckercloud.com/tcwidget?apiKey=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjbmpvaTEiLCJ1c2VySWQiOiJUMDAwMDAwMDE1OCIsImNvbXBhbnlJZCI6NzU1OCwicm9sZVR5cGUiOiJBRE1JTiIsInByaXZpbGVnZXMiOltdLCJpc3MiOiJodHRwOi8vd3d3LnRyYW56bG9naXguY29tLyIsImlhdCI6MTc3ODUxOTAzMiwiZXhwIjoxNzc4NTE5MzMyfQ.M1nPs7FAUE9imBFGW8XlnNz5dz5Xpz3as-hxp-2TOtQ",
-  "heroText": "Trinity Underwriting Managers (TUMI), an Amwins company, is committed to leveraging telematics to improve safety outcomes and risk performance for commercial trucking fleets. By connecting your ELD or camera system through TruckerCloud, you can participate in the TUMI telematics program and provide the data needed to support your policy.",
+  "heroText": "",
   "supportText": "For support onboarding your telematics account, please contact support@truckercloud.com or use the chat feature in the bottom right corner.",
   "extraSupportEmail": "",
   "cameras": [
