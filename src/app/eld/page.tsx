@@ -134,6 +134,7 @@ const elds = [
   { name: "Touch Tel GPS", logo: "/images/eld/touch-tel-gps.png" },
   { name: "TOP COMPLIANCE ELD", logo: "/images/eld/top-compliance-eld.png" },
   { name: "TrackEnsure", logo: "/images/eld/trackensure.png" },
+  { name: "Traclog ELD", logo: "" },
   { name: "Transcor Data Services", logo: "/images/eld/transcor-data-services.webp" },
   { name: "Transflo", logo: "/images/eld/transflo.png" },
   { name: "Transit ELD", logo: "/images/eld/transit-eld.svg" },
@@ -168,15 +169,17 @@ function VendorGrid({ items }: { items: { name: string; logo: string }[] }) {
           className="flex flex-col items-center justify-center rounded-xl bg-white p-6 text-center"
           style={{ minHeight: "140px" }}
         >
-          <div className="relative mb-3 h-14 w-40 mx-auto">
-            <Image
-              src={item.logo}
-              alt={item.name}
-              fill
-              className="object-contain"
-              sizes="200px"
-            />
-          </div>
+          {item.logo && (
+            <div className="relative mb-3 h-14 w-40 mx-auto">
+              <Image
+                src={item.logo}
+                alt={item.name}
+                fill
+                className="object-contain"
+                sizes="200px"
+              />
+            </div>
+          )}
           <p className="text-sm font-medium text-tc-gray-100">{item.name}</p>
         </div>
       ))}
