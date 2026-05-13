@@ -3,7 +3,7 @@ title: "EYERIDE & TruckerCloud Now Connected: Bringing Video Telematics into Ins
 slug: eyeride-truckercloud-video-telematics-integration
 summary: EYERIDE and TruckerCloud announce a new integration connecting multi-camera video telematics with insurance-grade data systems for faster underwriting, risk management, and claims decisions.
 thumbnail: "/images/blog/eyeride-truckercloud-integration.png"
-author: rule-1-admin
+author: ""
 category: partner-announcements
 featured: false
 publishedDate: "2026-05-06T00:00:00.000Z"
