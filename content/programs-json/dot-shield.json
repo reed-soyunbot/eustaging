@@ -1,7 +1,7 @@
 {
   "slug": "dot-shield",
   "partnerName": "DOT Shield Advantage",
-  "partnerLogo": "",
+  "partnerLogo": "/images/programs/dot-shield.png",
   "widgetUrl": "https://dotshieldadvantage.truckercloud.com/tcwidget?apiKey=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJkb3RzaGllbGRhZHZhbnRhZ2UiLCJpc3MiOiJodHRwOi8vd3d3LnRyYW56bG9naXguY29tLyIsImlhdCI6MTc3Nzk4MzUwOSwiZXhwIjoxNzc3OTgzODA5fQ.nSKS2kIVbsuVk6gpTlZ1-rowT4N7mkKeD-2uMZFeUHI",
   "heroText": "",
   "supportText": "",
