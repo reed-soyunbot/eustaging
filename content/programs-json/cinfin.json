@@ -2,7 +2,7 @@
   "slug": "cinfin",
   "partnerName": "Cincinnati Financial",
   "partnerLogo": "/images/programs/cinfin.svg",
-  "widgetUrl": "",
+  "widgetUrl": "https://cincinnati.truckercloud.com/tcwidget?apiKey=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJjaW5jaW5uYXRpIiwiaXNzIjoiaHR0cDovL3d3dy50cmFuemxvZ2l4LmNvbS8iLCJpYXQiOjE3Nzc5ODQxODMsImV4cCI6MTc3Nzk4NDQ4M30.IUMYQrr6GntiuOOioAYdiQt6KWTI5FmsosDRXr5Xsa8",
   "heroText": "",
   "supportText": "",
   "extraSupportEmail": "",
