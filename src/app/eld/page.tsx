@@ -134,7 +134,7 @@ const elds = [
   { name: "Touch Tel GPS", logo: "/images/eld/touch-tel-gps.png" },
   { name: "TOP COMPLIANCE ELD", logo: "/images/eld/top-compliance-eld.png" },
   { name: "TrackEnsure", logo: "/images/eld/trackensure.png" },
-  { name: "Traclog ELD", logo: "" },
+  { name: "Traclog ELD", logo: "/images/eld/traclog-eld.png" },
   { name: "Transcor Data Services", logo: "/images/eld/transcor-data-services.webp" },
   { name: "Transflo", logo: "/images/eld/transflo.png" },
   { name: "Transit ELD", logo: "/images/eld/transit-eld.svg" },

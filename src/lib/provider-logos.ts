@@ -131,6 +131,7 @@ export const PROVIDER_LOGOS: Record<string, string> = {
   "ThreeMD": "/images/providers/threemd.png",
   "Touch Tel GPS": "/images/providers/6762ce4309cecfc7eed7adc5_touchtelgps-logo-2.png",
   "TrackEnsure": "/images/providers/667c89a4fc2959fca390a16e_trackensure.png",
+  "Traclog ELD": "/images/providers/traclog-eld.png",
   "Transcor Data Services": "/images/providers/transcor-data-services.webp",
   "Transflo": "/images/providers/667c89a44db1965709cee927_transflo.png",
   "Transit ELD": "/images/providers/6994908f6ffa0edf16bf1335_transit-eld.svg",
