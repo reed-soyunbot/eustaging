@@ -1,0 +1,19 @@
+# Non-secret deployment parameters.
+#
+# AWS credentials live in GitHub Secrets:
+#   MARKETING_ACCESS_KEY_ID, MARKETING_ACCESS_KEY
+#
+# To deploy to a different AWS account, update the values below
+# (aws_account_id + acm_cert_arn) and rotate the access-key secrets.
+
+aws_account_id: "733705744295"
+acm_cert_arn: arn:aws:acm:us-east-2:733705744295:certificate/8dd411be-5bfd-407a-89bd-7eca7b1c9adb
+
+region: us-east-2
+cluster: firebolt-eks-int
+namespace: marketing
+service: tc-website
+ecr_repo_prefix: tc-website-temp-repository
+container_port: 3000
+node_version: 22.22.0
+docker_node_version: 18.12.0

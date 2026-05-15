@@ -7,77 +7,77 @@ on:
   workflow_dispatch:
 
 jobs:
+  load-config:
+    runs-on: ubuntu-latest
+    outputs:
+      aws_account_id: ${{ steps.cfg.outputs.aws_account_id }}
+      acm_cert_arn: ${{ steps.cfg.outputs.acm_cert_arn }}
+      region: ${{ steps.cfg.outputs.region }}
+      cluster: ${{ steps.cfg.outputs.cluster }}
+      namespace: ${{ steps.cfg.outputs.namespace }}
+      service: ${{ steps.cfg.outputs.service }}
+      ecr_repo_prefix: ${{ steps.cfg.outputs.ecr_repo_prefix }}
+      container_port: ${{ steps.cfg.outputs.container_port }}
+      node_version: ${{ steps.cfg.outputs.node_version }}
+      docker_node_version: ${{ steps.cfg.outputs.docker_node_version }}
+    steps:
+      - uses: actions/checkout@v4
+      - id: cfg
+        shell: bash
+        run: |
+          for key in aws_account_id acm_cert_arn region cluster namespace service ecr_repo_prefix container_port node_version docker_node_version; do
+            val=$(yq -r ".$key" deploy.config.yaml)
+            echo "$key=$val" >> "$GITHUB_OUTPUT"
+          done
+
   node-release-prepare-version:
+    needs: [load-config]
     uses: Rule-1-Repository/trucker-cloud-cicd/.github/workflows/node-prepare-version.yaml@main
     with:
-      NODE_VERSION: 22.22.0    
+      NODE_VERSION: ${{ needs.load-config.outputs.node_version }}
 
   determine_release:
     needs: node-release-prepare-version
     uses: Rule-1-Repository/trucker-cloud-cicd/.github/workflows/determine-release.yaml@main
 
-  select-env-vars:
-    needs: [determine_release]
-    runs-on: ubuntu-latest
-    steps:
-      - name: Map environment
-        id: map_variables
-        uses: kanga333/variable-mapper@master
-        with:
-          key: ${{ needs.determine_release.outputs.app_environment }}
-          map: |
-            {
-              "dev": {
-                "certificate_arn": "arn:aws:acm:us-east-2:082655277789:certificate/ce967966-e3a4-4e01-8299-4609cae1a928"
-               
-              }
-              
-            }
-          export_to: 'env,output'
-    outputs:
-      certificate_arn: ${{ steps.map_variables.outputs.certificate_arn }}
-      backend_url: ${{ steps.map_variables.outputs.backend_url }}
-
   node-build:
     uses: Rule-1-Repository/trucker-cloud-cicd/.github/workflows/node-build.yaml@main
-    needs: [select-env-vars]
+    needs: [load-config, determine_release]
     with:
-      NODE_VERSION: 22.22.0
-      REGION: us-east-2
-      ACCOUNT: ${{ vars.TRUCKERCLOUD_AWS_ACCOUNT_ID }}
+      NODE_VERSION: ${{ needs.load-config.outputs.node_version }}
+      REGION: ${{ needs.load-config.outputs.region }}
+      ACCOUNT: ${{ needs.load-config.outputs.aws_account_id }}
       RUN_TESTS: false
-      BUILD_VARIABLES: CI="" 
+      BUILD_VARIABLES: CI=""
       ENVIRONMENT: dev
     secrets:
-      AWS_ACCESS_KEY_ID: ${{ secrets.TRUCKERCLOUD_ACCESS_KEY_ID }}
-      AWS_SECRET_ACCESS_KEY: ${{ secrets.TRUCKERCLOUD_ACCESS_KEY }}
+      AWS_ACCESS_KEY_ID: ${{ secrets.MARKETING_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.MARKETING_ACCESS_KEY }}
 
   docker-build:
     uses: Rule-1-Repository/trucker-cloud-cicd/.github/workflows/docker-build.yaml@main
     if: ${{ github.ref == 'refs/heads/develop' }}
-    needs: [node-build, determine_release]
+    needs: [load-config, node-build, determine_release]
     with:
-      DOCKER_REGISTRY: tc-website-temp-repository-${{ needs.determine_release.outputs.release_type }}
-      REGION: us-east-2
-      ACCOUNT: ${{ vars.TRUCKERCLOUD_AWS_ACCOUNT_ID }}
-      NODE_VERSION: 18.12.0
+      DOCKER_REGISTRY: ${{ needs.load-config.outputs.ecr_repo_prefix }}-${{ needs.determine_release.outputs.release_type }}
+      REGION: ${{ needs.load-config.outputs.region }}
+      ACCOUNT: ${{ needs.load-config.outputs.aws_account_id }}
+      NODE_VERSION: ${{ needs.load-config.outputs.docker_node_version }}
       STACK: nodejs
     secrets:
-      AWS_ACCESS_KEY_ID: ${{ secrets.TRUCKERCLOUD_ACCESS_KEY_ID }}
-      AWS_SECRET_ACCESS_KEY: ${{ secrets.TRUCKERCLOUD_ACCESS_KEY }}
+      AWS_ACCESS_KEY_ID: ${{ secrets.MARKETING_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.MARKETING_ACCESS_KEY }}
 
   eks-deploy:
     uses: Rule-1-Repository/trucker-cloud-cicd/.github/workflows/eks-deploy.yaml@main
-    if: ${{  github.ref == 'refs/heads/develop' }}
-    needs: [docker-build, select-env-vars, determine_release]
+    if: ${{ github.ref == 'refs/heads/develop' }}
+    needs: [load-config, docker-build, determine_release]
     with:
-      CLUSTER_NAME: truckercloud-eks-uat
-      SERVICE_NAME: tc-website
-      REGION: us-east-2
-      ACCOUNT: ${{ vars.TRUCKERCLOUD_AWS_ACCOUNT_ID }}
-      VARIABLES: IMAGE=${{ needs.determine_release.outputs.release_type }},CERTIFICATE_ARN=${{ needs.select-env-vars.outputs.certificate_arn }}
+      CLUSTER_NAME: ${{ needs.load-config.outputs.cluster }}
+      SERVICE_NAME: ${{ needs.load-config.outputs.service }}
+      REGION: ${{ needs.load-config.outputs.region }}
+      ACCOUNT: ${{ needs.load-config.outputs.aws_account_id }}
+      VARIABLES: IMAGE=${{ needs.determine_release.outputs.release_type }},CERTIFICATE_ARN=${{ needs.load-config.outputs.acm_cert_arn }},ACCOUNT_ID=${{ needs.load-config.outputs.aws_account_id }},REGION=${{ needs.load-config.outputs.region }},ECR_REPO_PREFIX=${{ needs.load-config.outputs.ecr_repo_prefix }},SERVICE_NAME=${{ needs.load-config.outputs.service }},NAMESPACE=${{ needs.load-config.outputs.namespace }},CONTAINER_PORT=${{ needs.load-config.outputs.container_port }}
     secrets:
-      AWS_ACCESS_KEY_ID: ${{ secrets.TRUCKERCLOUD_ACCESS_KEY_ID }}
-      AWS_SECRET_ACCESS_KEY: ${{ secrets.TRUCKERCLOUD_ACCESS_KEY }}
-
- 
+      AWS_ACCESS_KEY_ID: ${{ secrets.MARKETING_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.MARKETING_ACCESS_KEY }}
