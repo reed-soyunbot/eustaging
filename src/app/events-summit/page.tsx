@@ -113,7 +113,7 @@ const tuesdayAgenda: AgendaItem[] = [
     time: "2:00 PM",
     title: "Inside the Cab: What Telematics Vendors Are Actually Delivering to Your Insureds",
     subtitle:
-      "60 min · Vendor Panel + Moderated Discussion + Insurer Feedback with Netradyne, Motive, and Samsara",
+      "60 min · Vendor Panel + Moderated Discussion + Insurer Feedback with Netradyne, Samsara, and GPS Insight",
     description:
       "Three leading TSPs walk through the in-cab reality, the full data universe being captured, and what commercial auto insurers most commonly get wrong. Includes dedicated time for insurers to give direct feedback to vendors.",
     topics: [
