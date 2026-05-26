@@ -131,7 +131,7 @@ const elds = [
   { name: "Startrucks ELD", logo: "/images/eld/startrucks-eld.png" },
   { name: "SUPPORT ELD", logo: "/images/eld/support-eld.png" },
   { name: "Swift ELD", logo: "/images/eld/swift-eld.png" },
-  { name: "Synergy ELD", logo: "" },
+  { name: "Synergy ELD", logo: "/images/eld/synergy-eld.png" },
   { name: "Teletrac Navman", logo: "/images/eld/teletrac-navman.png" },
   { name: "3MD ELD", logo: "/images/eld/3md-eld.png" },
   { name: "Touch Tel GPS", logo: "/images/eld/touch-tel-gps.png" },

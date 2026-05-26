@@ -124,6 +124,7 @@ export const PROVIDER_LOGOS: Record<string, string> = {
   "Startrucks ELD": "/images/providers/6995ce2f93b5848529458bd2_startrucks.png",
   "Surfsight": "/images/providers/667c89a430f35b304b0da689_surfsight.png",
   "Swift ELD": "/images/providers/685ee1966ea9e6d12f2f651d_swift.png",
+  "Synergy ELD": "/images/providers/synergy-eld.png",
   "TOP COMPLIANCE ELD": "/images/providers/67dc5b1ac21cfcdb769c0f6d_unnamed-(1)-1.png",
   "TRUST ELD": "/images/providers/67dc5b3e63142cf6e78a2198_unnamed-2.png",
   "TXT Camera": "/images/providers/6942ead9de64b781e8ea8a63_txt.jpg",
