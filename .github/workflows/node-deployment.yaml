@@ -77,6 +77,7 @@ jobs:
       SERVICE_NAME: ${{ needs.load-config.outputs.service }}
       REGION: ${{ needs.load-config.outputs.region }}
       ACCOUNT: ${{ needs.load-config.outputs.aws_account_id }}
+      NAMESPACE: 'marketing'
       VARIABLES: IMAGE=${{ needs.determine_release.outputs.release_type }},CERTIFICATE_ARN=${{ needs.load-config.outputs.acm_cert_arn }},ACCOUNT_ID=${{ needs.load-config.outputs.aws_account_id }},REGION=${{ needs.load-config.outputs.region }},ECR_REPO_PREFIX=${{ needs.load-config.outputs.ecr_repo_prefix }},SERVICE_NAME=${{ needs.load-config.outputs.service }},NAMESPACE=${{ needs.load-config.outputs.namespace }},CONTAINER_PORT=${{ needs.load-config.outputs.container_port }}
     secrets:
       AWS_ACCESS_KEY_ID: ${{ secrets.MARKETING_ACCESS_KEY_ID }}
