@@ -21,6 +21,7 @@ const cameras = [
   { name: "RoadEazy", logo: "/images/eld/roadeazy.jpeg" },
   { name: "TruckX", logo: "/images/eld/truckx.png" },
   { name: "Linxup", logo: "/images/eld/linxup.png" },
+  { name: "Smart ELDs", logo: "/images/eld/smart-elds.png" },
 ];
 
 const elds = [
