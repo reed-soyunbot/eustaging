@@ -77,7 +77,7 @@ const elds = [
   { name: "Just ELD", logo: "/images/eld/just-eld.png" },
   { name: "J. J. Keller", logo: "/images/eld/j-j-keller.png" },
   { name: "Knight ELD", logo: "/images/eld/knight-eld.png" },
-  { name: "Knoexial", logo: "" },
+  { name: "Konexial", logo: "/images/eld/konexial.jpg" },
   { name: "Lancer Auto Group", logo: "/images/eld/lancer-auto-group.jpg" },
   { name: "LBTechnology", logo: "/images/eld/lbtechnology.png" },
   { name: "Leader ELD", logo: "/images/eld/leader-eld.svg" },

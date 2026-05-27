@@ -59,6 +59,7 @@ export const PROVIDER_LOGOS: Record<string, string> = {
   "J. J. Keller": "/images/providers/667c89a28e1f9ad374260ac7_jjkeller.png",
   "Just ELD": "/images/providers/67ebc22070706834f0d0c30c_just-eld-прозрачный-фон.png",
   "Knight ELD": "/images/providers/68d53ecfbe8692e8035a86b4_download-(2).png",
+  "Konexial": "/images/providers/konexial.jpg",
   "LBTechnology": "/images/providers/667c89a2db25eb41fe172d9a_lbtechnology.png",
   "Lancer Auto Group": "/images/providers/6762cdb05ee8244e31ddddff_lancer-logo.jpg",
   "Leader ELD": "/images/providers/69937de3c29d27c031ebb31f_leader-eld.svg",
