@@ -81,6 +81,7 @@ export const PROVIDER_LOGOS: Record<string, string> = {
   "Motive": "/images/providers/667c89a2e5285284d411d927_motive.png",
   "My Logs": "/images/providers/695fd888b3eddce497edf598_logo.jpg",
   "Nero": "/images/providers/66e327e9499546b5ccadc66a_nero.png",
+  "New World ELD": "/images/providers/new-world-eld.jpeg",
   "Netradyne": "/images/providers/670e80fe8cc2920f87907ba7_netradyne.png",
   "Next Fleet ELD": "/images/providers/695fd82f7d05bc514bbd47ab_download-(3).jpeg",
   "Nextraq": "/images/providers/nextraq.png",
