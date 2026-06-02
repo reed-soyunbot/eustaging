@@ -135,6 +135,7 @@ export const PROVIDER_LOGOS: Record<string, string> = {
   "Telogis": "/images/providers/telogis.png",
   "ThreeMD": "/images/providers/threemd.png",
   "Touch Tel GPS": "/images/providers/6762ce4309cecfc7eed7adc5_touchtelgps-logo-2.png",
+  "Track Your Truck": "/images/providers/track-your-truck.jpeg",
   "TrackEnsure": "/images/providers/667c89a4fc2959fca390a16e_trackensure.png",
   "Traclog ELD": "/images/providers/traclog-eld.png",
   "Transcor Data Services": "/images/providers/transcor-data-services.webp",
