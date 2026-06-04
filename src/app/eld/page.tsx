@@ -23,6 +23,7 @@ const cameras = [
   { name: "Linxup", logo: "/images/eld/linxup.png" },
   { name: "Smart ELDs", logo: "/images/eld/smart-elds.png" },
   { name: "GPS INSIGHT", logo: "/images/eld/gps-insight.webp" },
+  { name: "Track Your Truck", logo: "/images/eld/track-your-truck.jpeg" },
 ];
 
 const elds = [
