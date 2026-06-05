@@ -52,6 +52,7 @@ export const PROVIDER_LOGOS: Record<string, string> = {
   "GeoTab": "/images/providers/667c89a22590d54337cc548c_geotab-att.png",
   "GeoTab ATT": "/images/providers/667c89a22590d54337cc548c_geotab-att.png",
   "Geotab": "/images/providers/logo-card---geotab-att.png",
+  "HD Fleet": "/images/providers/hd-fleet.jpeg",
   "HOS247": "/images/providers/67ebc1311735a1a1b0e895b3_b2ff985f3ea48235b0f728c65e4f7ca827a1101f.png",
   "Hero ELD": "/images/providers/67dc580315c05054f5bf2e69_captura-de-pantalla-2025-03-20-a-la(s)-6.57.01 p. m..png",
   "ISAAC": "/images/providers/667c89a29ed1325166783012_isaac.png",
