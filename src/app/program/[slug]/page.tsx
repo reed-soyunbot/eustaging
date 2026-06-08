@@ -184,14 +184,14 @@ export default async function ProgramPage({
                       ? 'h-36 max-w-[360px]'
                       : program.slug === 'dot-shield'
                       ? 'h-32 max-w-[400px]'
-                      : 'h-20 max-w-[280px]'
+                      : 'h-28 max-w-[360px]'
                   }`}>
                     <Image
                       src={program.partnerLogo}
                       alt={program.partnerName}
                       fill
                       className="object-contain object-left"
-                      sizes={program.slug === 'futuristic' ? '400px' : program.slug === 'nta' ? '320px' : program.slug === 'gwcc' ? '1000px' : program.slug === 'tumi' ? '360px' : program.slug === 'dot-shield' ? '400px' : '280px'}
+                      sizes={program.slug === 'futuristic' ? '400px' : program.slug === 'nta' ? '320px' : program.slug === 'gwcc' ? '1000px' : program.slug === 'tumi' ? '360px' : program.slug === 'dot-shield' ? '400px' : '360px'}
                     />
                   </div>
                 )}
