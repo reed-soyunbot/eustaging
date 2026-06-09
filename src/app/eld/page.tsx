@@ -24,6 +24,10 @@ const cameras = [
   { name: "Smart ELDs", logo: "/images/eld/smart-elds.png" },
   { name: "GPS INSIGHT", logo: "/images/eld/gps-insight.webp" },
   { name: "HD Fleet", logo: "/images/eld/hd-fleet.jpeg" },
+  { name: "Pedigree Camera", logo: "/images/eld/pedigree-camera.avif" },
+  { name: "PowerFleet", logo: "/images/eld/powerfleet.png" },
+  { name: "Prometheus", logo: "/images/eld/prometheus.png" },
+  { name: "Teletrac Navman Camera", logo: "/images/eld/teletrac-navman-camera.png" },
   { name: "Track Your Truck", logo: "/images/eld/track-your-truck.jpeg" },
 ];
 
