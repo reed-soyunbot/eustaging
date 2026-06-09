@@ -2,7 +2,7 @@
   "slug": "mhc",
   "partnerName": "MHC MGA",
   "partnerLogo": "/images/programs/mhc-mga.jpg",
-  "widgetUrl": "",
+  "widgetUrl": "https://mhc.truckercloud.com/tcwidget?apiKey=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJtaGMiLCJ1c2VySWQiOiJUMDAwMDAwMTgxMiIsImNvbXBhbnlJZCI6MzU3MDksInByaXZpbGVnZXMiOltdLCJpc3MiOiJodHRwOi8vd3d3LnRyYW56bG9naXguY29tLyIsImlhdCI6MTc4MDQyNjQ5NCwiZXhwIjoxNzgwNDI2Nzk0fQ.hnZyXiW7ZdKf8JyfnF3NoCDRGmjfx9pyaXoqYPq7JCc",
   "heroText": "",
   "supportText": "For support onboarding your telematics account, please contact support@truckercloud.com or use the chat feature in the bottom right corner.",
   "extraSupportEmail": "",
