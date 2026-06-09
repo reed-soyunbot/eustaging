@@ -75,6 +75,7 @@ export const PROVIDER_LOGOS: Record<string, string> = {
   "Loop ELD": "/images/providers/loop-eld.svg",
   "Lucid ELD": "/images/providers/699363853a5918f4fd56d8bd_lucid-eld-logo.png",
   "Lytx": "/images/providers/667c89a22590d54337cc54c3_lyxt.png",
+  "LytxOne": "/images/providers/lytxone.png",
   "Maestral ELD": "/images/providers/68389d9c5a8319fe9addc7c7_download.png",
   "Max ELD": "/images/providers/698f7fe8a126a3f30e4a6f77_max.png",
   "Mobile Tracking": "/images/providers/6762cdd69105162149b45d3c_mobile-tracking-logo-1-1.png",

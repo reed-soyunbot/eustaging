@@ -2,6 +2,7 @@ import Image from "next/image";
 
 const cameras = [
   { name: "Lytx", logo: "/images/eld/lytx.png" },
+  { name: "LytxOne", logo: "/images/eld/lytxone.png" },
   { name: "Motive", logo: "/images/eld/motive.png" },
   { name: "Netradyne", logo: "/images/eld/netradyne.png" },
   { name: "Samsara", logo: "/images/eld/samsara.png" },
