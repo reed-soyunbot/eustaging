@@ -196,9 +196,10 @@
         "Eligible insureds must have both:",
         [
           "An eligible BHHC policy with auto liability coverage (see exclusions below)",
-          "Device(s) from an eligible telematics provider listed above installed"
+          "Device(s) from an eligible telematics provider listed above"
         ],
-        "BHHC policies that are not eligible for this program include any of the following:",
+        "For policies with 10 or more vehicles, at least 50% of vehicles must have eligible devices installed.",
+        "BHHC policies that are **not eligible** for this program include any of the following:",
         [
           "Policies written in Washington",
           "Non-admitted policies - for example, policies with auto liability limits of $2 million or more, or policies written in Alabama or Louisiana"
@@ -241,8 +242,9 @@
         "We offer savings on key coverages, including Liability and Physical Damage. If you are eligible for the discount and have successfully onboarded, your discount percentage depends on the eligible provider and equipment installed.",
         [
           "If you have devices from any eligible ELD or telematics provider, you will receive a 5% prorated discount.",
-          "If you have cameras from an eligible camera provider, you will receive an overall 9% prorated discount."
-        ]
+          "For your vehicles that have cameras from an eligible camera provider, you will receive an overall 9% prorated discount."
+        ],
+        "If cameras are not installed in all vehicles, the overall discount seen on participating coverages may vary based on the number of vehicles with cameras."
       ]
     },
     {

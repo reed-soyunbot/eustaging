@@ -54,6 +54,14 @@ function ProviderCard({ name, note }: { name: string; note?: string }) {
   );
 }
 
+function renderBold(text: string) {
+  const parts = text.split(/\*\*(.*?)\*\*/g);
+  if (parts.length === 1) return text;
+  return parts.map((part, i) =>
+    i % 2 === 1 ? <strong key={i}>{part}</strong> : part
+  );
+}
+
 export default async function ProgramPage({
   params,
 }: {
@@ -465,11 +473,11 @@ export default async function ProgramPage({
                     Array.isArray(part) ? (
                       <ul key={j} className="ml-5 list-disc space-y-1">
                         {part.map((bullet, k) => (
-                          <li key={k}>{bullet}</li>
+                          <li key={k}>{renderBold(bullet)}</li>
                         ))}
                       </ul>
                     ) : (
-                      <p key={j}>{part}</p>
+                      <p key={j}>{renderBold(part)}</p>
                     )
                   )}
                 </div>
