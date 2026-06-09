@@ -100,7 +100,7 @@ const elds = [
   { name: "Motive", logo: "/images/eld/motive.png" },
   { name: "My Logs", logo: "/images/eld/my-logs.jpg" },
   { name: "Nero", logo: "/images/eld/nero.png" },
-  { name: "New World ELD", logo: "/images/eld/new-world-eld.jpeg" },
+  { name: "New ELD World", logo: "/images/eld/new-world-eld.jpeg" },
   { name: "Next Fleet ELD", logo: "/images/eld/next-fleet-eld.jpeg" },
   { name: "Nuvo Solutions", logo: "/images/eld/nuvo-solutions.png" },
   { name: "Omnitracs ES", logo: "/images/eld/omnitracs-es.png" },
