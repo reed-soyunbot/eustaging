@@ -210,8 +210,11 @@ export default function EldPage() {
     <div className="mx-auto max-w-[1200px] px-6 py-16 md:py-24">
       <div className="text-center">
         <h1 className="text-3xl font-bold tracking-tight text-tc-blue md:text-4xl">
-          Eligible Cameras
+          Compatible Cameras
         </h1>
+        <p className="mx-auto mt-3 max-w-[780px] text-sm text-gray-500 italic">
+          *Some insurance providers may choose to limit the number of eligible providers based on data availability. Please verify directly with the insurance provider or visit their branded program page.
+        </p>
       </div>
       <div className="mt-10">
         <VendorGrid items={cameras} />
@@ -219,8 +222,11 @@ export default function EldPage() {
 
       <div className="mt-20 text-center">
         <h1 className="text-3xl font-bold tracking-tight text-tc-blue md:text-4xl">
-          Eligible ELDs
+          Compatible ELDs
         </h1>
+        <p className="mx-auto mt-3 max-w-[780px] text-sm text-gray-500 italic">
+          *Some insurance providers may choose to limit the number of eligible providers based on data availability. Please verify directly with the insurance provider or visit their branded program page.
+        </p>
       </div>
       <div className="mt-10">
         <VendorGrid items={elds} />
