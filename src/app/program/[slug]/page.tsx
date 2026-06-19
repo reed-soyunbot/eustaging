@@ -192,6 +192,8 @@ export default async function ProgramPage({
                       ? 'h-36 max-w-[360px]'
                       : program.slug === 'dot-shield'
                       ? 'h-32 max-w-[400px]'
+                      : program.slug === 'mtm'
+                      ? 'h-40 max-w-[480px]'
                       : 'h-28 max-w-[360px]'
                   }`}>
                     <Image
@@ -199,7 +201,7 @@ export default async function ProgramPage({
                       alt={program.partnerName}
                       fill
                       className="object-contain object-left"
-                      sizes={program.slug === 'futuristic' ? '400px' : program.slug === 'nta' ? '320px' : program.slug === 'gwcc' ? '1000px' : program.slug === 'tumi' ? '360px' : program.slug === 'dot-shield' ? '400px' : '360px'}
+                      sizes={program.slug === 'futuristic' ? '400px' : program.slug === 'nta' ? '320px' : program.slug === 'gwcc' ? '1000px' : program.slug === 'tumi' ? '360px' : program.slug === 'dot-shield' ? '400px' : program.slug === 'mtm' ? '480px' : '360px'}
                     />
                   </div>
                 )}
