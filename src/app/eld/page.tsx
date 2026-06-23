@@ -57,6 +57,7 @@ const elds = [
   { name: "Digital ELD", logo: "/images/eld/digital-eld.jpeg" },
   { name: "DriverTech", logo: "/images/eld/drivertech.png" },
   { name: "DSGELOGS", logo: "/images/eld/dsgelogs.png" },
+  { name: "Dream ELD", logo: "/images/eld/dream-eld.png" },
   { name: "Dy+ ELD", logo: "/images/eld/dy-eld.jpg" },
   { name: "Eco Track", logo: "/images/eld/eco-track.jpg" },
   { name: "EGreen ELD", logo: "/images/eld/egreen-eld.svg" },

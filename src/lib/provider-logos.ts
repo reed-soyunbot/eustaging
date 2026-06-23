@@ -21,6 +21,7 @@ export const PROVIDER_LOGOS: Record<string, string> = {
   "Columbus ELD": "/images/providers/67dc5817ffb2957163e63118_columbus-eld-logo.png",
   "DLOG ELD": "/images/providers/685d94759d3abae4ca073d1c_dlog.png",
   "DSGELOGS": "/images/providers/6995c84877d769716a5adc89_dsgelogs.png",
+  "Dream ELD": "/images/providers/dream-eld.png",
   "Daily ELD Plus": "/images/providers/6995c7d0079549676b755da3_daily-eld-plus.jpg",
   "Digital ELD": "/images/providers/6890ede02152fb9459b7dbf2_digeld.jpeg",
   "Driver Technologies": "/images/providers/6894b3c8c59da827703d2c3f_images.png",
