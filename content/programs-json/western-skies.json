@@ -10,6 +10,7 @@
   "cameras": [
     "Azuga",
     "Driver Technologies",
+    "ELDMandateHOS",
     "Eye Ride",
     "FleetHunt",
     "Forward Thinking Systems",
@@ -25,8 +26,8 @@
     "Smart ELDs",
     "SmartDrive",
     "Surfsight",
-    "TXT Camera",
     "TruckX",
+    "TXT Camera",
     "Verizon Connect"
   ],
   "elds": [],
