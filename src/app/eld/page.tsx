@@ -8,6 +8,7 @@ const cameras = [
   { name: "Samsara", logo: "/images/eld/samsara.png" },
   { name: "Surfsight", logo: "/images/eld/surfsight.png" },
   { name: "Driver Technologies", logo: "/images/eld/driver-technologies.png" },
+  { name: "ELDMandateHOS", logo: "/images/eld/eldmandatehos.png" },
   { name: "FleetHunt", logo: "/images/eld/fleethunt.png" },
   { name: "SmartDrive", logo: "/images/eld/smartdrive.jpeg" },
   { name: "Verizon Connect", logo: "/images/eld/verizon-connect.png" },

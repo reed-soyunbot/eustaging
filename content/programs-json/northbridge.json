@@ -10,24 +10,25 @@
   "bilingualHero": {
     "left": {
       "logo": "/images/programs/nb_insurance_en.png",
-      "title": "Northbridge Insurance \u2013 Fleet telematics program",
-      "body": "Managing a fleet is complex\u2014but your insurance doesn\u2019t have to be. Northbridge Insurance\u2019s telematics-enabled program is designed to help you make informed decisions and improve safety, and unlock potential savings. By sharing telematics data through your existing Electronic Logging Devices (ELDs), you can have access to potential automobile premium discounts and gain actionable insights to improve fleet performance.",
+      "title": "Northbridge Insurance – Fleet telematics program",
+      "body": "Managing a fleet is complex—but your insurance doesn’t have to be. Northbridge Insurance’s telematics-enabled program is designed to help you make informed decisions and improve safety, and unlock potential savings. By sharing telematics data through your existing Electronic Logging Devices (ELDs), you can have access to potential automobile premium discounts and gain actionable insights to improve fleet performance.",
       "supportText": "For support onboarding your telematics account, please contact support@truckercloud.com or use the chat feature in the bottom right corner.",
       "ctaText": "Onboard Your Telematics",
       "ctaUrl": "https://northbridge.truckercloud.com/tcwidget?apiKey=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJub3J0aGJyaWRnZSIsImlzcyI6Imh0dHA6Ly93d3cudHJhbnpsb2dpeC5jb20vIiwiaWF0IjoxNzU4NzM0NzQ2LCJleHAiOjE3NTg3MzUwNDZ9.Y2w170byMfuOMeYVdaG4xZ-_bHgzqDdrVspO2IzINnE"
     },
     "right": {
       "logo": "/images/programs/nb_assurance.png",
-      "title": "Northbridge Assurance \u2013 Programme t\u00e9l\u00e9matique pour les flottes",
-      "body": "La gestion d\u2019une flotte est complexe, mais votre assurance n\u2019a pas \u00e0 l\u2019\u00eatre. Le programme t\u00e9l\u00e9matique de Northbridge Assurance est con\u00e7u pour vous aider \u00e0 prendre des d\u00e9cisions \u00e9clair\u00e9es, \u00e0 am\u00e9liorer la s\u00e9curit\u00e9 et \u00e0 r\u00e9aliser d\u2019\u00e9ventuelles \u00e9conomies. En partageant les donn\u00e9es t\u00e9l\u00e9matiques des v\u00e9hicules de votre flotte provenant de vos dispositifs de consignation \u00e9lectronique existants, vous pourriez avoir acc\u00e8s \u00e0 des rabais potentiels sur vos primes d\u2019assurance automobile et obtenir des renseignements utiles pour am\u00e9liorer la performance de votre flotte.",
-      "supportText": "Pour obtenir de l\u2019aide lors de l\u2019int\u00e9gration de vos donn\u00e9es t\u00e9l\u00e9matiques, veuillez communiquer avec support@truckercloud.com ou utiliser la fonction de clavardage situ\u00e9e dans le coin inf\u00e9rieur droit.",
-      "ctaText": "Commencer le partage de donn\u00e9es",
+      "title": "Northbridge Assurance – Programme télématique pour les flottes",
+      "body": "La gestion d’une flotte est complexe, mais votre assurance n’a pas à l’être. Le programme télématique de Northbridge Assurance est conçu pour vous aider à prendre des décisions éclairées, à améliorer la sécurité et à réaliser d’éventuelles économies. En partageant les données télématiques des véhicules de votre flotte provenant de vos dispositifs de consignation électronique existants, vous pourriez avoir accès à des rabais potentiels sur vos primes d’assurance automobile et obtenir des renseignements utiles pour améliorer la performance de votre flotte.",
+      "supportText": "Pour obtenir de l’aide lors de l’intégration de vos données télématiques, veuillez communiquer avec support@truckercloud.com ou utiliser la fonction de clavardage située dans le coin inférieur droit.",
+      "ctaText": "Commencer le partage de données",
       "ctaUrl": "https://northbridge.truckercloud.com/tcwidget?apiKey=eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJub3J0aGJyaWRnZSIsImlzcyI6Imh0dHA6Ly93d3cudHJhbnpsb2dpeC5jb20vIiwiaWF0IjoxNzU4NzM0NzQ2LCJleHAiOjE3NTg3MzUwNDZ9.Y2w170byMfuOMeYVdaG4xZ-_bHgzqDdrVspO2IzINnE"
     }
   },
   "cameras": [
     "Azuga",
     "Driver Technologies",
+    "ELDMandateHOS",
     "Eye Ride",
     "FleetHunt",
     "Forward Thinking Systems",
@@ -46,9 +47,9 @@
     "Smart ELDs",
     "SmartDrive",
     "Surfsight",
-    "TXT Camera",
     "Track Your Truck",
     "TruckX",
+    "TXT Camera",
     "Verizon Connect"
   ],
   "elds": [
@@ -64,14 +65,14 @@
     "Azuga",
     "Azuga",
     "BigRoad",
-    "Black\u00a0Bear ELD",
+    "Black Bear ELD",
     "Blue Sun ELD",
     "BlueInk",
     "Captain ELD",
     "Chronos ELD",
     "Clearpath GPS",
     "Columbus ELD",
-    "DLOG\u00a0ELD",
+    "DLOG ELD",
     "DSGELOGS",
     "Daily ELD Plus",
     "Digital ELD",
@@ -161,7 +162,7 @@
     "Routemate ELD",
     "S13 ELD",
     "STATE ELOGS",
-    "SUPPORT\u00a0ELD",
+    "SUPPORT ELD",
     "Samsara",
     "Samsara",
     "Secure Path ELD",
@@ -173,12 +174,12 @@
     "Spireon",
     "Startrucks ELD",
     "Surfsight",
-    "Swift\u00a0ELD",
+    "Swift ELD",
     "TOP COMPLIANCE ELD",
     "TRUST ELD",
     "TT ELD",
     "TXT Camera",
-    "TXT\u00a0ELD",
+    "TXT ELD",
     "Teletrac Navman",
     "Touch Tel GPS",
     "TrackEnsure",
@@ -207,7 +208,7 @@
     "Zubie",
     "iLog ELD"
   ],
-  "cameraSectionTitle": "Eligible Cameras / Cam\u00e9ras admissibles",
-  "eldSectionTitle": "Eligible ELDs / Dispositifs de consignation \u00e9lectroniques admissibles",
+  "cameraSectionTitle": "Eligible Cameras / Caméras admissibles",
+  "eldSectionTitle": "Eligible ELDs / Dispositifs de consignation électroniques admissibles",
   "ctaCount": 2
 }
